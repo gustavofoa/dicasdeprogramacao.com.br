@@ -1,0 +1,4 @@
+pelican==3.6
+ghp-import
+Markdown
+pelican-minify
