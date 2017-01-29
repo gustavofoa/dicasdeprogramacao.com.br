@@ -15,7 +15,6 @@ gulp.task('clean:pelican', function () {
   ]);
 });
 
-
 gulp.task('connect', connect.server({
   root: ['output'],
   port: 1337,
@@ -26,13 +25,11 @@ gulp.task('connect', connect.server({
 }));
 
 gulp.task('reload:output', function () {
-  gulp.src('./output/*')
-    .pipe(connect.reload());
+  connect.reload();
 });
 
 gulp.task('watch', function(){
-  gulp.watch('content/*', ['run:pelican']);
-  gulp.watch(['output/*'], ['reload:output']);
+  gulp.watch('content/*', ['run:pelican', 'reload:output']);
 })
 
 gulp.task('serve', ['connect', 'run:pelican', 'watch']);
