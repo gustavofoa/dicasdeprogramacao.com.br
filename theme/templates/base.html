@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+
+      <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width" />
+      <meta name="msvalidate.01" content="7C57649AFFBD787D72C669CF569F858F" />
+      <meta name="alexaVerifyID" content="T9kEkK7cP5eAPkrWk5OuLEkXMpw" />
+
+
+      {% block head %}
+
+      {% block og_info %}
+      {% endblock og_info %}
+
+      {% endblock head %}
+
+      <link rel="stylesheet" href="/theme/css/commons.css">
+      <link rel="stylesheet" href="/theme/css/custom.css">
+      <link rel="stylesheet" href="/theme/css/lightbox.css">
+      <link rel="stylesheet" href="/theme/css/metrojs.css">
+      <link rel="stylesheet" href="/theme/css/reset.css">
+      <link rel="stylesheet" href="/theme/css/shortcodes.css">
+      <link rel="stylesheet" href="/theme/css/styles.css">
+
+</head>
+
+<body class="home blog">
+
+  <div id="container" class="hfeed">
+
+        {% include 'header.html' %}
+
+        {% block content %}
+        {% endblock %}
+
+        {% include 'analytics.html' %}
+      </div><!--container-->
+
+</body>
+
+</html>

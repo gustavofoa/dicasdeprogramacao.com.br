@@ -1,0 +1,96 @@
+body{
+	line-height: 25px;
+	color: #353535;
+}
+
+#main-menu, #main-menu ul li ul li a,
+ #main-menu ul li:hover ul li a,
+ #main-menu ul li.over ul li a {
+    background: #1a8c3e
+}
+
+#wt-slider .slider-nav,
+ #wt-slider .slider-text,
+ .widget_carousel li h4{
+    background: #1a8c3e
+}
+.post-nav .prev,
+ .post-nav .next,
+ #content .pagination a:hover,
+ #content .pagination .current,
+ .widget_comments ul li{
+    background: #1a8c3e
+}
+.widget h3{
+    background-color: #1a8c3e
+}
+#comments .reply,
+ #respond input[type=submit],
+ #content .pagination a:hover,
+ #content .pagination .current,
+ .widget_tags a.button,
+ .tagcloud a,
+ .entry-footer .entry-tags a,
+ .widget_polls-widget .wp-polls .pollbar,
+ .widget_polls-widget .wp-polls input.Buttons,
+ .button {
+    background: #1a8c3e
+}
+
+.widget_polls-widget .wp-polls .pollbar{
+    border: 1px solid #1a8c3e
+}
+#feat-cat1 .cat-header,
+ #feat-cat1 .tag-title,
+ #feat-cat1 .overlay a{
+    background-color: #cc0000
+}
+
+#feat-cat1 .overlay:hover{
+ background: #cc0000;
+ background: rgba(204,0,0 ,0.8)
+}
+
+#feat-cat2 .cat-header,
+ #feat-cat2 .tag-title,
+ #feat-cat2 .overlay a{
+    background-color: #e8ba00
+}
+
+#feat-cat2 .overlay:hover{
+ background: #e8ba00;
+ background: rgba(232,186,0 ,0.8)
+}
+
+#feat-cat3 .cat-header,
+ #feat-cat3 .tag-title,
+ #feat-cat3 .overlay a{
+    background-color: #5d8f9e
+}
+
+#feat-cat3 .overlay:hover{
+ background: #5d8f9e;
+ background: rgba(93,143,158 ,0.8)
+}
+
+#feat-cat4 .cat-header,
+ #feat-cat4 .tag-title,
+ #feat-cat4 .overlay a{
+    background-color: #1a8c3e
+}
+
+#feat-cat4 .overlay:hover{
+ background: #1a8c3e;
+ background: rgba(26,140,62 ,0.8)
+}
+
+#feat-cat5 .cat-header,
+ #feat-cat5 .tag-title,
+ #feat-cat5 .overlay a{
+    background-color: #242a85
+}
+
+#feat-cat5 .overlay:hover{
+ background: #242a85;
+ background: rgba(36,42,133 ,0.8)
+}
