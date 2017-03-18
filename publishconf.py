@@ -20,5 +20,9 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
+# Plugins
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['sitemap', 'minify']
+
 #DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-39997045-1"
