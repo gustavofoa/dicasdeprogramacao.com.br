@@ -3099,10 +3099,6 @@ ul.sp-list li{
 		margin-bottom: 0;
 	}
 
-	#header .social ul li a.rss{
-  		display: none;
-	}
-
 	#header .logo,
 	#header .date,
 	#header .search{
@@ -3119,7 +3115,7 @@ ul.sp-list li{
 	}
 
 	#searchform .searchfield{
-		width: 200px;
+		width: 230px;
 	}
 
 	#main-menu {
