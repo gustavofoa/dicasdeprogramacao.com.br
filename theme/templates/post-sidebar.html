@@ -1,0 +1,61 @@
+<div id="right-sidebar" class="sidebar">
+
+  <!--Facebook-->
+  <aside id="wellthemes_facebook_widget-2" class="widget widget_facebook"><h3>Curta nossa página no Facebook</h3>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=909889155773699";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="fb-page" data-href="https://www.facebook.com/Dicas-de-Programa%C3%A7%C3%A3o-124525944396823/"
+      data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+      data-hide-cover="false" data-show-facepile="true">
+      <blockquote cite="https://www.facebook.com/Dicas-de-Programa%C3%A7%C3%A3o-124525944396823/"
+      class="fb-xfbml-parse-ignore">
+        <a href="https://www.facebook.com/Dicas-de-Programa%C3%A7%C3%A3o-124525944396823/">
+          Dicas de Programação
+        </a>
+      </blockquote>
+    </div>
+
+	</aside>
+
+  <!--Adsense-->
+  <aside id="text-13" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Arranha-Ceu Dir. DP -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:300px;height:600px"
+         data-ad-client="ca-pub-6041601556788047"
+         data-ad-slot="5136065371"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script></div>
+	</aside>
+
+  <!--Recent posts-->
+  <aside id="wellthemes_recent_posts_text_widget-2" class="widget widget_posts"><h3>Artigos Recentes</h3>
+    {% set recent = articles if not all_articles else all_articles %}
+    {% for a in recent %}
+      {% if loop.index <= 6 %}
+		    <div class="item-post">
+    				<h3>
+    					<a href="{{ SITEURL }}/{{ a.url }}" rel="bookmark" title="Leia: {{ a.title }}">
+    						{{ a.title }}
+    					</a>
+    				</h3>
+    				<div class="entry-meta">
+              <span class="author"><a href="{{ SITEURL }}/{{ article.author.url }}" title="Posts de {{ article.author }}" rel="author">{{ article.author }}</a></span>
+    				</div>
+    		</div><!-- /item-post -->
+      {% endif %}
+    {% endfor %}
+  </aside>
+
+  <!--Categories-->
+
+
+</div>
