@@ -17,13 +17,9 @@
 
       {% endblock head %}
 
+      <link rel="stylesheet" href="/theme/css/styles.css">
       <link rel="stylesheet" href="/theme/css/commons.css">
       <link rel="stylesheet" href="/theme/css/custom.css">
-      <link rel="stylesheet" href="/theme/css/lightbox.css">
-      <link rel="stylesheet" href="/theme/css/metrojs.css">
-      <link rel="stylesheet" href="/theme/css/reset.css">
-      <link rel="stylesheet" href="/theme/css/shortcodes.css">
-      <link rel="stylesheet" href="/theme/css/styles.css">
 
 </head>
 
@@ -31,13 +27,19 @@
 
   <div id="container" class="hfeed">
 
-        {% include 'header.html' %}
+    {% include 'header.html' %}
 
-        {% block content %}
-        {% endblock %}
 
-        {% include 'analytics.html' %}
-      </div><!--container-->
+    <div id="main">
+
+      {% block content %}
+      {% endblock %}
+
+    </div>
+
+    {% include 'analytics.html' %}
+
+  </div><!--container-->
 
 </body>
 
