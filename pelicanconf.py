@@ -8,7 +8,15 @@ SITEURL = ''
 
 PATH = 'content'
 
+#language
 TIMEZONE = 'America/Sao_Paulo'
+# I18N_TEMPLATES_LANG = 'pt_BR'
+# DEFAULT_LANG = 'pt_BR'
+# OG_LOCALE = 'pt_BR'
+# LANGUAGE = 'pt_BR'
+# LOCALE = 'pt_BR'
+
+DEFAULT_DATE_FORMAT = '%d de %B de %Y'
 
 DEFAULT_LANG = u'pt_BR'
 
@@ -57,6 +65,10 @@ ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
+AUTHOR_URL = 'autor/{slug}/'
+AUTHOR_SAVE_AS = 'autor/{slug}/index.html'
+CATEGORY_URL = 'categoria/{slug}/'
+CATEGORY_SAVE_AS = 'categoria/{slug}/index.html'
 
 #Theme
 THEME = 'theme'

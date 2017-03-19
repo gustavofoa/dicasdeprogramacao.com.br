@@ -1,9 +1,8 @@
-Title: Inglês técnico para programadores
-Date: 2016-05-30 09:16
-Author: gustavo.foa
-Category: Iniciante, Programação
-Slug: ingles-tecnico-para-programadores
-Status: published
+title: Inglês técnico para programadores
+date: 2016-05-30 09:16
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: ingles-tecnico-para-programadores
 
 Que aprender inglês ajuda na carreira de qualquer profissional, isso
 tudo mundo já sabe. Em algumas profissões, no entanto, saber inglês

@@ -14,11 +14,15 @@
     	<header class="entry-header">
     		<h1 class="entry-title">{{ article.title }}</h1>
     		<div class="entry-meta">
-    			<span class="date">30/05</span>
-    			<span class="author"><a href="{{ SITEURL }}/author/gustavo-foa/" title="Posts de Gustavo Furtado" rel="author">Gustavo Furtado</a></span>
-    			<span class="category"><a href="{{ SITEURL }}/iniciante/" rel="category tag">Iniciante</a>, <a href="http://www.dicasdeprogramacao.com.br/programacao/" rel="category tag">Programação</a></span>
+    			<span class="date">{{ article.locale_date }}</span>
+    			<span class="author"><a href="{{ SITEURL }}/{{ article.author.url }}" title="Posts de {{ article.author }}" rel="author">{{ article.author }}</a></span>
+
+					<span class="category">
+						<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+					</span>
+
     			<span class="comments">
-            <a href="{{ SITEURL }}/{{ article.url }}#disqus_thresd"><span class="fa fa-comment-o"></span></a>
+            <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread"><i class="fa fa-comment-o"></i></a>
           </span>
     		</div><!-- /entry-meta -->
     	</header><!-- /entry-header -->
