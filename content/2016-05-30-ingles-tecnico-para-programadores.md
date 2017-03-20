@@ -16,7 +16,7 @@ nunca será um programador de verdade. E faz sentido, já que boa parte
 dos programas, dos termos e dos equipamentos usados nessa área estão em
 inglês. Maurício, por exemplo, largou o emprego de programador por um
 ano e foi morar na Austrália para aperfeiçoar seu inglês.
-[![ingles-1](http://www.dicasdeprogramacao.com.br/wp-content/uploads/ingles-1-300x225.jpg){:class="alignleft", :target="\_blank"}](https://preply.com/pt/aulas-ingl%C3%AAs-online)
+[![ingles-1](/images/ingles-tecnico-para-programadores/ingles-1-300.jpg){:class="alignleft", :target="\_blank"}](https://preply.com/pt/aulas-ingl%C3%AAs-online)
 Segundo ele, essa foi a experiência mais valiosa até o presente, pois a partir
 dela as portas para a programação se abriram. Ele cita que antes
 precisava traduzir documentação através de tradutores simultâneos e era
@@ -40,7 +40,7 @@ tornar o processo todo mais cansativo. Como o programador desenvolve
 *softwares*, corrige sistemas e utiliza fontes que, em sua grande
 maioria, estão na língua inglesa, fica difícil atuar sem a língua
 
-[![Inglês](http://www.dicasdeprogramacao.com.br/wp-content/uploads/ingles-2-300x300.jpg){:class="alignright"}](https://preply.com/pt/aulas-ingl%C3%AAs-online)
+[![Inglês](/images/ingles-tecnico-para-programadores/ingles-2-300.jpg){:class="alignright"}](https://preply.com/pt/aulas-ingl%C3%AAs-online)
 
 Além disso, a moda dos *Apps* para *Android* e *iPhone* também estão fazendo
 com que o mercado se atualize mais rapidamente e quando o profissional
