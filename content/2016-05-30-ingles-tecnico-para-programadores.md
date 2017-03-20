@@ -1,5 +1,5 @@
 title: Inglês técnico para programadores
-date: 2016-05-30 09:16
+date: 2016-05-30
 author: Gustavo Furtado de Oliveira Alves
 category: Iniciante
 slug: ingles-tecnico-para-programadores

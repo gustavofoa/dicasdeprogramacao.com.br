@@ -1,13 +1,12 @@
-Title: Programação Orientada a Objetos: por que aprender isso?
-Date: 2016-04-26 11:40
-Author: gustavo.foa
-Category: Iniciante, Java, Técnicas e Metodologias
-Slug: programacao-orientada-objetos-por-que-aprender-isso
-Status: published
+title: Programação Orientada a Objetos: por que aprender isso?
+date: 2016-04-26 11:40
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: programacao-orientada-objetos-por-que-aprender-isso
 
 A Programação Orientada a Objetos (POO, para os íntimos) não é uma
 linguagem de programação, não é uma plataforma de programação, não é um
-tipo de programa, é um paradigma de programação. A grosso modo, é um
+tipo de programa, é um **paradigma de programação**. A grosso modo, é um
 jeito de programar representando o que existe no mundo real: objetos,
 que possuem características e ações.
 
@@ -38,9 +37,7 @@ youtube](https://goo.gl/C7Sq8Z) do meu amigo Leandro Guarino. Neste
 Objetos. Lá você também encontrará vídeo-aulas de outros assuntos de
 programação.
 
-[![canal-youtube-programacao-orientada-a-objetos](http://www.dicasdeprogramacao.com.br/wp-content/uploads/canal-youtube-programacao-orientada-a-objetos.png){.aligncenter
-.size-full .wp-image-2668 width="628"
-height="468"}](https://goo.gl/C7Sq8Z)
+[![canal-youtube-programacao-orientada-a-objetos](/images/programacao-orientada-objetos-por-que-aprender-isso/canal-youtube-programacao-orientada-a-objetos.png){.aligncenter .size-full}](https://goo.gl/C7Sq8Z)
 
 O Leandro é aluno de doutorado no INPE e professor universitário. Tem
 uma didática muito boa e ensina como se estivesse conversando com um
