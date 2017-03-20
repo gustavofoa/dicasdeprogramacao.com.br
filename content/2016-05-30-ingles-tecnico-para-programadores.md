@@ -16,7 +16,7 @@ nunca será um programador de verdade. E faz sentido, já que boa parte
 dos programas, dos termos e dos equipamentos usados nessa área estão em
 inglês. Maurício, por exemplo, largou o emprego de programador por um
 ano e foi morar na Austrália para aperfeiçoar seu inglês.
-[![ingles-1](/images/ingles-tecnico-para-programadores/ingles-1-300.jpg){:class="alignleft", :target="\_blank"}](https://preply.com/pt/aulas-ingl%C3%AAs-online)
+[![ingles-1](/images/ingles-tecnico-para-programadores/ingles-1-300.jpg){:class="alignleft"}](https://preply.com/pt/aulas-ingl%C3%AAs-online){:target=\_blank}
 Segundo ele, essa foi a experiência mais valiosa até o presente, pois a partir
 dela as portas para a programação se abriram. Ele cita que antes
 precisava traduzir documentação através de tradutores simultâneos e era
@@ -26,7 +26,7 @@ tudo isso mudou. Mas e quando não é possível viajar, seja por falta de
 tempo ou dinheiro? Uma plataforma nova e promissora chegou há 5 meses no
 Brasil e vem mudando o conceito de ensino de idiomas, como é o caso da
 Preply, que oferece <u>[aulas de inglês
-online](https://preply.com/pt/aulas-ingl%C3%AAs-online)</u> com
+online](https://preply.com/pt/aulas-ingl%C3%AAs-online){:target=\_blank}</u> com
 professores brasileiros, estrangeiros ou nativos.
 
 ##Programador precisa aprender inglês!
@@ -40,7 +40,7 @@ tornar o processo todo mais cansativo. Como o programador desenvolve
 *softwares*, corrige sistemas e utiliza fontes que, em sua grande
 maioria, estão na língua inglesa, fica difícil atuar sem a língua
 
-[![Inglês](/images/ingles-tecnico-para-programadores/ingles-2-300.jpg){:class="alignright"}](https://preply.com/pt/aulas-ingl%C3%AAs-online)
+[![Inglês](/images/ingles-tecnico-para-programadores/ingles-2-300.jpg){:class="alignright"}](https://preply.com/pt/aulas-ingl%C3%AAs-online){:target=\_blank}
 
 Além disso, a moda dos *Apps* para *Android* e *iPhone* também estão fazendo
 com que o mercado se atualize mais rapidamente e quando o profissional
@@ -61,7 +61,7 @@ com o que há de mais novo em tecnologia no mundo!
 Muitas pessoas dizem que não tem tempo para estudar inglês. Eu já digo
 que é "desculpinha". Ainda mais com a possibilidade de estudar
 remotamente com professores qualificados. E se você for olhar na
-plataforma [Preply](https://preply.com/pt/aulas-ingl%C3%AAs-online), o
+plataforma [Preply](https://preply.com/pt/aulas-ingl%C3%AAs-online){:target=\_blank}, o
 preo das horas estão bem acessíveis. Então não tem
 desculpas, as oportunidades estão aí batendo na porta, caberá a você
 estar preparado ou não.

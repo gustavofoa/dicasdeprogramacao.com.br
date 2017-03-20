@@ -32,17 +32,17 @@ Ah se o mundo soubesse o poder de programar utilizando os conceitos
 corretos de POO somado a Design Patterns.
 
 Então, se você quiser aprender POO, eu indico o [canal do
-youtube](https://goo.gl/C7Sq8Z) do meu amigo Leandro Guarino. Neste
-[canal](https://goo.gl/C7Sq8Z) tem um curso de Programação Orientada a
+youtube](https://goo.gl/C7Sq8Z){:target=\_blank} do meu amigo Leandro Guarino. Neste
+[canal](https://goo.gl/C7Sq8Z){:target=\_blank} tem um curso de Programação Orientada a
 Objetos. Lá você também encontrará vídeo-aulas de outros assuntos de
 programação.
 
-[![canal-youtube-programacao-orientada-a-objetos](/images/programacao-orientada-objetos-por-que-aprender-isso/canal-youtube-programacao-orientada-a-objetos.png){.aligncenter .size-full}](https://goo.gl/C7Sq8Z)
+[![canal-youtube-programacao-orientada-a-objetos](/images/programacao-orientada-objetos-por-que-aprender-isso/canal-youtube-programacao-orientada-a-objetos.png){.aligncenter .size-full}](https://goo.gl/C7Sq8Z){:target=\_blank}
 
 O Leandro é aluno de doutorado no INPE e professor universitário. Tem
 uma didática muito boa e ensina como se estivesse conversando com um
 amigo numa mesa de bar, então se você quer aprender Programação
 Orientada a Objetos sem sofrimentos a hora é agora. Você pode [clicar
-AQUI](https://goo.gl/C7Sq8Z) para ir direto para as aulas do curso.
+AQUI](https://goo.gl/C7Sq8Z){:target=\_blank} para ir direto para as aulas do curso.
 
 Bons estudos!

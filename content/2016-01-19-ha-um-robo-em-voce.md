@@ -1,9 +1,8 @@
-Title: Há um robô em você!
-Date: 2016-01-19 09:00
-Author: gustavo.foa
-Category: Iniciante
-Slug: ha-um-robo-em-voce
-Status: published
+title: Há um robô em você!
+date: 2016-01-19
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: ha-um-robo-em-voce
 
 Para muita gente que acabou de descobrir este mundo do desenvolvimento
 de softwares, lógica de programação parece coisa de outro mundo. As
@@ -16,9 +15,9 @@ mãe te deu aquela bronca: "Não põe o pé sujo no sofá, moleque! Senão
 você vai apanhar!"
 
 Você acaba de aprender a estrutura de controle mais básica da lógica de
-programação [SE-ENTÃO-SENÃO](http://www.dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/) e
+programação [SE-ENTÃO-SENÃO](http://dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/){:target=\_blank} e
 de quebra um [operador
-lógico](http://www.dicasdeprogramacao.com.br/operadores-logicos/) E.
+lógico](http://dicasdeprogramacao.com.br/operadores-logicos/){:target=\_blank} E.
 
 > **SE** "meu pé tá sujo" **E** "eu colocar o pé no sofá" **ENTÃO**
 >
@@ -32,7 +31,7 @@ lógico](http://www.dicasdeprogramacao.com.br/operadores-logicos/) E.
 
 E quando você prendeu fazer multiplicação? O(a) professor(a) te ensinou
 a fazer repedidas somas. Não foi? Você aprendeu a fazer uma [estrutura
-de repetição](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto/).
+de repetição](http://dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto/){:target=\_blank}.
 
 Em muitas situações que vivenciamos e problemas que resolvemos
 inconscientemente nós usamos lógica de programação sem saber.
@@ -42,8 +41,7 @@ no final terá como resultado o seu cabelo lavado. Por hábito, você nem
 pensa muito para executar cada passo desta atividade. Você fez essa
 atividade em modo automático.
 
-Uma parte de você é um robô
----------------------------
+##Uma parte de você é um robô
 
 Nosso cérebro é um órgão muito preguiçoso. Ele quer delegar tudo! Tudo
 que não precisa "pensar" para fazer ele tenta delegar. Por exemplo, você
@@ -54,8 +52,7 @@ cada movimento do seu corpo conscientemente? Uma parte de você faz isso
 tudo isso sem você precisar pensar.
 
 ![há um robo em
-você](http://www.dicasdeprogramacao.com.br/wp-content/uploads/há-um-robo-em-você-1024x683.jpg){.aligncenter
-.size-large .wp-image-2635 width="1024" height="683"}
+você](/images/ha-um-robo-em-voce/há-um-robo-em-você-1024.jpg){.aligncenter}
 
 A respiração é completamente automática, as batidas do seu coração
 também. Levante o braço, e pense por um instante todos os músculos
@@ -77,8 +74,7 @@ homem ainda não conseguiu fazer um computador que pensa como um humano.
 Tudo que o computador faz é executar algoritmos. Mas essa discussão não
 é o foco deste post.
 
-Você fez algoritmos a vida inteira
-----------------------------------
+##Você fez algoritmos a vida inteira
 
 O que quero que você perceba é que, na verdade, você já sabe lógica de
 programação. Durante toda a sua vida, você fez ajustes nos algoritmos
@@ -114,13 +110,12 @@ você durante toda a sua vida e que hoje são executados automaticamente
 pelo "robô" que há em você. Existem hábitos bons e hábitos ruins. Uma
 boa indicação de leitura para você se quiser modificar seus hábitos e
 trocar os hábitos ruins por hábitos bons é o livro [O Poder do
-Hábito](http://oferta.vc/oQh7).
+Hábito](https://www.amazon.com.br/gp/product/8539004119/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=8539004119&linkCode=as2&tag=gustafurta-20&linkId=0704f41606058992c9b2c7cc18561827){:target=\_blank}.
 
 **[&gt;&gt; Se quiser comprar o livro O Poder do Hábito clique
-AQUI](http://oferta.vc/oQh7)**
+AQUI](https://www.amazon.com.br/gp/product/8539004119/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=8539004119&linkCode=as2&tag=gustafurta-20&linkId=0704f41606058992c9b2c7cc18561827){:target=\_blank}**
 
-Minicurso GRATUITO de Lógica de Programação
--------------------------------------------
+##Minicurso GRATUITO de Lógica de Programação
 
 Recentemente eu abri inscrições para o meu minicurso GRATUITO de lógica
 de programação. Neste minicurso as aulas são enviadas para o seu e-mail
@@ -137,6 +132,6 @@ cadastrar o seu e-mail. As aulas serão enviadas para você
 automaticamente no seu e-mail.
 
 **[&gt;&gt; Clique AQUI para se inscrever no minicurso de lógica de
-programação](http://bit.ly/1HVkbHt)**
+programação](http://mclp.dicasdeprogramacao.com.br/){:target=\_blank}**
 
 Aproveite enquanto é gratuito e se inscreva!
