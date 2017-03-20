@@ -268,4 +268,14 @@ p.wp-caption-text{
  .bypostauthor{
 
  }
- 
+
+
+ p {
+ 	text-align: justify;
+ 	font-size: 16px;
+ }
+
+ li {
+ 	text-align: justify;
+ 	font-size: 16px;
+ }
