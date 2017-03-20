@@ -1,9 +1,8 @@
-Title: Eu vou te ensinar programação!
-Date: 2015-12-29 14:21
-Author: gustavo.foa
-Category: Iniciante
-Slug: eu-vou-te-ensinar-programacao
-Status: published
+title: Eu vou te ensinar programação!
+date: 2015-12-29
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: eu-vou-te-ensinar-programacao
 
 Desde quando eu criei o blog **{ Dicas de Programação }** eu queria
 ajudar as pessoas a aprenderem programação. Acredito piamente que TODOS
@@ -58,11 +57,10 @@ você percorreu a vida toda. Este não é só o caso da programação, outros
 assuntos básicos como educação financeira, negócios e empreendedorismo
 também não são tratados como deveria.
 
-![student-849825\_1280](http://www.dicasdeprogramacao.com.br/wp-content/uploads/student-849825_1280.jpg){.alignnone
-.size-full .wp-image-2421 width="1280" height="853"}
+![Estudante](/images/eu-vou-te-ensinar-programacao/student.jpg){.aligncenter :width=100%}
 
 A minha revolta é que muitos alunos, muitos mesmo, saem dessas
-faculdades cheias de alunos \$\$, desistem de aprender programação
+faculdades cheias de alunos, desistem de aprender programação
 achando que é muito difícil e se sentem incompetentes, burras ou
 incapazes de seguir o avanço tecnológico que estamos vivendo.
 
@@ -76,7 +74,7 @@ Comecei este caminho criando um **minicurso GRÁTIS de lógica de
 programação** por e-mail.
 
 Se quiser se inscrever neste minicurso gratuito, basta [acessar este
-link e cadastrar seu e-mail](http://bit.ly/1HVkbHt).
+link e cadastrar seu e-mail](http://mclp.dicasdeprogramacao.com.br/){:target=\_blank}.
 
 Estou preparando um material para quem não sabe programação, o primeiro
-que lancei é [este minicurso](http://bit.ly/1HVkbHt).
+que lancei é [este minicurso](http://mclp.dicasdeprogramacao.com.br/){:target=\_blank}.
