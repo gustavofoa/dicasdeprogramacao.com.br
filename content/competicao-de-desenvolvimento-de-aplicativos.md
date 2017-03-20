@@ -1,12 +1,11 @@
-Title: Competição de desenvolvimento de aplicativos
-Date: 2016-04-19 09:45
-Author: gustavo.foa
-Category: Notícias
-Slug: competicao-de-desenvolvimento-de-aplicativos
-Status: published
+title: Competição de desenvolvimento de aplicativos
+date: 2016-04-19
+author: Gustavo Furtado de Oliveira Alves
+category: Eventos
+slug: competicao-de-desenvolvimento-de-aplicativos
 
-Que tal participar de uma competição de desenvolvimento de app, aprender
-mais e ganhar prêmios?
+Que tal participar de uma competição de desenvolvimento de app,
+aprender mais e ganhar prêmios?
 
 [Livecoding.tv](https://www.livecoding.tv/) (plataforma de transmissão
 ao vivo de código) está trazendo uma competição mundial de
@@ -18,9 +17,7 @@ O objetivo da competição é criar um aplicativo oficial para o
 próprio Livecoding.tv. O aplicativo não precisa ter todas as funções do
 site. O que importa é que tenha todos os atributos essenciais.
 
-[![logo-livecoding](http://www.dicasdeprogramacao.com.br/wp-content/uploads/logo-livecoding.png){.size-full
-.wp-image-2659 .alignright width="240"
-height="240"}](https://www.livecoding.tv/)A comunidade do Livecoding.tv
+[![logo-livecoding](/images/competicao-de-desenvolvimento-de-aplicativos/logo-livecoding.png){.alignright}](https://www.livecoding.tv/)A comunidade do Livecoding.tv
 irá votar através do [Blog do Livecoding.tv](http://blog.livecoding.tv/)
 para selecionar os ganhadores. Os vencedores serão apresentados num
 artigo do blog.
@@ -29,7 +26,7 @@ Existem três categorias de prêmios: melhor aplicativo iOS, melhor
 aplicativo Android e transmissão mais educacional e interativa. Tanto
 equipes como indivíduos podem participar da competição. Para participar,
 basta preencher este
-[form](https://docs.google.com/forms/d/1dOil0-d5EVlw-Rp9DTR3X0hq73aYufsbzoQ4aPjCsQQ/viewform?c=0&w=1&usp=send_form)[ulário](https://docs.google.com/forms/d/1dOil0-d5EVlw-Rp9DTR3X0hq73aYufsbzoQ4aPjCsQQ/viewform?c=0&w=1&usp=send_form).
+[formulário](https://docs.google.com/forms/d/1dOil0-d5EVlw-Rp9DTR3X0hq73aYufsbzoQ4aPjCsQQ/viewform?c=0&w=1&usp=send_form).
 
 Além de colocar em prática o seu conhecimento, aprender mais, você ainda
 pode ganhar prêmios!
