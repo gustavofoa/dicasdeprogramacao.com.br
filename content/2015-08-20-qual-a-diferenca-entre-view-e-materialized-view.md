@@ -1,9 +1,8 @@
-Title: Qual a diferênça entre View e Materialized View?
-Date: 2015-08-20 08:59
-Author: gustavo.foa
-Category: Bancos de dados, Iniciante
-Slug: qual-a-diferenca-entre-view-e-materialized-view
-Status: published
+title: Qual a diferênça entre View e Materialized View?
+date: 2015-08-20 08:59
+author: Gustavo Furtado de Oliveira Alves
+category: Bancos de dados
+slug: qual-a-diferenca-entre-view-e-materialized-view
 
 Quando se trabalha com banco de dados podemos dizer que uma das tarefas
 mais importantes a ser realizada é a otimização do desempenho dobanco de
@@ -18,17 +17,13 @@ quando for decidir se pretende priorizar a escrita ou a leitura de uma
 tabela ou "visão". Você vai entender a diferença entre uma *VIEW* e uma
 *MATERIALIZED VIEW*.
 
- 
-
-![view ou materialized
-view](http://www.dicasdeprogramacao.com.br/wp-content/uploads/view-ou-materialized-view.png){.aligncenter
-.size-full .wp-image-2264 width="1236" height="695"}
+ ![view ou materialized
+view](/images/qual-a-diferenca-entre-view-e-materialized-view/view-ou-materialized-view.png){.aligncenter}
 
 Antes de falar sobre as diferenças entre esses dois tipos de objetos de
 banco de dados, é importante definir o que é uma *VIEW* ou *visão*.
 
-O que é uma *VIEW*
-------------------
+##O que é uma *VIEW*
 
 Uma *VIEW* (ou Visão) é uma consulta armazenada no banco de dados. Nós
 podemos, realizar consultas sobre uma *VIEW* como se fosse uma
@@ -48,12 +43,10 @@ Para entender o que é uma VIEW na prática, imagine as duas tabelas
 abaixo.
 
 ![Tabela
-Funcionário](http://www.dicasdeprogramacao.com.br/wp-content/uploads/Tabela-Funcionário.png){.aligncenter
-.wp-image-2242 .size-full width="648" height="107"}
+Funcionário](/images/qual-a-diferenca-entre-view-e-materialized-view/Tabela-Funcionário.png){.aligncenter}
 
 ![Tabela
-departamento](http://www.dicasdeprogramacao.com.br/wp-content/uploads/Tabela-departamento.png){.aligncenter
-.size-full .wp-image-2241 width="339" height="85"}
+departamento](/images/qual-a-diferenca-entre-view-e-materialized-view/Tabela-departamento.png){.aligncenter}
 
 Agora considere que um determinado usuário precisa de uma lista
 atualizada de Funcionários e seus respectivos departamentos. Por
@@ -65,7 +58,7 @@ informações não apareçam e fornecer ao usuário acesso apenas a esta
 VIEW. Ou seja, o usuário só teria acesso visão conforme a imagem abaixo.
 
 ![VIEW
-Funcionário-Departamento](http://www.dicasdeprogramacao.com.br/wp-content/uploads/VIEW-Funcionário-Departamento.png){.aligncenter
+Funcionário-Departamento](/images/qual-a-diferenca-entre-view-e-materialized-view/VIEW-Funcionário-Departamento.png){.aligncenter
 .size-full .wp-image-2244 width="298" height="106"}
 
 A consulta desta view poderia ser a seguinte:
@@ -92,8 +85,7 @@ Qualquer dúvida deixe um comentário no final do post.
 
 Agora vamos ver ...
 
-O que é uma *MATERIALIZED VIEW*
--------------------------------
+##O que é uma *MATERIALIZED VIEW*
 
 **Visão Materializada** é uma view, só que neste caso, o que é
 armazenado não é a consulta e sim o resultado dela.
@@ -128,8 +120,7 @@ consulta interna, o processo de escrita no banco de dados fica mais
 lento, pois é necessário executar a consulta interna da *materialized
 view* toda vez que um dado sofrer alteração.
 
-Quando usar *VIEW* ou *MATERIALIZED VIEW*?
-------------------------------------------
+##Quando usar *VIEW* ou *MATERIALIZED VIEW*?
 
 A decisão se a sua *view* deve ser simples ou materializada é tomada com
 base no tipo de utilização das tabelas usadas pela consulta da *view*. A

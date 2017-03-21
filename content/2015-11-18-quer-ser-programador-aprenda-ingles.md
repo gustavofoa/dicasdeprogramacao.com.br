@@ -45,7 +45,7 @@ filho](/images/quer-ser-programador-aprenda-ingles/abraçar-o-filho.jpg){.alignc
 Quando você quer muito uma coisa, ela vira prioridade para você. Se você
 quer muito ter uma carreira de sucesso como programador, estudar inglês
 todo dia é "abraçar o seu filho" após o dia de trabalho, e não há
-cansaço que faça você não ~~abraçar o seu filho~~ estudar o inglês.
+cansaço que faça você não <del>abraçar o seu filho</del> estudar o inglês.
 Entendeu? Assim como um filho, o inglês vai virar parte do seu
 pensamento o tempo todo. O inglês deixa de ser uma coisa que você
 TEM que aprender (obrigado) para ser uma coisa que você QUER aprender.
@@ -246,8 +246,7 @@ carreira não vai chegar a lugar algum.
 
 Acredito que você já esteja convencido que precisa aprender e praticar
 inglês. Dei algumas dicas, mas é você a parte principal deste processo,
-se você não tiver paixão o suficiente pela sua carreira e não *abraçar
-o seu filho* criar motivos para **viver inglês no seu dia a dia** peço
+se você não tiver paixão o suficiente pela sua carreira e não <del>abraçar o seu filho</del> criar motivos para **viver inglês no seu dia a dia** peço
 que invista seu tempo em outra carreira.
 
 E aí? Qual tática você usa para aprender/praticar inglês na sua rotina?
