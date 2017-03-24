@@ -32,8 +32,7 @@ as ferramentas, desde ferramentas para armazenamento, extração, análise,
 formatação, etc. Começamos pela forma como armazenamos essa grande
 quantidades de dados. É aí que entra o **NoSQL**!
 
-O que é NoSQL?
---------------
+##O que é NoSQL?
 
 ![NoSQL](/images/6-motivos-para-usar-bancos-de-dados-nosql/NoSQL.png){.alignright}
 
@@ -72,8 +71,7 @@ eles. No geral, existem 4 tipos de bancos de dados NoSQL, são eles:
     documento pode ser um dado aninhado em formato chave-valor (por
     exemplo o padrão JSON). Ex. MongoDB, CouchDB.
 
-![exemplos-nosql](/images/6-motivos-para-usar-bancos-de-dados-nosql/exemplos-nosql.gif){.aligncenter
-.size-full .wp-image-2198 width="800" height="314"}
+![exemplos-nosql](/images/6-motivos-para-usar-bancos-de-dados-nosql/exemplos-nosql.gif){.aligncenter}
 
 Embora os diferentes tipos de bancos de dados NoSQL tenham diferenças
 entre si, todos eles têm as mesmas premissas. Abaixo descrevo **6
