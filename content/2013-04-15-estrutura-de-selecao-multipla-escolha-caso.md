@@ -1,49 +1,44 @@
-Title: Estrutura de seleção multipla ESCOLHA-CASO
-Date: 2013-04-15 09:00
-Author: gustavo.foa
-Category: Iniciante
-Tags: Algoritmos, controle de fluxo, ESCOLHA-CASO, estrutura condicional, estrutura de decisão, estrutura de seleção multipla, lógica de programação, SWITCH-CASE
-Slug: estrutura-de-selecao-multipla-escolha-caso
-Status: published
+title: Estrutura de seleção multipla ESCOLHA-CASO
+date: 2013-04-15
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: estrutura-de-selecao-multipla-escolha-caso
 
 A estrutura ESCOLHA-CASO (em inglês SWITCH-CASE), é uma solução elegante
 quanto se tem várias [estruturas de
-decisão](http://www.dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/ "Estrutura de Decisão SE-ENTÃO-SENÃO")
+decisão](http://www.dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/ "Estrutura de Decisão SE-ENTÃO-SENÃO"){:target=\_blank}
 (SE-ENTÃO-SENÃO) aninhadas. Isto é, quando outras verificações são
 feitas caso a anterior tenha falhado (ou seja, o fluxo do algoritmo
 entrou no bloco SENÃO). A proposta da estrutura ESCOLHA-CASO é permitir
 ir direto no bloco de código desejado, dependendo do valor de uma
 variável de verificação. Veja o esquema abaixo.
 
-> ESCOLHA &lt;variável de verificação&gt;
+> **ESCOLHA** &lt;variável de verificação&gt;
 >
-> CASO &lt;valor1&gt; FAÇA
+> **CASO** &lt;valor1&gt; **FAÇA**
 >
 > "instruções a serem executadas caso &lt;variável de verificação&gt; =
 > &lt;valor1&gt;"
 >
-> CASO &lt;valor2&gt; FAÇA
+> **CASO** &lt;valor2&gt; **FAÇA**
 >
 > "instruções a serem executadas caso &lt;variável de verificação&gt; =
 > &lt;valor2&gt;"
 >
-> CASO &lt;valor3&gt; FAÇA
+> **CASO** &lt;valor3&gt; **FAÇA**
 >
 > "instruções a serem executadas caso &lt;variável de verificação&gt; =
 > &lt;valor3&gt;"
 >
 > ...
 >
-> FIM-ESCOLHA
+> **FIM-ESCOLHA**
 
 Veja o esquema desta estrutura de seleção.
 
-[![estrutura-ESCOLHA](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/05/estrutura-ESCOLHA.png){.aligncenter
-.size-full .wp-image-1032 width="687"
-height="513"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/05/estrutura-ESCOLHA.png)
+![estrutura-ESCOLHA](/images/estrutura-de-selecao-multipla-escolha-caso/estrutura-ESCOLHA.png){.aligncenter}
 
-ESCOLHA-CASO na prática!
-------------------------
+##ESCOLHA-CASO na prática!
 
 Para exemplificar a melhoria oferecida por essa estrutura, imagine a
 seguinte situação: Você deseja criar um algoritmo para uma calculadora,
@@ -51,10 +46,10 @@ o usuário digita o primeiro número, a operação que deseja executar e o
 segundo número. Dependendo do que o usuário informar como operador, o
 algoritmo executará um cálculo diferente (soma, subtração, multiplicação
 ou divisão). Vejamos como seria esse algoritmo implementado no
-[VisuAlg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Linguagem de programação para iniciantes") com
-[SE-ENTÃO-SENÃO](http://www.dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/ "Estrutura de decisão SE-ENTÃO-SENÃO").
+[VisuAlg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Linguagem de programação para iniciantes"){:target=\_blank} com
+[SE-ENTÃO-SENÃO](http://www.dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/ "Estrutura de decisão SE-ENTÃO-SENÃO"){:target=\_blank}.
 
-``` {.lang:default .decode:true title="Algoritmo Calculatora Básica com SE"}
+```
 algoritmo "CalculadoraBasicaComSE"
 var
    numero1 : REAL
@@ -95,7 +90,7 @@ Veja como os SEs aninhados (dentro dos SENÃOs) deixam o código mais
 complexo. Dá pra entender a lógica, mas não é muito elegante. Agora
 vamos ver como ficaria a mesma lógica com a estrutura ESCOLHA-CASO.
 
-``` {.lang:default .decode:true title="Algoritmo Calculadora Básica com ESCOLHA"}
+```
 algoritmo "CalculadoraBasicaComSE"
 var
    numero1 : REAL
@@ -131,15 +126,10 @@ Bem mais bonito! Agora a lógica tá mais visível e elegante. O resultado
 dos dois algoritmos é o mesmo, veja um exemplo de execução deste
 programa.
 
-[![Resultado do Algoritmo de Calculadora
-básica](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Resultado-do-Algoritmo-de-Calculadora-básica.png){.aligncenter
-.size-full .wp-image-991 width="681"
-height="187"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Resultado-do-Algoritmo-de-Calculadora-básica.png)
+![Resultado do Algoritmo de Calculadora
+básica](/images/estrutura-de-selecao-multipla-escolha-caso/Resultado-do-Algoritmo-de-Calculadora-básica.png){.aligncenter}
 
- 
-
-Caso não tratado na estrutura (OUTROCASO) {#caso-não-tratado-na-estrutura-outrocaso style="text-align: justify;"}
------------------------------------------
+##Caso não tratado na estrutura (OUTROCASO)
 
 Existe uma opção a mais nessa estrutura, justamente para tratar quando o
 valor da variável não é equivalente a nenhum valor informado como opção
@@ -149,7 +139,7 @@ anteriormente, imagine se o usuário digitasse um valor diferente de "+",
 informando que ele digitou uma opção inválida, utilizaríamos esse
 recurso da estrutura ESCOLHA-CASO. Veja.
 
-``` {.lang:default .decode:true}
+```
       ESCOLHA operacao
          CASO "+"
             resultado := numero1 + numero2
@@ -167,7 +157,9 @@ recurso da estrutura ESCOLHA-CASO. Veja.
 Como pudemos observar, em termos de organização de código a estrutura
 ESCOLHA-CASO é uma opção muito elegante quando se tem muitos
 SE-ENTÃO-SENÃO para verificar a mesma variável. Facilita a leitura do
-algoritmo e a manutenção do código. Como exercício para praticar essa
+algoritmo e a manutenção do código.
+
+Como exercício para praticar essa
 estrutura de controle de fluxo, crie um algoritmo em que o usuário
 digita uma letra qualquer, e o programa verifica qual a ordem dessa
 letra no alfabeto, por exemplo: se o usuário digitar a letra 'G' o
