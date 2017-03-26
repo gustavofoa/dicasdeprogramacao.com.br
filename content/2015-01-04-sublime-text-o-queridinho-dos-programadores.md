@@ -1,9 +1,8 @@
-Title: Sublime Text: O queridinho dos programadores
-Date: 2015-01-04 13:32
-Author: gustavo.foa
-Category: Programação, Técnicas e Metodologias
-Slug: sublime-text-o-queridinho-dos-programadores
-Status: published
+title: Sublime Text: O queridinho dos programadores
+date: 2015-01-04
+author: Gustavo Furtado de Oliveira Alves
+category: Ferramentas
+slug: sublime-text-o-queridinho-dos-programadores
 
 O que faz um profissional importante é seu conhecimento sobre as
 diversas áreas em que ele atua. Isso serve para qualquer profissional,
@@ -32,8 +31,7 @@ trabalho do usuário.
 Vamos conhecer um pouco mais o **Sublime Text** e porque ele está se
 tornando o queridinho dos desenvolvedores de softwares.
 
-Simples, rápido, leve e customizável
-------------------------------------
+##Simples, rápido, leve e customizável
 
 O Sublime Text é antes de tudo um <span
 style="text-decoration: underline;">editor de texto</span> leve, possui
@@ -43,11 +41,9 @@ IDE oferece muitos recursos exclusivos que fazem a programação se tornar
 mais produtiva.
 
 ![Sublime
-Text](http://www.dicasdeprogramacao.com.br/wp-content/uploads/Sublime-Text.png){.aligncenter
-.wp-image-2000 .size-full width="80%"}
+Text](/images/sublime-text-o-queridinho-dos-programadores/Sublime-Text.png){.aligncenter}
 
-Ferramentas mais conhecidas
----------------------------
+##Ferramentas mais conhecidas
 
 O Sublime Text trás algumas ferramentas padrão que mostram o porquê
 dessa IDE ser tão usada.
@@ -55,8 +51,7 @@ dessa IDE ser tão usada.
 ### Goto Anything
 
 ![go to
-anything](http://www.dicasdeprogramacao.com.br/wp-content/uploads/go-to-anything.png){.aligncenter
-.wp-image-2004 .size-full width="80%"}
+anything](/images/sublime-text-o-queridinho-dos-programadores/go-to-anything.png){.aligncenter}
 
 Talvez essa função seja a principal responsável pelo sucesso do Sublime
 Text. Com uma simplicidade igual a do Google, através do comando
@@ -67,8 +62,8 @@ o texto.
 ### Plugins
 
 ![plugin
-css](http://www.dicasdeprogramacao.com.br/wp-content/uploads/plugin-css-300x201.png){.alignright
-.size-medium .wp-image-2005 width="300" height="201"}Uma das coisas mais
+css](/images/sublime-text-o-queridinho-dos-programadores/plugin-css-300x201.png){.alignright}
+Uma das coisas mais
 interessantes do Sublime Text é a capacidade de estender as
 funcionalidades do editor por meio de plugins.
 
@@ -77,7 +72,7 @@ SFTP, highlight, VI, SASS, LESS, e ótimas ferramentas para refatoração
 de código.
 
 Através do [Package
-Control](https://packagecontrol.io/ "Sublime Text Package Control"), o
+Control](https://packagecontrol.io/ "Sublime Text Package Control"){:target=\_blank}, o
 usuário pode navegar por uma infinidade de plugins. Além dos muitos
 plugins já disponíveis, é muito simples criar os próprios plugins, a
 linguagem utilizada é o **Python**.
@@ -100,7 +95,7 @@ exatamente como escreve o comando. Quem não gosta de auto-completar?
 Snippets são trechos de código prontos que podem ser adicionados no
 arquivo através de um comando seguido de "*Tab*". Por exemplo, se você
 digitar "lorem" e teclar "*Tab*" automaticamente é inserido um parágrafo
-com o famoso texto ~~enchedor de linguiça~~ "*Lorem Ipsum".*
+com o famoso texto <del>enchedor de linguiça</del> "*Lorem Ipsum".*
 
 Uma boa utilização é criar o Snippets "sysou" para gerar o
 System.out.println(), muito familiar quem usa Eclipse ... ;)
@@ -112,7 +107,7 @@ Para criar snippets basta selecionar **Tools &gt; New snippet…**
 O **Command Pallete** funciona da mesma forma que o *Gogo Anything*, a
 diferença é que este pesquisa comandos do próprio Sublime Text.
 
-Para acionar o Command Pallete utilize o comando ***Ctrl+Shift+P**.*
+Para acionar o Command Pallete utilize o comando ***Ctrl+Shift+P***.
 
 ### Divisão de Tela
 
@@ -126,8 +121,8 @@ outro.
 ### Minimap
 
 ![minimap sublime
-text](http://www.dicasdeprogramacao.com.br/wp-content/uploads/minimap-300x215.png){.size-medium
-.wp-image-2007 .alignright width="300" height="215"}O Sublime Text
+text](/images/sublime-text-o-queridinho-dos-programadores/minimap-300x215.png){.alignright}
+O Sublime Text
 apresenta um mini-mapa no lado direito da tela para ter rápido acesso à
 todas as linhas de seu código, basta deslizá-lo para cima ou para baixo.
 
@@ -137,8 +132,7 @@ arquivos.
 Você pode exibir ou esconder o mini-mapa através da opção ***View &gt;
 Hide/show minimap***
 
-Conclusão
----------
+##Conclusão
 
 Quem vê o Sublime Text pela primeira vez as vezes se pergunta como pode
 um editor com uma aparência tão simples ser capaz de substituir uma IDE
@@ -149,7 +143,7 @@ Além disso, mesmo com tantos recursos é uma ferramenta muito rápida. O
 desempenho deste software é simplesmente impressionante.
 
 [Vale a pena conhecer esta
-IDE](http://www.sublimetext.com/ "Sublime Text"), ela é multi-plataforma
+IDE](http://www.sublimetext.com/ "Sublime Text"){:target=\_blank}, ela é multi-plataforma
 e funciona em Mac, Windows e Linux de forma idêntica.
 
 Possui uma versão de avaliação sem prazo de expiração, entretanto sempre
