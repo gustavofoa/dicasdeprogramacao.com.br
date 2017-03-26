@@ -8,8 +8,9 @@ Hoje os [bancos de
 dados](http://www.dicasdeprogramacao.com.br/o-que-e-um-banco-de-dados/ "O que é um Banco de Dados?"){:target=\_blank}
 são essenciais para muitas empresas e estão no coração de muitos
 sistemas computacionais. Ter acesso rápido às informações é muito
-importante para a correta tomada de decisões em um negócio. Se você
-pretende trabalhar com desenvolvimento de softwares, com certeza
+importante para a correta tomada de decisões em um negócio.
+
+Se você pretende trabalhar com desenvolvimento de softwares, com certeza
 precisará trabalhar com bancos de dados em algum momento. Conhecer a
 história dos bancos de dados e como eles evoluíram é muito importante
 para entender como os bancos de dados mais comum são organizados. Então

@@ -1,9 +1,8 @@
-Title: A primeira fase de um projeto de banco de dados
-Date: 2015-03-18 00:11
-Author: gustavo.foa
-Category: Bancos de dados
-Slug: a-primeira-fase-de-um-projeto-de-banco-de-dados
-Status: published
+title: A primeira fase de um projeto de banco de dados
+date: 2015-03-18
+author: Gustavo Furtado de Oliveira Alves
+category: Bancos de dados
+slug: a-primeira-fase-de-um-projeto-de-banco-de-dados
 
 O projeto de banco de dados é, geralmente, uma das partes mais
 importantes no desenvolvimento de um novo software. Claro que existem
@@ -14,13 +13,12 @@ também saber criar um projeto de banco de dados é essencial na carreira
 de qualquer desenvolvedor de software.
 
 [Já dei uma visão geral sobre projetos de bancos de
-dados](http://www.dicasdeprogramacao.com.br/como-criar-um-projeto-de-banco-de-dados/ "Como criar um projeto de banco de dados")
+dados](http://www.dicasdeprogramacao.com.br/como-criar-um-projeto-de-banco-de-dados/ "Como criar um projeto de banco de dados"){:target=\_blank}
 em um artigo anterior. Neste artigo vamos ver, com exemplos
 práticos, como executar a primeira fase de um projeto de banco de dados:
 **A análise de requisitos**.
 
-Primeiro passo
---------------
+##Primeiro passo
 
 A primeira coisa que se deve fazer é reunir dados relevantes para o novo
 projeto através de documentos existentes, realização de entrevistas com
@@ -38,11 +36,9 @@ pelo usuário) e estes modelos não devem fugir da realidade descrita nas
 regras de negócio.
 
 ![projeo de banco de
-dados](http://www.dicasdeprogramacao.com.br/wp-content/uploads/photodune-432765-database-plan-s.jpg){.aligncenter
-.size-full .wp-image-2109 width="948" height="632"}
+dados](/images/a-primeira-fase-de-um-projeto-de-banco-de-dados/modelagem-de-banco-de-dados.jpg){.aligncenter}
 
-Exemplo de um mini-mundo
-------------------------
+##Exemplo de um mini-mundo
 
 Vejamos um exemplo de dessa primeira etapa e uma descrição de regras de
 negócios para um caso fictício. Vamos tomar por exemplo um consultório
@@ -87,8 +83,7 @@ coisas funcionam no atendimento dos pacientes.
 > diagnóstico, receita de remédios, solicitação de retorno, etc.
 > Finaliza-se a consulta e paciente é liberado.
 
-Modelos Externos
-----------------
+##Modelos Externos
 
 Descrevi acima um exemplo básico de descrição de regras de negócio.
 Agora vamos criar os primeiros modelos com as entidades e os
@@ -111,7 +106,7 @@ Analisar (Atendimentos)…
 
 Nestes modelos vamos adotar a notação mais utilizada para este fim, a
 “[Notação de
-Chen](http://pt.wikipedia.org/wiki/Modelo_de_entidade_e_relacionamento "Modelo de Entidades e Relacionamentos")”,
+Chen](http://pt.wikipedia.org/wiki/Modelo_de_entidade_e_relacionamento "Modelo de Entidades e Relacionamentos"){:target=\_blank}”,
 também conhecida como MER (Modelo de Entidades e Relacionamentos) ou DER
 (Diagrama de Entidades e Relacionamentos). Nesta notação as entidades
 são representadas como retângulos e os relacionamentos como
@@ -120,8 +115,7 @@ acima.
 
 Retorne ao texto do mini-mundo e leia o primeiro parágrafo.
 
-![modelo-paciente-senha](http://www.dicasdeprogramacao.com.br/wp-content/uploads/modelo-paciente-senha.png){.aligncenter
-.wp-image-2105 .size-full width="789" height="139"}
+![modelo-paciente-senha](/images/a-primeira-fase-de-um-projeto-de-banco-de-dados/modelo-paciente-senha.png){.aligncenter}
 
 Acho que esse primeiro modelo tá entendível para uma pessoa leiga, né?
 Esse é o objetivo do modelo externo! Dá pra lê-lo como “O atendente
@@ -136,14 +130,12 @@ não os requisitos de "funcionamento" de um sistema.
 
 Vamos fazer mais um modelo para o nosso mini-mundo:
 
-![modelo-atendente-paciente](http://www.dicasdeprogramacao.com.br/wp-content/uploads/modelo-atendente-paciente.png){.size-full
-.wp-image-2106 .aligncenter width="536" height="357"}
+![modelo-atendente-paciente](/images/a-primeira-fase-de-um-projeto-de-banco-de-dados/modelo-atendente-paciente.png){.aligncenter}
 
 Deu pra perceber que um atendente “atende” um paciente e inicia a “Ficha
 de atendimento”? Beleza, então vamos ao próximo modelo:
 
-![modelo-dentista-paciente](http://www.dicasdeprogramacao.com.br/wp-content/uploads/modelo-dentista-paciente.png){.size-full
-.wp-image-2107 .aligncenter width="570" height="347"}
+![modelo-dentista-paciente](/images/a-primeira-fase-de-um-projeto-de-banco-de-dados/modelo-dentista-paciente.png){.aligncenter}
 
 Neste modelo dá pra ler que o Dentista “atende” o paciente. Certo?
 Também dá pra ler que o dentista “conclui” o Atendimento atual (iniciado
@@ -156,8 +148,7 @@ sempre era o mesmo atendente e nem o mesmo dentista. Captou a ideia?
 
 Vamos juntar tudo?
 
-![modelo-entidade-relacionamento](http://www.dicasdeprogramacao.com.br/wp-content/uploads/modelo-entidade-relacionamento.png){.aligncenter
-.size-full .wp-image-2108 width="552" height="576"}
+![modelo-entidade-relacionamento](/images/a-primeira-fase-de-um-projeto-de-banco-de-dados/modelo-entidade-relacionamento.png){.aligncenter}
 
 Apareceu um relacionamento interessante quando juntamos tudo, um
 “paciente recebe atendimento”. Após montar o modelo completo eu senti
@@ -170,8 +161,7 @@ estão participando do projeto do banco de dados entenderem a mesma
 coisa. Se você já tem um conhecimento de banco de dados, não pense em
 tabelas agora, o importante é todo mundo entender o cenário.
 
-Conclusão
----------
+##Conclusão
 
 Vimos neste post como se inicia um projeto de banco de dados, desde
 a captação e organização de dados junto aos <span
