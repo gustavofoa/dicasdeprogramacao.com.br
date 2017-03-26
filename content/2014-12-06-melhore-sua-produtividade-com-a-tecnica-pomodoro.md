@@ -1,9 +1,8 @@
-Title: Melhore sua produtividade com a técnica Pomodoro!
-Date: 2014-12-06 14:51
-Author: gustavo.foa
-Category: Técnicas e Metodologias
-Slug: melhore-sua-produtividade-com-a-tecnica-pomodoro
-Status: published
+title: Melhore sua produtividade com a técnica Pomodoro!
+date: 2014-12-06
+author: Gustavo furtado de Oliveira Alves
+category: Técnicas e Metodologias
+slug: melhore-sua-produtividade-com-a-tecnica-pomodoro
 
 Quem nunca experimentou a ansiedade de estar frente a uma tarefa que
 precisa ser cumprida em um prazo que já está acabando? E quando a
@@ -25,8 +24,8 @@ que por nos trazer algum tipo de prazer, o nosso cérebro acaba criando
 maus hábitos.
 
 ![distrações redes
-sociais](http://www.dicasdeprogramacao.com.br/wp-content/uploads/redes-sociais1-300x210.jpg){.alignleft
-.wp-image-1982 .size-medium width="300" height="210"}O problema é que
+sociais](/images/melhore-sua-produtividade-com-a-tecnica-pomodoro/redes-sociais-300x210.jpg){.alignleft}
+O problema é que
 com o passar do tempo esses hábitos instigam o nosso cérebro a decidir
 sempre pela distração ao invés do trabalho. Aí você chega no final do
 dia e tem a sensação de que não teve tempo pra nada! Que o tempo é seu
@@ -40,15 +39,15 @@ artigo vou compartilhar uma técnica que eu particularmente gosto muito
 e que também pode te ajudar a retomar o foco no seu trabalho. Estou
 falando da **Técnica Pomodoro**!
 
-Como nasceu a Técnica Pomodoro?
--------------------------------
+##Como nasceu a Técnica Pomodoro?
 
 Antes de saber o que é, acho interessante entender como nasceu essa
 técnica. A [técnica
-pomodoro](http://pomodorotechnique.com/ "The Pomodoro Technique") foi
-criada pelo italiano Francesco![Timer de fogão -
-pomodoro](http://www.dicasdeprogramacao.com.br/wp-content/uploads/IMG_20141206_1415591-225x300.jpg){.alignleft
-.wp-image-1977 .size-medium width="225" height="300"} Cirillo nos tempos
+pomodoro](http://pomodorotechnique.com/ "The Pomodoro Technique"){:target=\_blank} foi
+criada pelo italiano Francesco
+![Timer de fogão -
+pomodoro](/images/melhore-sua-produtividade-com-a-tecnica-pomodoro/relogio-fogao-225x300.jpg){.alignleft}
+Cirillo nos tempos
 de faculdade (no final dos anos 80 e início dos anos 90) quando percebeu
 que o alto número de distrações e interrupções estavam quase o fazendo
 reprovar nas provas, pois, por mais que ele fosse nas aulas e estudasse
@@ -66,13 +65,11 @@ ter foco por 10 minutos direto. Mas com mais esforço e prática ele
 conseguiu criar o hábito de ter foco e no final obteve sucesso. Hoje a
 técnica está evoluída a ponto de ser aplicada por equipes inteiras.
 
-O que é a técnica pomodoro
---------------------------
+##O que é a técnica pomodoro
 
 ![Pomodoro
-Timer](http://www.dicasdeprogramacao.com.br/wp-content/uploads/Pomodoro-Technique-Timer1-300x300.jpg){.alignright
-.size-medium .wp-image-1958 width="300" height="300"}Esta técnica
-consiste em fracionar o seu tempo de trabalho entre foco total
+Timer](/images/melhore-sua-produtividade-com-a-tecnica-pomodoro/Pomodoro-Technique-Timer-300x300.jpg){.alignright}
+Esta técnica consiste em fracionar o seu tempo de trabalho entre foco total
 (completamente sem distrações e interrupções) e um tempo para descanso.
 Parece simples, mas não é fácil lutar contra o seu cérebro habituado a
 decidir sempre pelas distrações.
@@ -100,8 +97,7 @@ dizer pro seu cérebro "*fique tranquilo que eu vou me lembrar disso
 **depois***". Mas se o seu pomodoro for realmente interrompido (preciso
 ir no banheiro!) ele deve ser cancelado e inicia-se outro depois.
 
-Gerenciamento do tempo
-----------------------
+##Gerenciamento do tempo
 
 O pomodoro não se limita em apenas <span
 style="text-decoration: underline;">focar</span> e <span
@@ -134,8 +130,7 @@ que o criador da técnica perdeu a aposta na primeira vez?). Mas se você
 persistir conseguirá um resultado fantástico. Não desista quando não
 conseguir finalizar os pomodoros no começo!
 
-Benfícios da técnica pomodoro
------------------------------
+##Benfícios da técnica pomodoro
 
 O pomodoro trás vários benefícios pra quem consegue aplicá-la
 corretamente, como:
@@ -153,8 +148,7 @@ corretamente, como:
 -   Incentiva a continuar a aplicação da técnica.
 -   Cria o hábito da concentração.
 
-Ferramentas
------------
+##Ferramentas
 
 O legal do pomodoro é a simplicidade para se aplicar a técnica. Você só
 precisa de um timer, um papel e uma caneta para anotar as pequenas
@@ -163,7 +157,7 @@ e realizadas.
 
 No site oficial do criador da técnica são vendidos alguns artefatos
 interessantes, como um [timer no formato de
-tomatinho](http://pomodorotechnique.com/timer/ "Timer pomodoro"), livros
+tomatinho](http://pomodorotechnique.com/timer/ "Timer pomodoro"){:target=\_blank}, livros
 e cursos.
 
 Existem também alguns softwares voltados para auxiliar na aplicação da
@@ -171,30 +165,29 @@ técnica, tem pra vários sistemas operações e inclusive SOs de
 dispositivos móveis como android e IOS. Veja abaixo algumas ferramentas
 que encontrei para auxiliar na aplicação da técnica pomodoro.
 
--   **[Pomodairo](https://code.google.com/p/pomodairo/ "Pomodairo"):**
+-   **[Pomodairo](https://code.google.com/p/pomodairo/ "Pomodairo"){:target=\_blank}:**
     Aplicativo para Windows que roda na plataforma Adobe AIR.
--   **[Pomodori](http://reborg.github.io/pomodori/ "Pomodori")**:
+-   **[Pomodori](http://reborg.github.io/pomodori/ "Pomodori"){:target=\_blank}**:
     Aplicativo para Mac.Tem ferramentas para gerenciar os pomodoros e as
     atividades executados na semana/mês, etc...
 -   **[Vários aplicativos de Pomodoro para
-    Android](https://play.google.com/store/search?q=pomodoro&c=apps "Aplicativos Android para Pomodoro")**
+    Android](https://play.google.com/store/search?q=pomodoro&c=apps "Aplicativos Android para Pomodoro"){:target=\_blank}**
 -   **[Pomodoro
-    Desktop](http://www.brothersoft.com/pomodoro-desktop-248517.html "Pomodoro Desktop")**:
+    Desktop](http://www.brothersoft.com/pomodoro-desktop-248517.html "Pomodoro Desktop"){:target=\_blank}**:
     Aplicativo para Mac.
--   **[Tomighty](http://www.tomighty.org/ "Tomighty")**: Aplicativo
+-   **[Tomighty](http://www.tomighty.org/ "Tomighty"){:target=\_blank}**: Aplicativo
     simples criado em Java (Roda em todos os sistemas operacionais com
     JVM), muito bom.
 -   **[Pomodoro
-    Timer](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=325610693&mt=8&ign-mpt=uo%3D2 "Pomodoro Timer")**:
+    Timer](http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=325610693&mt=8&ign-mpt=uo%3D2 "Pomodoro Timer"){:target=\_blank}**:
     Aplicativo para iPhone e iPad.
--   [**TeamViz**](http://www.teamviz.com/ "TeamViz"): Esse é o que eu
+-   [**TeamViz**](http://www.teamviz.com/ "TeamViz"){:target=\_blank}: Esse é o que eu
     mais gosto, tem a versão free e tem a versão paga. É uma plataforma
     inteira muito completa para a aplicação do Pomodoro, com
     gerenciamento de atividades, estimativas, forma simples de anotar as
     interrupções, etc ...
 
-E você? Já conhecia a técnica?
-------------------------------
+##E você? Já conhecia a técnica?
 
 Eu utilizo bastante esta técnica no meu dia-a-dia. Há uma certa
 padronização do tempo de cada pomodoro (25 minutos + 5 de descanso e um
