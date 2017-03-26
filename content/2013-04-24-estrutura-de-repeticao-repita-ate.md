@@ -1,16 +1,15 @@
-Title: Estrutura de repetição REPITA-ATÉ
-Date: 2013-04-24 10:00
-Author: gustavo.foa
-Category: Iniciante
-Tags: Algoritmos, controle de fluxo, estrutura de repetição, REPEAT, REPEAT-UNTIL, REPITA, REPITA-ATÉ
-Slug: estrutura-de-repeticao-repita-ate
-Status: published
+title: Estrutura de repetição REPITA-ATÉ
+date: 2013-04-24
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: estrutura-de-repeticao-repita-ate
 
 Frequentemente precisamos implementar uma estrutura de repetição em
 nossos algoritmos para resolver algum problema. Um recurso para fazer
-isso é a estrutura ENQUANTO, ([clique aqui e leia o artigo sobre a
-estrutura
-ENQUANTO](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto/ "Estrutura de repetição ENQUANTO")).
+isso é a estrutura ENQUANTO.
+
+[>>Conheça a estrutura de repetição ENQUANTO!](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto/ "Estrutura de repetição ENQUANTO"){:target=\_blank}
+
 Uma outra estrutura de repetição interessante é a **REPITA-ATÉ**
 (Repeat-Until). A diferença desta estrutura é que ela é um **LOOP
 PÓS-TESTADO**, isto é, o teste para verificar se o bloco será executado
@@ -34,23 +33,20 @@ resultar FALSO. A partir do momento que a expressão booleana resultar
 VERDADEIRO, o fluxo do algoritmo sairá do LOOP. Veja  graficamente o
 funcionamento.
 
-[![estrutura-REPITA](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/estrutura-REPITA.png){.aligncenter
-.size-full .wp-image-1046 width="397"
-height="507"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/estrutura-REPITA.png)
+![estrutura-REPITA](/images/estrutura-de-repeticao-repita-ate/estrutura-REPITA.png){.aligncenter}
 
-A estrutura REPITA-ATÉ na prática! {#a-estrutura-repita-até-na-prática style="text-align: justify;"}
-----------------------------------
+##A estrutura REPITA-ATÉ na prática!
 
 Vamos usar o mesmo exemplo que apresentei no artigo sobre a [estrutura
 de repetição
-ENQUANTO](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto/ "Estrutura de repetição ENQUANTO").
+ENQUANTO](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto/ "Estrutura de repetição ENQUANTO"){:target=\_blank}.
 Pois naquele algoritmo, foi preciso repetir uma parte do código para
 solucionar uma particularidade da estrutura. Vejamos novamente o exemplo
 (Lembrando que estamos utilizando o VisuAlg para implementar os
 algoritmos, para mais detalhes [clique
-aqui](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Linguagem de programação para iniciantes")).
+aqui](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Linguagem de programação para iniciantes"){:target=\_blank}).
 
-``` {.lang:default .decode:true}
+```
 algoritmo "SomaEnquantoValorDiferenteDe0"
 var
    valorDigitado : REAL
@@ -82,7 +78,7 @@ necessário escrever duas vezes a leitura de dados do usuário, pois ela é
 <span style="text-decoration: underline;">pós-testada</span>. Observe a
 implementação daquele algoritmo com REPITA-ATÉ.
 
-``` {.lang:default .decode:true}
+```
 algoritmo "SomaAteValorIgualA0"
 var
    valorDigitado : REAL
@@ -107,10 +103,8 @@ REPITA-ATÉ. Você saberia explicar por quê? Pense um pouco e responda por
 si mesmo. (Se tiver dúvida pode deixar um comentário que explicaremos).
 O resultado deste algoritmo pode ser observado abaixo.
 
-[![Resultado
-REPITA-ATE](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Resultado-REPITA-ATE.png){.aligncenter
-.size-full .wp-image-1051 width="681"
-height="251"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Resultado-REPITA-ATE.png)
+![Resultado
+REPITA-ATE](/images/estrutura-de-repeticao-repita-ate/Resultado-REPITA-ATE.png){.aligncenter}
 
 Pra finalizar, percebemos que é possível utilizar qualquer uma das duas
 estruturas para implementar LOOPs, porém cada uma é mais apropriada
