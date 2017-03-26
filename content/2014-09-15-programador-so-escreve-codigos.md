@@ -1,9 +1,8 @@
-Title: Programador só escreve códigos?
-Date: 2014-09-15 12:29
-Author: gustavo.foa
-Category: Carreira, Iniciante
-Slug: programador-so-escreve-codigos
-Status: published
+title: Programador só escreve códigos?
+date: 2014-09-15
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: programador-so-escreve-codigos
 
 Muita gente inicia a carreira na área de desenvolvimento de softwares
 pensando que programador é a pessoa que domina uma ou mais linguagens de
@@ -25,11 +24,9 @@ Neste contexto, conhecer o negócio é mais importante que conhecer uma
 linguagem de programação a fundo.
 
 ![Programar não é só escrever
-códigos](http://www.dicasdeprogramacao.com.br/wp-content/uploads/Coding_Shots_Annual_Plan_high_res-5-1024x682.jpg){.aligncenter
-.wp-image-1951 .size-large width="1024" height="682"}
+códigos](/images/programador-so-escreve-codigos/Coding_Shots_Annual_Plan_high_res-5-1024x682.jpg){.aligncenter}
 
-Programador é mais que apenas um ... Programador
-------------------------------------------------
+##Programador é mais que apenas um ... Programador
 
 Programador não é uma maquina que transforma café em códigos! Aliás,
 contratar programador de linguagens já estabelecidas no mercado é tão
@@ -56,8 +53,7 @@ maiores preocupações.
 Além do mais, você não quer que o programador que vai dar manutenção no
 seu código saia xingando sua mãe por aí, né?
 
-Você deve falar a linguagem do cliente!
----------------------------------------
+##Você deve falar a linguagem do cliente!
 
 Se você já trabalha com programação vai entender a situação: Quantas
 vezes você já pensou que seria bem mais fácil se o seu cliente soubesse
