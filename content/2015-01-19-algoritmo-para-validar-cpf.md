@@ -1,10 +1,8 @@
-Title: Algoritmo para Validar CPF
-Date: 2015-01-19 09:23
-Author: gustavo.foa
-Category: Iniciante, Programação
-Tags: algoritmo clássico, algoritmo para validar cpf, validar cpf
-Slug: algoritmo-para-validar-cpf
-Status: published
+title: Algoritmo para Validar CPF
+date: 2015-01-19
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: algoritmo-para-validar-cpf
 
 Quando se está trabalhando em um sistema corporativo, é comum a
 necessidade de validar CPF. Muita gente não sabe que um CPF para ser
@@ -15,16 +13,14 @@ ser considerado válido. Se você acha que é complicado verificar se um
 CPF é válido ou não, você vai se surpreender!
 
 ![exemplo de
-CPF](http://www.dicasdeprogramacao.com.br/wp-content/uploads/cpf-exemplo.jpg){.size-full
-.wp-image-1799 .aligncenter width="398" height="250"}
+CPF](http://www.dicasdeprogramacao.com.br/wp-content/uploads/cpf-exemplo.jpg){.aligncenter}
 
-Regra para validar CPF
-----------------------
+##Regra para validar CPF
 
 O cálculo para validar um CPF é especificado pelo [Ministério da
-Fazenda](http://www.receita.fazenda.gov.br/aplicacoes/atcta/cpf/consultapublica.asp "Consulta para validação de CPF"), que
+Fazenda](http://www.receita.fazenda.gov.br/aplicacoes/atcta/cpf/consultapublica.asp "Consulta para validação de CPF"){:target=\_blank}, que
 disponibiliza no próprio site as
-[funções](http://www.receita.fazenda.gov.br/aplicacoes/atcta/cpf/funcoes.js "Funções para validação de CPF")
+[funções](http://www.receita.fazenda.gov.br/aplicacoes/atcta/cpf/funcoes.js "Funções para validação de CPF"){:target=\_blank}
 (em javascript) para validação de CPF. Vamos entender como funciona.
 
 O CPF é formado por 11 dígitos numéricos que seguem a máscara
@@ -92,8 +88,7 @@ Verificamos, se o resto corresponde ao segundo dígito verificador.
 
 Com essa verificação, constatamos que o CPF 529.982.247-25 é válido.
 
-CPFs inválidos conhecidos
--------------------------
+##CPFs inválidos conhecidos
 
 Existe alguns casos de CPFs que passam nessa validação que expliquei,
 mas que ainda são inválidos. É os caso dos CPFs com dígitos repetidos
@@ -104,22 +99,21 @@ Esses CPF atendem à validação, mas ainda são considerados inválidos.
 No nosso algoritmo, vamos verificar se todos os dígitos do CPF são
 iguais e, neste caso, considerar que ele é inválido.
 
-Algoritmo para validar CPF
---------------------------
+##Algoritmo para validar CPF
 
 Agora que já aprendemos como acontece a validação de um CPF, vamos ver
 como ficaria um algoritmo para validar CPF. Vamos escrever o algoritmo
 em Portugal utilizando o
-[Visualg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!").
+[Visualg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!"){:target=\_blank}.
 
 No algoritmo abaixo, eu criei uma função chamada
 **validaCPF(cpf:CARACTER)** que retorna **verdadeiro** ou **falso** se o
 CPF for ou não válido.
 
 Se você não sabe o que é uma função, [leia este
-artigo](http://www.dicasdeprogramacao.com.br/o-que-sao-funcoes-e-procedimentos/ "O que são Funções e Procedimentos?").
+artigo](http://www.dicasdeprogramacao.com.br/o-que-sao-funcoes-e-procedimentos/ "O que são Funções e Procedimentos?"){:target=\_blank}.
 
-``` {.lang:default .decode:true}
+```
 algoritmo "Validação de CPF"
 
 funcao validaCPF(cpf:CARACTER) : LOGICO
@@ -191,7 +185,7 @@ inicio
       SENAO
          ESCREVAL("O CPF ", cpf, " é inválido!")
       FIMSE
-      
+
       //Verificação de CPF com dígitos iguais
       cpf := "777.777.777-77"
       SE validaCPF(cpf) = VERDADEIRO ENTAO
@@ -207,7 +201,7 @@ Perceba que testamosa nossa função com três CPFs, um inválido e outro
 válido e um inválido conhecido. O resultado da execução deste algoritmo
 é esse.
 
-``` {.lang:default .decode:true}
+```
 O CPF 123.456.789-12 é inválido!
 O CPF 529.982.247-25 é válido!
 O CPF 777.777.777-77 é inválido!
@@ -235,7 +229,7 @@ Por exemplo, para o cpf *"529.982.247-25"* a linha abaixo atribui o
 valor inteiro 8 à variável num5, pois este é o caracter da posição 6
 (contando o caracter ponto ".").
 
-``` {.lang:default .decode:true}
+```
 num5 := Caracpnum( Copia(cpf, 6, 1) )
 ```
 
@@ -243,8 +237,8 @@ Outro detalhe interessante é o operador *mod* que retorna o resto da
 divisão.
 
 Claro que pode-se implementar de outras formas,
-com [Vetores](http://www.dicasdeprogramacao.com.br/o-que-sao-vetores-e-matrizes-arrays/ "O que são Vetores e Matrizes (arrays)"),
-[LOOPs](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto/ "Estrutura de repetição ENQUANTO"),
+com [Vetores](http://www.dicasdeprogramacao.com.br/o-que-sao-vetores-e-matrizes-arrays/ "O que são Vetores e Matrizes (arrays)"){:target=\_blank},
+[LOOPs](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto/ "Estrutura de repetição ENQUANTO"){:target=\_blank},
 etc. Entretanto eu tentei implementar de uma forma mais simples de
 entender a regra.
 
@@ -252,17 +246,24 @@ Se quiser entender cada recurso utilizado neste algoritmo leia os
 artigos abaixo.
 
 **[Estrutura de decisão
-SE-ENTAO-SENAO](http://www.dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/ "Estrutura de decisão SE-ENTÃO-SENÃO")**\
+SE-ENTAO-SENAO](http://www.dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/ "Estrutura de decisão SE-ENTÃO-SENÃO"){:target=\_blank}**
+
 **[O que são Funções e
-Procedimentos?](http://www.dicasdeprogramacao.com.br/o-que-sao-funcoes-e-procedimentos/ "O que são Funções e Procedimentos?")**\
+Procedimentos?](http://www.dicasdeprogramacao.com.br/o-que-sao-funcoes-e-procedimentos/ "O que são Funções e Procedimentos?"){:target=\_blank}**
+
 **[Você sabe usar os Operadores Aritméticos em
-programação?](http://www.dicasdeprogramacao.com.br/operadores-aritmeticos/ "Você sabe usar os Operadores Aritméticos em programação?")**\
-[**Conheça os Operadores Relacionais!**\
-](http://www.dicasdeprogramacao.com.br/operadores-relacionais/ "Conheça os Operadores Relacionais!")**[O
-que são tipos de dados primitivos?\
-](http://www.dicasdeprogramacao.com.br/tipos-de-dados-primitivos/ "O que são tipos de dados primitivos?")[Quer
+programação?](http://www.dicasdeprogramacao.com.br/operadores-aritmeticos/ "Você sabe usar os Operadores Aritméticos em programação?"){:target=\_blank}**
+
+**[Conheça os Operadores Relacionais!
+](http://www.dicasdeprogramacao.com.br/operadores-relacionais/ "Conheça os Operadores Relacionais!"){:target=\_blank}**
+
+**[O
+que são tipos de dados primitivos?
+](http://www.dicasdeprogramacao.com.br/tipos-de-dados-primitivos/ "O que são tipos de dados primitivos?"){:target=\_blank}**
+
+**[Quer
 aprender programação? Saiba qual a melhor
-linguagem!](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!")**
+linguagem!](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!"){:target=\_blank}**
 
 Entendendo como funciona o algoritmo, você torna-se capaz de validar CPF
 em qualquer linguagem.
