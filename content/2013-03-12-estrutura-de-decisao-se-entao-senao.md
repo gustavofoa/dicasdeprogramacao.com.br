@@ -1,10 +1,8 @@
-Title: Estrutura de decisão SE-ENTÃO-SENÃO
-Date: 2013-03-12 16:25
-Author: gustavo.foa
-Category: Iniciante
-Tags: Algoritmos, controle de fluxo, estrutura condicional, estrutura de decisão, estrutura de seleção, IF-THEN-ELSE, lógica de programação, se então senão
-Slug: estrutura-de-decisao-se-entao-senao
-Status: published
+title: Estrutura de decisão SE-ENTÃO-SENÃO
+date: 2013-03-12
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: estrutura-de-decisao-se-entao-senao
 
 A maioria dos algoritmos precisam tomar decisões ao longo de sua
 execução. Para isso existem as estruturas de decisão, e a mais utilizada
@@ -13,9 +11,7 @@ funcionamento é simples: com base no resultado de uma expressão booleana
 (**VERDADEIRO** ou **FALSO**), o fluxo do algoritmo segue para um bloco
 de instruções ou não. Observe o esquema da estrutura **SE-ENTÃO-SENÃO**:
 
-> **SE** &lt;expressão booleana&gt;
->
-> **ENTÃO**
+> **SE** &lt;expressão booleana&gt; **ENTÃO**
 >
 > &lt;instruções a serem executadas caso a expressão booleana resulte em
 > **VERDADEIRO**&gt;
@@ -31,24 +27,21 @@ O bloco de código **SENÃO** é opcional. É comum encontrar instruções de
 decisão apenas com **SE-ENTÃO** sem o bloco **SENÃO**. Veja um esquema
 gráfico desta estrutura de decisão.
 
-[![estrutura
-IF](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/estrutura-IF.png){.aligncenter
-.size-full .wp-image-981 width="580"
-height="515"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/estrutura-IF.png)
+![estrutura
+IF](/images/estrutura-de-decisao-se-entao-senao/estrutura-IF.png){.aligncenter}
 
-SE-ENTÃO-SENÃO na prática! {#se-então-senão-na-prática style="text-align: justify;"}
---------------------------
+##SE-ENTÃO-SENÃO na prática!
 
 Vejamos um exemplo de utilização desta estrutura com um algoritmo, para
 isso vamos utilizar o VisuAlg (para mais informações leia o [artigo
 sobre linguagens de programação para
-iniciantes](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Linguagem de programação para iniciantes")).
+iniciantes](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Linguagem de programação para iniciantes"){:target=\_blank}).
 Neste algoritmo, vamos simular um caixa eletrônico quando vamos sacar
 dinheiro. O caixa eletrônico verifica se o valor que desejamos sacar é
 menor que o saldo disponível. Assumiremos que há R\$ 1000 de saldo
 disponível para o saque.
 
-``` {.lang:default .decode:true title="Algoritmo Sacar Dinheiro"}
+```
 algoritmo "SacarDinheiro"
 var
    SaldoDisponivel : REAL
@@ -73,18 +66,14 @@ fimalgoritmo
 Abaixo a execução do algoritmo acima quando informamos valores menores
 que 1000.
 
-[![Sacar dinheiro menor que
-1000](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Sacar-dinheiro-menor-que-10001.png){.aligncenter
-.size-full .wp-image-975 width="681"
-height="199"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Sacar-dinheiro-menor-que-10001.png)
+![Sacar dinheiro menor que
+1000](/images/estrutura-de-decisao-se-entao-senao/Sacar-dinheiro-menor-que-10001.png){.aligncenter}
 
 Agora a execução do mesmo algoritmo, porém inserindo um valor maior que
 1000 para saque.
 
-[![Sacar dinheiro maior que
-1000](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Sacar-dinheiro-maior-que-1000.png){.aligncenter
-.size-full .wp-image-976 width="681"
-height="228"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Sacar-dinheiro-maior-que-1000.png)
+![Sacar dinheiro maior que
+1000](/images/estrutura-de-decisao-se-entao-senao/Sacar-dinheiro-maior-que-1000.png){.aligncenter}
 
 Perceba que o fluxo do algoritmo tomou rumos diferentes.
 
