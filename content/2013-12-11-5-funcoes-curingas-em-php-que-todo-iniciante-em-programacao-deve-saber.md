@@ -1,10 +1,8 @@
-Title: 5 funções curingas em PHP que todo iniciante em programação deve saber
-Date: 2013-12-11 13:00
-Author: gustavo.foa
-Category: PHP
-Tags: php
-Slug: 5-funcoes-curingas-em-php-que-todo-iniciante-em-programacao-deve-saber
-Status: published
+title: 5 funções curingas em PHP que todo iniciante em programação deve saber
+date: 2013-12-11
+author: Gustavo Furtado de Oliveira Alves
+category: PHP
+slug: 5-funcoes-curingas-em-php-que-todo-iniciante-em-programacao-deve-saber
 
 Este é um *Guest Post* escrito pela equipe da
 [FastCom](http://fastcom.com.br/ "FastCom Marketing Digital e Performance")
@@ -24,10 +22,8 @@ programação mais utilizada atualmente para desenvolvimento web -, onde
 você poderá ter uma espécie de ‘canivete suíço’ inicial, para utilizar
 em seus futuros projetos.
 
-[![funções
-php](http://www.dicasdeprogramacao.com.br/wp-content/uploads/php.jpg){.size-full
-.wp-image-1816 .aligncenter width="507"
-height="338"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/php.jpg)
+![funções
+php](/images/5-funcoes-curingas-em-php-que-todo-iniciante-em-programacao-deve-saber/php.jpg){.size-full .aligncenter}
 
 O Hypertext Preprocessor (PHP) é muito versátil e com linhas de códigos
 podemos fazer muitas coisas quando o assunto é o meio digital. Ele,
@@ -36,14 +32,13 @@ elencamos algumas funções básicas e mostramos de forma prática situações
 nas quais você pode usar os scripts. Na internet, você encontra muitos
 outros, porém, sem os exemplos mostrados a seguir:
 
-1. Como mostrar dados de uma string XML?
-----------------------------------------
+##1. Como mostrar dados de uma string XML?
 
 O Twitter, Facebook e alguns serviços do Google passam informações por
 meio de suas APIs. Utilizando XML e JSON, podemos mostrar as informações
 de um XML através da seguinte função:
 
-``` {.lang:default .decode:true title="Função que mostra informações de um XML"}
+```html
 <!DOCTYPE html>
 <?php
 
@@ -88,11 +83,11 @@ foreach ($xml->user as $user)
 </html>
 ```
 
-O resultado desse código PHP você pode ver
-[aqui](http://www.dicasdeprogramacao.com.br/wp-content/uploads/mostra-xml.php "Exemplo que mostra as informações de um XML").
+O resultado desse código PHP você pode ver aqui:
 
-2. Como imprimir resultados de uma string JSON sem loop?
---------------------------------------------------------
+![Resultado a função mostra xml](/images/5-funcoes-curingas-em-php-que-todo-iniciante-em-programacao-deve-saber/mostra-xml.png "Exemplo que mostra as informações de um XML").
+
+##2. Como imprimir resultados de uma string JSON sem loop?
 
 APIs como Flickr, Twitter e outros serviços populares utilizam esse
 formato. Você pode utilizar, por exemplo, para mostrar os tweets que
@@ -103,7 +98,7 @@ a semelhança dos trending topics cada vez que eles mudam, ou um gráfico
 pra ver quais países digitam a hashtag \#justinbieber nos dias de
 semana, após as 20h.
 
-``` {.lang:default .decode:true title="Como imprimir as informações de um json sem loop"}
+```html
 <?php
 
     $json_string='{"id":1,"nome":"joao","email":"joao@ninguem.com","interesses":["wordpress","php"]} ';
@@ -116,10 +111,11 @@ semana, após as 20h.
 ```
 
 O resultado desse código PHP você pode
-ver [aqui](http://www.dicasdeprogramacao.com.br/wp-content/uploads/mostra-json.php "Exemplo que mostra as informações de um JSON sem loop").
+ver aqui:
 
-3. Como listar o conteúdo de uma pasta?
----------------------------------------
+![Resultado da função Mostra Json](/images/5-funcoes-curingas-em-php-que-todo-iniciante-em-programacao-deve-saber/mostra-json.png "Exemplo que mostra as informações de um JSON sem loop").
+
+##3. Como listar o conteúdo de uma pasta?
 
 Você pode utilizar essa função em uma aplicação onde você gostaria de
 listar o conteúdo de uma pasta onde estão seus relatórios e imagens de
@@ -127,7 +123,7 @@ uma determinada pasta. Listar os arquivos sempre é o primeiro passo para
 você começar a mensurar seus gastos com servidor (CPU, memória, banda e
 disco);
 
-``` {.lang:default .decode:true title="Função que lista os arquivos de uma pasta"}
+```html
 <?php
 
     //declara a função
@@ -167,18 +163,14 @@ disco);
 ?>
 ```
 
-O resultado desse código PHP você pode
-ver [aqui](http://www.dicasdeprogramacao.com.br/wp-content/uploads/lista-conteudo.php "Exemplo que mostra como listar arquivos de uma pasta no servidor").
-
-4. Como mostrar o IP real do visitante?
----------------------------------------
+##4. Como mostrar o IP real do visitante?
 
 Você pode utilizar essa informação para mostrar dados personalizados
 baseados no IP do visitante. Vale ressaltar que tal script não
 funcionará em casos nos quais o usuário usa navegadores anônimos, como o
 TOR.
 
-``` {.lang:default .decode:true title="Função que mostra o IP real do visitante"}
+```html
 <?php
 
     //declara função
@@ -212,16 +204,17 @@ TOR.
 ```
 
 O resultado desse código PHP você pode
-ver [aqui](http://www.dicasdeprogramacao.com.br/wp-content/uploads/pega-ip-real.php "Exemplo que mostra como obter o IP real de um visitante do site.").
+ver aqui:
 
-5. Como comparar duas strings?
-------------------------------
+![Exemplo que mostra como obter o IP real de um visitante do site.](/images/5-funcoes-curingas-em-php-que-todo-iniciante-em-programacao-deve-saber/php-ip-real.png)
+
+##5. Como comparar duas strings?
 
 Este PHP é usado para muitas finalidades, como, por exemplo, verificar
 se as tags ‘title’ do seu site são iguais, ou efetuar qualquer tipo de
 comparativo entre páginas do seu site.
 
-``` {.lang:default .decode:true title="Código que compara duas strings em PHP"}
+```html
 <?php
 
     //atribui valor a string 1
@@ -246,12 +239,14 @@ comparativo entre páginas do seu site.
 ```
 
 O resultado desse código PHP você pode
-ver [aqui](http://www.dicasdeprogramacao.com.br/wp-content/uploads/verifica-parecidas.php "Exemplo que mostra como comparar duas strings").
+ver 
+
+![Exemplo que mostra como comparar duas strings](/images/5-funcoes-curingas-em-php-que-todo-iniciante-em-programacao-deve-saber/verifica-parecidas.png).
 
 Estas funções são básicas e servem como base para seus projetos em
 desenvolvimento e [criação de
-sites](http://fastcom.com.br/servicos/criacao-de-sites/). Em caso de
+sites](http://fastcom.com.br/servicos/criacao-de-sites/){:target=\_blank}. Em caso de
 dúvidas, entre em contato com a gente!
 
-*Fonte:* [*FastCom*](http://fastcom.com.br/)*.*\
+*Fonte:* [*FastCom*](http://fastcom.com.br/)*.*
 *Imagem: Getty Images*
