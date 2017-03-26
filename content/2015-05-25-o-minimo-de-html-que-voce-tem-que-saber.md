@@ -1,9 +1,8 @@
-Title: O mínimo de HTML que você TEM que saber!
-Date: 2015-05-25 12:13
-Author: gustavo.foa
-Category: HTML, Iniciante
-Slug: o-minimo-de-html-que-voce-tem-que-saber
-Status: published
+title: O mínimo de HTML que você TEM que saber!
+date: 2015-05-25
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: o-minimo-de-html-que-voce-tem-que-saber
 
 O mundo está cada vez mais tecnológico e entender as coisas básicas de
 tecnologia que usamos é uma questão de alfabetização. Sim, a nova
@@ -18,8 +17,7 @@ Neste post quero te apresentar o HTML! A linguagem responsável por te
 entregar este texto que você está lendo neste exato momento. E todas as
 páginas de internet que você acessa todos os dias.
 
-O que é HTML?
--------------
+##O que é HTML?
 
 Quando vemos uma página de internet no navegador, a vemos toda bonitinha
 com cores, imagens, textos, links, etc. Mas na verdade, o seu navegador
@@ -44,8 +42,7 @@ que ele estará entre as *tags* **&lt;strong&gt;&lt;/strong&gt;**. Veja
 na imagem abaixo.
 
 ![exemplo de código
-html](http://dicasdeprogramacao.com.br/wp-content/uploads/strong.png){.aligncenter
-.size-full .wp-image-2168 width="522" height="165"}
+html](/images/o-minimo-de-html-que-voce-tem-que-saber/strong.png){.aligncenter}
 
 Acho que você notou outras *tags* no código-fonte acima. Certo? Uma
 tag **&lt;p&gt;&lt;/p&gt;** que marca um *parágrafo* e outra
@@ -54,25 +51,24 @@ HTML é formado por estas *tags*, que *marcam* o texto.
 
 Vamos avançar um pouquinho mais? Vamos criar uma página web ...
 
-Criando uma página HTML simples
--------------------------------
+##Criando uma página HTML simples
 
 Um código simples ajudará a gente entender os conceitos básicos de HTML,
 acho mais fácil entender na prática. Abaixo eu apresento um código HTML.
 Você pode copiar esse código, salvar em um arquivo com a extensão
 ".html" e abri-lo num navegador.
 
-``` {.lang:xhtml .decode:true}
+```
 <html>
    <head>
       <title>Título da página</title>
    </head>
    <body bgcolor='gray'>
       Primeira página HTML
-      
+
       <br>
       <br />
-      
+
       <img "cores rgb" alt="cores rgb" src="http://www.dicasdeprogramacao.com.br/wp-content/uploads/cores-rgb.jpg" />
 
       <a href="http://www.dicasdeprogramacao.com.br/">Clique aqui para acessar o blog <strong>{ Dicas de Programação }</a>
@@ -121,7 +117,7 @@ Agora vamos entender este código e aprender os conceitos básicos de HTML
     da sua página. ;)\
     Exemplo do código de uma imagem HTML: &lt;img title="cores rgb"
     alt="cores rgb"
-    src="<http://www.dicasdeprogramacao.com.br/wp-content/uploads/cores-rgb.jpg>" /&gt;
+    src="<http://www.dicasdeprogramacao.com.br/images/o-minimo-de-html-que-voce-tem-que-saber/cores-rgb.jpg>" /&gt;
 10. Os links das páginas web são criados pela tag &lt;a&gt;. O atributo
     mais importante dos links é o href que é o endereço do link. O texto
     que aparece dentro da tag de link (entre a abertura &lt;a&gt; e o
