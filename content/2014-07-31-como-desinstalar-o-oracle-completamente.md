@@ -1,13 +1,11 @@
-Title: Como desinstalar o Oracle completamente
-Date: 2014-07-31 14:09
-Author: gustavo.foa
-Category: Bancos de dados, Oracle
-Tags: banco de dados, oracle
-Slug: como-desinstalar-o-oracle-completamente
-Status: published
+title: Como desinstalar o Oracle completamente
+date: 2014-07-31
+author: Gustavo Furtado de Oliveira Alves
+category: Bancos de dados, Oracle
+slug: como-desinstalar-o-oracle-completamente
 
 O
-[SGBD](http://www.dicasdeprogramacao.com.br/o-que-e-um-sgbd/ "O que é um SGBD?")
+[SGBD](http://www.dicasdeprogramacao.com.br/o-que-e-um-sgbd/ "O que é um SGBD?"){:target=\_blank}
 Oracle, um dos melhores do mercado, é um software criado para ser
 utilizados em servidores robustos de empresas com grandes bancos de
 dados. Entretanto podemos instalá-lo em nosso computador pessoal,
@@ -21,7 +19,7 @@ do seu computador.
 
 **[Veja como instalar o Oracle XE no Windows para estudar bancos de
 dados e
-SQL](http://www.dicasdeprogramacao.com.br/como-criar-um-ambiente-para-estudar-banco-de-dados-e-sql/ "Como criar um ambiente para estudar Banco de Dados e SQL")**
+SQL](http://www.dicasdeprogramacao.com.br/como-criar-um-ambiente-para-estudar-banco-de-dados-e-sql/ "Como criar um ambiente para estudar Banco de Dados e SQL"){:target=\_blank}**
 
 Mas quando não queremos mais o Oracle instalado no nosso computador,
 talvez porque você não precise mais estudar banco de dados e SQL ou por
@@ -44,8 +42,7 @@ editar o registro do Windows.</span>
 > Obs.: As imagens ilustradas representa os produtos Oracle instalados
 > no meu computador, no seu caso pode ser diferente.
 
-Passo-a-passo para desinstalar o Oracle completamente
------------------------------------------------------
+##Passo-a-passo para desinstalar o Oracle completamente
 
 ### 1. Desinstale os produtos Oracle através do OUI.
 
@@ -53,16 +50,14 @@ Acesse o Oracle Universal Installer no menu iniciar de desinstale todos
 os componentes Oracle.
 
 ![Desinstalar Oracle Universal
-Installer](http://www.dicasdeprogramacao.com.br/wp-content/uploads/Desinstalar-Oracle-Universal-Installer.png){.aligncenter
-.wp-image-1881 .size-full width="656" height="519"}
+Installer](/images/como-desinstalar-o-oracle-completamente/Desinstalar-Oracle-Universal-Installer.png){.aligncenter}
 
 ### 2. Abra o Editor de Registro do Windows.
 
 Para abrir o Editor de Registro do Windows clique no Menu
 Iniciar-&gt;Executar (ou use a combinação de teclas "Windows"+R), digite
 o comando "regedit" e tecle ENTER. ![executar
-regedit](http://www.dicasdeprogramacao.com.br/wp-content/uploads/executar-regedit.png){.aligncenter
-.wp-image-1878 .size-full width="413" height="217"}
+regedit](/images/como-desinstalar-o-oracle-completamente/executar-regedit.png){.aligncenter}
 
 > LEMBRANDO! Muito cuidado com o que você exclui no registro. Siga
 > **cuidadosamente** os passos a seguir.
@@ -71,21 +66,18 @@ regedit](http://www.dicasdeprogramacao.com.br/wp-content/uploads/executar-regedi
 
 Esta chave contém entradas de registro para todos os produtos Oracle.
 ![excluir chave de registro do
-Oracle](http://www.dicasdeprogramacao.com.br/wp-content/uploads/excluir-chave-de-registro-do-Oracle.png){.aligncenter
-.wp-image-1884 .size-full width="641" height="555"}
+Oracle](/images/como-desinstalar-o-oracle-completamente/excluir-chave-de-registro-do-Oracle.png){.aligncenter}
 
 ### 4. Se você estiver usando um Windows 64-bits, exclua também a chave de registro HKEY\_LOCAL\_MACHINE/SOFTWARE/Wow6432Node/Oracle.
 
 ![excluir chave de registro do Oracle
-2](http://www.dicasdeprogramacao.com.br/wp-content/uploads/excluir-chave-de-registro-do-Oracle-2.png){.aligncenter
-.wp-image-1885 .size-full width="1086" height="555"}
+2](/images/como-desinstalar-o-oracle-completamente/excluir-chave-de-registro-do-Oracle-2.png){.aligncenter}
 
 ### 5. Exclua todas as referências para serviços Oracle dentro desta parte do registro: HKEY\_LOCAL\_MACHINE/SYSTEM/CurrentControlSet/Services/.
 
 Deve ser fácil identificar os nomes dos serviços que começam com "Ora".
 ![excluir chave de registro dos serviços
-Oracle](http://www.dicasdeprogramacao.com.br/wp-content/uploads/excluir-chave-de-registro-dos-serviços-Oracle.png){.aligncenter
-.wp-image-1886 .size-full width="1107" height="555"}
+Oracle](/images/como-desinstalar-o-oracle-completamente/excluir-chave-de-registro-dos-serviços-Oracle.png){.aligncenter}
 
 ### 6. Reinicie o seu computador.
 
