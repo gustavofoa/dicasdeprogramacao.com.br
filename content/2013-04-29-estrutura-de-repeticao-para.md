@@ -1,46 +1,45 @@
-Title: Estrutura de repetição PARA
-Date: 2013-04-29 10:00
-Author: gustavo.foa
-Category: Iniciante
-Tags: Algoritmos, controle de fluxo, estrutura de repetição, Fatorial, FOR, PARA
-Slug: estrutura-de-repeticao-para
-Status: published
+title: Estrutura de repetição PARA
+date: 2013-04-29
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: estrutura-de-repeticao-para
 
 Já precisou implementar um LOOP com número de iterações pré-definido?
 (<span style="text-decoration: underline;">iteração</span> é cada vez
 que as instruções do bloco do loop são executadas) Por exemplo, um
-[algoritmo](http://www.dicasdeprogramacao.com.br/o-que-e-algoritmo/ "O que é Algoritmo?")
+[algoritmo](http://www.dicasdeprogramacao.com.br/o-que-e-algoritmo/ "O que é Algoritmo?"){:target=\_blank}
 que realiza a soma dos números de 1 a 100, terá um número de iterações
-pré-definido (100). Podemos implementar esse LOOP com qualquer estrutura
+pré-definido (100).
+
+Podemos implementar esse LOOP com qualquer estrutura
 de repetição (saiba mais sobre as
-estruturas [ENQUANTO](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto "Estrutura de repetição ENQUANTO")
+estruturas [ENQUANTO](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto "Estrutura de repetição ENQUANTO"){:target=\_blank}
 e
-[REPITA-ATÉ](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-repita-ate "Estrutura de repetição REPITA-ATÉ")),
+[REPITA-ATÉ](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-repita-ate "Estrutura de repetição REPITA-ATÉ"){:target=\_blank}),
 mas para isso é necessário utilizar um contador, uma
-[variável](http://www.dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/ "O que é variável e constante?")
+[variável](http://www.dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/ "O que é variável e constante?"){:target=\_blank}
 que será utilizada para contar quantas iterações foram executadas até o
 momento (o algoritmo de multiplicação utilizado [no artigo sobre
-algoritmos](http://www.dicasdeprogramacao.com.br/o-que-e-algoritmo/ "O que é Algoritmo?") implementa
+algoritmos](http://www.dicasdeprogramacao.com.br/o-que-e-algoritmo/ "O que é Algoritmo?"){:target=\_blank} implementa
 um contador com a estrutura de repetição
-[ENQUANTO](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto "Estrutura de repetição ENQUANTO")). A
+[ENQUANTO](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto "Estrutura de repetição ENQUANTO"){:target=\_blank}). A
 estrutura de repetição PARA, implementa um contador implicitamente. Veja
 como é o seu esquema.
 
-**PARA** &lt;variável contadora&gt; **DE** &lt;valor inicial&gt; **ATE**
+>**PARA** &lt;variável contadora&gt; **DE** &lt;valor inicial&gt; **ATE**
 &lt;valor final&gt; \[**PASSO** &lt;valor de incremento&gt;\] **FAÇA**
-
-&lt;instruções a serem executadas repetidamente até a &lt;variável
+>
+>&lt;instruções a serem executadas repetidamente até a &lt;variável
 contadora&gt; atingir o valor final&gt;
-
-**FIM**-PARA
+>
+>**FIM**-PARA
 
 O passo de incremento é opcional, esse recurso serve pera definir qual o
 valor do incremento do contador, por exemplo de 1 em 1 (padrão), de 2 em
 2, de 3 em 3, etc. Essa estrutura de repetição realiza o incremento de
 um contator de forma implícita, vejamos graficamente como funciona.
 
-![estrutura-PARA](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/estrutura-PARA.png){.aligncenter
-.size-full .wp-image-1067 width="440" height="608"}
+![estrutura-PARA](/images/estrutura-de-repeticao-para/estrutura-PARA.png){.aligncenter}
 
 A <span style="text-decoration: underline;">inicialização</span> da
 variável contadora é realizada implicitamente, com o &lt;valor
@@ -52,8 +51,7 @@ contadora é <span
 style="text-decoration: underline;">incrementado</span> em 1 (ou o valor
 declarado como PASSO ou &lt;valor de incremento&gt;).
 
-Estrutura PARA na prática! {#estrutura-para-na-prática style="text-align: justify;"}
---------------------------
+##Estrutura PARA na prática!
 
 Vamos implementar como exemplo um algoritmo para calcular o fatorial de
 um número. Para quem não sabe, fatorial é a multiplicação de todos os
@@ -61,7 +59,7 @@ números de 1 até ao número que se está calculando. Por exemplo: Fatorial
 de 5 (5!) = 1 \* 2 \* 3 \* 4 \* 5 = 120. Vamos criar um algoritmo
 utilizando o ENQUANTO primeiro.
 
-``` {.lang:default .decode:true}
+```
 algoritmo "FatorialComENQUANTO"
 
 var
@@ -89,7 +87,7 @@ Veja que foi necessário incrementar o contador explicitamente (linha
 16). Com a estrutura de repetição PARA, isso não é necessário. Vejamos
 agora o mesmo algoritmo implementado com o PARA.
 
-``` {.lang:default .decode:true}
+```
 algoritmo "FatorialComPARA"
 
 var
@@ -115,16 +113,12 @@ Nesta estrutura, não é necessário incrementar nem inicializar o
 contador, isso é feito automaticamente. O resultado dos dois algoritmos
 é o mesmo.
 
-[![Resultado
-Fatorial](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Resultado-Fatorial.png){.aligncenter
-.size-full .wp-image-1069 width="681"
-height="138"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Resultado-Fatorial.png)
-
- 
+![Resultado
+Fatorial](/images/estrutura-de-repeticao-para/Resultado-Fatorial.png){.aligncenter}
 
 LOOPs podem ser implementados com qualquer estrutura de repetição,
 porém, em alguns casos uma estrutura se mostra mais adequada que outras,
 como nesse caso do fatorial a mais adequada é a estrutura PARA. Conhecer
 essas estruturas de repetição é muito importante para criar programas
 melhores. Conheça as estruturas de
-repetição [ENQUANTO](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto "Estrutura de repetição ENQUANTO") e [REPITA-ATÉ](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-repita-ate "Estrutura de repetição REPITA-ATÉ").
+repetição [ENQUANTO](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-enquanto "Estrutura de repetição ENQUANTO"){:target=\_blank} e [REPITA-ATÉ](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-repita-ate "Estrutura de repetição REPITA-ATÉ"){:target=\_blank}.
