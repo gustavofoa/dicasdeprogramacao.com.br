@@ -1,18 +1,18 @@
-Title: O que são tipos de dados primitivos?
-Date: 2013-03-12 11:20
-Author: gustavo.foa
-Category: Iniciante
-Tags: array, classe, estrutura de dados, matriz, tipos de dados, tipos de dados primitivos, variável, vetor
-Slug: tipos-de-dados-primitivos
-Status: published
+title: O que são tipos de dados primitivos?
+date: 2013-03-12
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: tipos-de-dados-primitivos
 
 Nos
-[algoritmos](http://www.dicasdeprogramacao.com.br/o-que-e-um-algoritmo/ "O que é Algoritmo?")
+[algoritmos](http://www.dicasdeprogramacao.com.br/o-que-e-um-algoritmo/ "O que é Algoritmo?"){:target=\_blank}
 criados para realizar tarefas na computação utilizamos
-[variáveis](http://www.dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/ "O que é variável e constante?") para
+[variáveis](http://www.dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/ "O que é variável e constante?"){:target=\_blank} para
 manipular dados, por exemplo: nome, idade, altura, peso, data de
 nascimento, sexo, saldo, etc. Para otimizar a utilização da memória,
-cada variável armazena apenas um tipo de dados. A variável **nome**,
+cada variável armazena apenas um tipo de dados.
+
+A variável **nome**,
 deve armazenar <span style="text-decoration: underline;">textos</span>,
 já a variável **idade** deve armazenar apenas <span
 style="text-decoration: underline;">números inteiros</span> (sem casa
@@ -22,11 +22,9 @@ correto armazenarmos o valor "M" na variável **idade**? Não né, por isso
 devemos especificar em nossos algoritmos o tipo de cada variável.
 
 ![tipos de
-dados](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/tipos-de-dados.jpg){.aligncenter
-.size-full .wp-image-961 width="229" height="220"}
+dados](/images/tipos-de-dados-primitivos/tipos-de-dados.jpg){.aligncenter}
 
-Quais são os tipos de dados primitivos? {#quais-são-os-tipos-de-dados-primitivos style="text-align: justify;"}
----------------------------------------
+##Quais são os tipos de dados primitivos?
 
 Em computação existem apenas 4 tipos de dados primitivos, algumas
 linguagens subdividem esses tipos de dados em outros de acordo com a
@@ -67,8 +65,7 @@ algumas linguagens de programação não é necessário especificar o tipo de
 dados da variável, eles são identificados dinamicamente. Porém, é
 necessário informar o tipo de dados de cada variável em algoritmos.
 
-Tipos de dados customizados {#tipos-de-dados-customizados style="text-align: justify;"}
----------------------------
+##Tipos de dados customizados
 
 A partir dos tipos de dados primitivos podemos criar outros tipos de
 dados utilizando uma combinação de variáveis.  São estruturas de dados,
@@ -81,8 +78,7 @@ a base de todos os tipos de dados são os tipos de dados primitivos,
 independente da linguagem de programação.
 
 ![classe
-carro](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/classe-carro.jpg){.aligncenter
-.size-full .wp-image-1347 width="221" height="228"}
+carro](/images/tipos-de-dados-primitivos/classe-carro.jpg){.aligncenter}
 
 O conceito de estruturas de dados e classes é bem mais complexo que
 isto, por exemplo classes têm operações além de atributos, mas aqui é
