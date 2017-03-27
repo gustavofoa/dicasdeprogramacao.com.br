@@ -1,32 +1,34 @@
-Title: O que é Algoritmo?
-Date: 2013-03-04 22:07
-Author: gustavo.foa
-Category: Iniciante
-Tags: Algoritmos, o que é?
-Slug: o-que-e-algoritmo
-Status: published
+title: O que é Algoritmo?
+date: 2013-03-04
+author: gustavo.foa
+category: Iniciante
+slug: o-que-e-algoritmo
 
 Embora as vezes não percebemos, utilizamos algoritmos no nosso dia-a-dia
 e não sabemos. Para a execução de alguma tarefa ou mesmo resolver algum
 problema, muitas vezes inconscientemente executamos algoritmos. Mas o
-que é Algoritmo? É simplesmente uma "receita" para executarmos uma
+que é Algoritmo?
+
+Algoritmo é simplesmente uma "receita" para executarmos uma
 tarefa ou resolver algum problema. E como toda receita, um algoritmo
 também deve ser finito. Se seguirmos uma receita de bolo corretamente,
 conseguiremos fazer o bolo. A computação utiliza muito esse recurso,
 então se você pretende aprender programação, obviamente deve saber o que
 é algoritmo.
 
-Exemplo de Algoritmo {#exemplo-de-algoritmo style="text-align: justify;"}
---------------------
+##Exemplo de Algoritmo
 
 Imagine o trabalho de um recepcionista de cinema, ele deve conferir os
 bilhetes e direcionar o cliente para a sala correta. Além disso, se o
 cliente estiver 30 minutos adiantado o recepcionista deve informar que a
 sala do filme ainda não está aberta. E quando o cliente estiver 30
 minutos atrasado o recepcionista deve informar que a entrada não é mais
-permitida (Nota: Essas regras não são 100% verdade, eu as defini neste
-artigo apenas para fins didáticos). Vamos escrever um algoritmo para
-descrever a atividade do recepcionista.
+permitida
+
+**Obs**: *Essas regras não são 100% verdade, eu as defini neste
+post apenas para fins didáticos*
+
+Vamos escrever um algoritmo para descrever a atividade do recepcionista.
 
 > Algoritmo **Recepcionista de Cinema**
 >
@@ -67,20 +69,13 @@ em que se encontra. Outro aspecto interessante é que o algoritmo é
 finito, uma hora ele tem que acabar! Vejamos outro exemplo, dessa vez
 com uma representação visual: Como trocar uma lâmpada?
 
-\[caption id="attachment\_885" align="aligncenter"
-width="365"\][![Fluxograma](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Fluxogranma02.gif "Algoritmo"){.size-full
-.wp-image-885 width="365"
-height="413"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Fluxograma.gif "Fluxograma")
-Fluxograma (Representação gráfica de um algoritmo)\[/caption\]
-
- 
+![Fluxograma](/images/o-que-e-algoritmo/Fluxograma.gif "Algoritmo"){.aligncenter}
 
 Esta representação gráfica do algoritmo é chamada de fluxograma. Os
 losangos representam as decisões que são tomadas para executar um ou
 outro passo. Ao final, a lâmpada tem que estar funcionando.
 
-Algoritmos na computação {#algoritmos-na-computação style="text-align: justify;"}
-------------------------
+##Algoritmos na computação
 
 Todas as tarefas executadas pelo computador, são baseadas em Algoritmos.
 Logo, um algoritmo deve também ser bem definido, pois é uma máquina que
@@ -124,7 +119,7 @@ entendê-lo, se não conseguiu, leia-o novamente com mais atenção. Para
 ajudar, vamos definir algumas coisas importantes sobre o algoritmo:
 
 -   <span
-    style="line-height: 13px;">[**Variável**](http://www.dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/ "O que é variável e constante?")
+    style="line-height: 13px;">[**Variável**](http://www.dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/ "O que é variável e constante?"){:target=\_blank}
     é um espaço alocado na memória para armazenar dados. No algoritmo,
     foram criadas 4 variáveis.</span>
 -   O símbolo "**&lt;-**" representa uma atribuição de valor a
