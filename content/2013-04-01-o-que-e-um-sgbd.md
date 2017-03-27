@@ -1,15 +1,14 @@
-Title: O que é um SGBD?
-Date: 2013-04-01 21:50
-Author: gustavo.foa
-Category: Bancos de dados
-Tags: banco de dados, dbms, o que é?, sgbd, sql
-Slug: o-que-e-um-sgbd
-Status: published
+title: O que é um SGBD?
+date: 2013-04-01
+author: Gustavo Furtado de Oliveira Alves
+category: Bancos de dados
+slug: o-que-e-um-sgbd
 
 Em muitos sistemas informatizados é necessário armazenar informações em
-bancos de dados, podemos constatar isso observando que nas últimas
-décadas o banco de dados se tornou o coração de muitos sistemas. A
-informação é muitas vezes a coisa mais valiosa das empresas, mantê-las e
+[bancos de dados](http://www.dicasdeprogramacao.com.br/o-que-e-um-banco-de-dados/), podemos constatar isso observando que nas últimas
+décadas o banco de dados se tornou o coração de muitos sistemas.
+
+A informação é muitas vezes a coisa mais valiosa das empresas, mantê-las e
 poder acessá-las sempre que necessário é primordial para tomar decisões
 importantes. Mas controlar o acesso a essas informações também é
 importantíssimo. Já pensou se elas caíssem em mãos erradas? E a perda de
@@ -23,10 +22,9 @@ seja, pode ajudar a empresa a ter sucesso, mas também pode levá-la ao
 fracasso. Para garantir a consistência dos dados, controlar o acesso,
 manter os dados seguros, fornecer meios de acesso aos dados, ... foram
 criados os Sistemas de Gerenciamento de Bancos de Dados, ou **SGBD**
-(DBMS em inglês Database Management System).
+(DBMS em inglês DataBase Management System).
 
-A definição de SGBD
--------------------
+##A definição de SGBD
 
 > “Um Sistema de Gerenciamento de Banco de Dados (SGBD) – do inglês Data
 > Base Management System (DBMS) – é o conjunto de programas de
@@ -41,9 +39,7 @@ A definição de SGBD
 >
 > Fonte: Wikipédia
 
-[![database-organograma](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/04/database-organograma.jpg){.aligncenter
-.wp-image-1258 width="435"
-height="404"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/04/database-organograma.jpg)
+![database-organograma](/images/o-que-e-um-sgbd/database-organograma.jpg){.aligncenter}
 
 Tudo que fazemos em um banco de dados passa pelo SGBD! O SGBD é
 responsável por tudo, salvar os dados no HD, manter em memória os dados
