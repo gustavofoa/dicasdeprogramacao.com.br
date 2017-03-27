@@ -1,14 +1,12 @@
-Title: O que é variável e constante?
-Date: 2013-03-06 13:36
-Author: gustavo.foa
-Category: Iniciante
-Tags: o que é?, programação, variável
-Slug: o-que-e-variavel-e-constante
-Status: published
+title: O que é variável e constante?
+date: 2013-03-06
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: o-que-e-variavel-e-constante
 
 Programas de computador utilizam os recursos de hardware mais básicos
 para executar
-[algoritmos](http://www.dicasdeprogramacao.com.br/o-que-e-algoritmo/ "O que é Algoritmo?").
+[algoritmos](http://www.dicasdeprogramacao.com.br/o-que-e-algoritmo/ "O que é Algoritmo?"){:target=\_blank}.
 Enquanto o processador executa os cálculos, a memória é responsável por
 armazenar dados e servi-los ao processador. O recurso utilizado nos
 programas para escrever e ler dados da memória do computador é conhecido
@@ -18,9 +16,7 @@ exemplo, podemos criar uma variável chamada "idade" para armazenar a
 idade de uma pessoa. Você pode imaginar uma variável como uma gaveta
 "etiquetada" em um armário.
 
-[![gaveta](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/variável.jpg "Variável - gaveta"){.size-full
-.wp-image-898 .aligncenter width="249"
-height="202"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/variável.jpg)
+![gaveta](/images/o-que-e-variavel-e-constante/variável.jpg "Variável - gaveta"){.aligncenter}
 
 Quando criamos uma variável em nosso programa especificamos que tipo de
 dados pode ser armazenado nela (dependendo da linguagem de programação).
@@ -37,8 +33,7 @@ das **constantes**, que é um espaço reservado na memória para armazenar
 um valor que não muda com o tempo. Por exemplo, o valor PI
 (3.14159265359...) que nunca vai mudar!
 
-Veja como funciona uma variável com um [algoritmo](http://www.dicasdeprogramacao.com.br/o-que-e-um-algoritmo/ "O que é Algoritmo?") {#veja-como-funciona-uma-variável-com-um-algoritmo style="text-align: justify;"}
------------------------------------------------------------------------------------------------------------------------------------
+##Veja como funciona uma variável com um [algoritmo](http://www.dicasdeprogramacao.com.br/o-que-e-um-algoritmo/ "O que é Algoritmo?"){:target=\_blank}
 
 Para não restar dúvidas, vamos mostrar como funciona uma variável em um
 algoritmo.
