@@ -1,28 +1,26 @@
-Title: O que são Vetores e Matrizes (arrays)
-Date: 2013-05-13 10:10
-Author: gustavo.foa
-Category: Iniciante
-Tags: array, matriz, matrizes, vetor, vetores
-Slug: o-que-sao-vetores-e-matrizes-arrays
-Status: published
+title: O que são Vetores e Matrizes (arrays)
+date: 2013-05-13
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: o-que-sao-vetores-e-matrizes-arrays
 
 **Vetores** e **Matrizes** são estruturas de dados muito simples que
 podem nos ajudar muito quando temos muitas variáveis do mesmo tipo em um
 algoritmo. Imagine o seguinte problema: Você precisa criar um algoritmo
 que lê o nome e as 4 notas de 50 alunos, calcular a média de cada aluno
-e informar quais foram aprovados e quais foram reprovados. Conseguiu
-imaginar quantas variáveis você vai precisar? Muitas né? Vamos fazer uma
-conta rápida: 50 variáveis para armazenar os nomes dos alunos, (4 \* 50
-= ) 200 variáveis para armazenar as 4 notas de cada aluno e por fim, 50
-variáveis para armazenar as médias de cada aluno. 300 variáveis no
+e informar quais foram aprovados e quais foram reprovados.
+
+Conseguiu imaginar quantas variáveis você vai precisar? Muitas né?
+Vamos fazer uma conta rápida: 50 variáveis para armazenar os nomes dos alunos,
+(4 \* 50 = ) 200 variáveis para armazenar as 4 notas de cada aluno e por fim,
+50 variáveis para armazenar as médias de cada aluno. 300 variáveis no
 total, sem contar a quantidade de linhas de código que você vai precisar
 para ler todos os dados do usuário, calcular as médias e apresentar os
 resultados. Mas eu tenho uma boa notícia pra você. Nós não precisamos
 criar 300 variáveis! Podemos utilizar **Vetores** e **Matrizes** (também
 conhecidos como **ARRAYs**)!
 
-O que são Vetores e Matrizes?
------------------------------
+##O que são Vetores e Matrizes?
 
 **Vetor** (**array** uni-dimensional) é uma variável que armazena várias
 variáveis do mesmo tipo. No problema apresentado anteriormente, nós
@@ -41,36 +39,33 @@ Cada item do vetor (ou matriz) é acessado por um número chamado de
 Vamos representar os vetores e matrizes graficamente para facilitar o
 entendimento do conceito.
 
-[![vetor e matriz
-(array)](http://www.dicasdeprogramacao.com.br/wp-content/uploads/vetor-e-matriz.png){.aligncenter
-.size-full .wp-image-1569 width="593"
-height="623"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/vetor-e-matriz.png)
+![vetor e matriz
+(array)](/images/o-que-sao-vetores-e-matrizes-arrays/vetor-e-matriz.png){.aligncenter}
 
 Podemos ver na imagem acima que cada posição do vetor é identificado por
 um número (chamado de índice), no caso da matriz são dois números (um na
 vertical e um na horizontal).
 
-Vetores e Matrizes na prática!
-------------------------------
+##Vetores e Matrizes na prática!
 
 Tomando o exemplo apresentado no início deste artigo, vamos implementar
 o algoritmo utilizando o
-[Visualg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!").
+[Visualg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!"){:target=\_blank}.
 Nele, vamos usar algumas estruturas básicas já apresentadas aqui, tais
 como A [estrutura de repetição
-PARA](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-para/ "Estrutura de repetição PARA")
+PARA](http://www.dicasdeprogramacao.com.br/estrutura-de-repeticao-para/ "Estrutura de repetição PARA"){:target=\_blank}
 e a [estrutura de decisão
-SE-ENTÃO-SENÃO](http://www.dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/ "Estrutura de decisão SE-ENTÃO-SENÃO").
+SE-ENTÃO-SENÃO](http://www.dicasdeprogramacao.com.br/estrutura-de-decisao-se-entao-senao/ "Estrutura de decisão SE-ENTÃO-SENÃO"){:target=\_blank}.
 (Neste algoritmo vamos reduzir o número de alunos de 50 para 5, para
 facilitar a visualização do resultado.)
 
 [Saiba o que é o Visualg, como instalar e criar os seus primeiros
-algoritmos!](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!")
+algoritmos!](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!"){:target=\_blank}
 
 **Preste muita atenção no modo como é criado o Vetor e a Matriz e também
 a forma como é acessada cada posição.**
 
-``` {.lang:default .decode:true title="MediaDe5Alunos"}
+```
 algoritmo "MediaDe5Alunos"
 // Função : Calcular a média das notas de 10 alunos e apresentar quem foi aprovado ou reprovado
 // Autor : Gustavo
@@ -119,47 +114,75 @@ coisa) o mais importante é a força de vontade!
 
 Um resultado do algoritmo acima pode ser observado a seguir:
 
-> Digite o nome do aluno(a) número 1 de 5: Gustavo\
-> Digite a nota 1 do aluno(a) Gustavo: 9\
-> Digite a nota 2 do aluno(a) Gustavo: 10\
-> Digite a nota 3 do aluno(a) Gustavo: 9,5\
-> Digite a nota 4 do aluno(a) Gustavo: 8\
-> Digite o nome do aluno(a) número 2 de 5: João\
-> Digite a nota 1 do aluno(a) João: 5\
-> Digite a nota 2 do aluno(a) João: 6\
-> Digite a nota 3 do aluno(a) João: 4,5\
-> Digite a nota 4 do aluno(a) João: 7\
-> Digite o nome do aluno(a) número 3 de 5: Pedro\
-> Digite a nota 1 do aluno(a) Pedro: 7\
-> Digite a nota 2 do aluno(a) Pedro: 8,5\
-> Digite a nota 3 do aluno(a) Pedro: 6\
-> Digite a nota 4 do aluno(a) Pedro: 7\
-> Digite o nome do aluno(a) número 4 de 5: Luciana\
-> Digite a nota 1 do aluno(a) Luciana: 10\
-> Digite a nota 2 do aluno(a) Luciana: 7\
-> Digite a nota 3 do aluno(a) Luciana: 7,5\
-> Digite a nota 4 do aluno(a) Luciana: 8\
-> Digite o nome do aluno(a) número 5 de 5: Augusto\
-> Digite a nota 1 do aluno(a) Augusto: 5\
-> Digite a nota 2 do aluno(a) Augusto: 5,5\
-> Digite a nota 3 do aluno(a) Augusto: 7,5\
-> Digite a nota 4 do aluno(a) Augusto: 6\
+> Digite o nome do aluno(a) número 1 de 5: Gustavo
+>
+> Digite a nota 1 do aluno(a) Gustavo: 9
+>
+> Digite a nota 2 do aluno(a) Gustavo: 10
+>
+> Digite a nota 3 do aluno(a) Gustavo: 9,5
+>
+> Digite a nota 4 do aluno(a) Gustavo: 8
+>
+> Digite o nome do aluno(a) número 2 de 5: João
+>
+> Digite a nota 1 do aluno(a) João: 5
+>
+> Digite a nota 2 do aluno(a) João: 6
+>
+> Digite a nota 3 do aluno(a) João: 4,5
+>
+> Digite a nota 4 do aluno(a) João: 7
+>
+> Digite o nome do aluno(a) número 3 de 5: Pedro
+>
+> Digite a nota 1 do aluno(a) Pedro: 7
+>
+> Digite a nota 2 do aluno(a) Pedro: 8,5
+>
+> Digite a nota 3 do aluno(a) Pedro: 6
+>
+> Digite a nota 4 do aluno(a) Pedro: 7
+>
+> Digite o nome do aluno(a) número 4 de 5: Luciana
+>
+> Digite a nota 1 do aluno(a) Luciana: 10
+>
+> Digite a nota 2 do aluno(a) Luciana: 7
+>
+> Digite a nota 3 do aluno(a) Luciana: 7,5
+>
+> Digite a nota 4 do aluno(a) Luciana: 8
+>
+> Digite o nome do aluno(a) número 5 de 5: Augusto
+>
+> Digite a nota 1 do aluno(a) Augusto: 5
+>
+> Digite a nota 2 do aluno(a) Augusto: 5,5
+>
+> Digite a nota 3 do aluno(a) Augusto: 7,5
+>
+> Digite a nota 4 do aluno(a) Augusto: 6
+>
 > O aluno(a) Gustavo foi aprovado com as notas ( 9, 10, 9.5, 8) e média:
-> 9.125\
+> 9.125
+>
 > O aluno(a) João foi reprovado com as notas ( 5, 6, 4.5, 7) e média:
-> 5.625\
+> 5.625
+>
 > O aluno(a) Pedro foi aprovado com as notas ( 7, 8.5, 6, 7) e média:
-> 7.125\
+> 7.125
+>
 > O aluno(a) Luciana foi aprovado com as notas ( 10, 7, 7.5, 8) e média:
-> 8.125\
+> 8.125
+>
 > O aluno(a) Augusto foi aprovado com as notas ( 5, 5.5, 7.5, 6) e
 > média: 6
 >
 > \*\*\* Fim da execução.\
 > \*\*\* Feche esta janela para retornar ao Visualg.
 
-Conclusão
----------
+##Conclusão
 
 Como você pode perceber nesse artigo, Vetores e Matrizes são, na
 verdade, a mesma coisa: **array** a diferença é que o vetor é um array
@@ -184,7 +207,7 @@ resolver sozinho e comprar a sua resposta com a minha. E caso não
 consiga fazer sozinho, pode entender a minha solução que vai junto com
 uma explicação detalhada.
 
-> **[&gt;&gt; CLIQUE AQUI e se inscreva no minicurso GRATUITO de lógica
-> de programação !](http://bit.ly/1HVkbHt)**
+**[&gt;&gt; CLIQUE AQUI e se inscreva no minicurso GRATUITO de lógica
+> de programação !](http://mclp.dicasdeprogramacao.com.br/)**
 
 Um grande abraço!
