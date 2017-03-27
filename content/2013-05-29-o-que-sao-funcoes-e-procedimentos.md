@@ -1,10 +1,8 @@
-Title: O que são Funções e Procedimentos?
-Date: 2013-05-29 17:00
-Author: gustavo.foa
-Category: Iniciante
-Tags: algoritmo, função, function, procedimento, procedure, sub-rotina
-Slug: o-que-sao-funcoes-e-procedimentos
-Status: published
+title: O que são Funções e Procedimentos?
+date: 2013-05-29
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: o-que-sao-funcoes-e-procedimentos
 
 Me responda essa pergunta: Você saberia fazer um algoritmo para calcular
 a raiz quadrada de um número? Reflita um pouquinho sobre a complexidade
@@ -12,18 +10,16 @@ de tal algoritmo. E um algoritmo para gerar um número aleatório, você
 faz ideia de como fazer? Bom, não são algoritmos tão triviais para se
 implementar. Mas e se você precisar descobrir a raiz quadrada de um
 número ou mesmo gerar um número aleatório no seu algoritmo, o que fazer?
+
 Aha! Já existem algoritmos que executam essas operações. O que
 precisamos é apenas solicitar a execução desses algoritmos dentro do
 nosso. Esse tipo de algoritmo que solicitamos a execução de dentro do
 nosso algoritmo são chamados de **funções** (ou **procedimentos** caso
 não retornem um resultado).
 
-[![função](http://www.dicasdeprogramacao.com.br/wp-content/uploads/função.png){.aligncenter
-.size-full .wp-image-1681 width="503"
-height="332"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/função.png)
+![função](/images/o-que-sao-funcoes-e-procedimentos/função.png){.aligncenter}
 
-Função ou Procedimento?
------------------------
+##Função ou Procedimento?
 
 As **funções** (**functions**), também conhecidas como  sub-rotinas, são
 muito utilizadas em programação. Um dos grandes benefícios é não
@@ -40,24 +36,22 @@ Por exemplo, para ler o valor digitado por um usuário nós já utilizamos
 o procedimento **LEIA** e para mostrar um texto na tela nós utilizamos o
 procedimento **ESCREVA**.
 
-Parâmetros
-----------
+##Parâmetros
 
 **Funções** (e **procedimentos**) podem ou não receber parâmetros. No
 caso da função de raiz quadrada, é necessário passar como parâmetro o
 número que se deseja calcular a raiz, o procedimento **ESCREVA**, requer
 um texto como parâmetro para apresentar na tela do usuário.
 
-Usando funções na prática!
---------------------------
+##Usando funções na prática!
 
 Acho que já deu pra entender o que são funções e procedimentos, vamos
 ver agora como utilizá-las. Abaixo a um algoritmo que calcula a
 hipotenusa de um triângulo retângulo, dado os lados, utilizando a função
 RAIZQ do
-[Visualg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!").
+[Visualg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!"){:target=\_blank}.
 
-``` {.lang:default .decode:true}
+```
 algoritmo "Hipotenusa"
 var
     a, b, c : REAL
@@ -80,21 +74,18 @@ valor que passamos como parâmetro (valor entre parênteses) "a\*a +
 b\*b", o valor retornado por essa função armazenamos na variável "c".
 
 -   [Saiba o que é uma
-    variável](http://www.dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/ "O que é variável e constante?")
+    variável](http://www.dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/ "O que é variável e constante?"){:target=\_blank}
 
 Abaixo um exemplo da execução desse algoritmo.
 
-[![resultado algoritmo
-hipotenusa](http://www.dicasdeprogramacao.com.br/wp-content/uploads/resultado-algoritmo-hipotenusa.png){.aligncenter
-.size-full .wp-image-1679 width="681"
-height="127"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/resultado-algoritmo-hipotenusa.png)
+![resultado algoritmo
+hipotenusa](/images/o-que-sao-funcoes-e-procedimentos/resultado-algoritmo-hipotenusa.png){.aligncenter}
 
-Criando as próprias Funções e Procedimentos
--------------------------------------------
+##Criando as próprias Funções e Procedimentos
 
 Para se criar uma **função** no Visualg utilizamos a seguinte sintaxe:
 
-``` {.lang:default .decode:true}
+```
 funcao <nome-de-função> [(<seqüência-de-declarações-de-parâmetros>)]: <tipo-de-dado>
 // Seção de Declarações Internas
 inicio
@@ -104,7 +95,7 @@ fimfuncao
 
 Já para criar um procedimento no Visualg utilizamos a seguinte sintaxe:
 
-``` {.lang:default .decode:true}
+```
 procedimento <nome-de-procedimento> [(<seqüência-de-declarações-de-parâmetros>)]
 // Seção de Declarações Internas
 inicio
@@ -118,9 +109,9 @@ segundo grau, onde criaremos uma função chamada *calcula\_delta*.
 
 -   [<span style="line-height: 13px;">Dúvida sobre como calcular uma
     equação de segundo
-    grau?</span>](http://www.brasilescola.com/matematica/equacao-2-grau.htm "Equação do segundo grau")
+    grau?</span>](http://www.brasilescola.com/matematica/equacao-2-grau.htm "Equação do segundo grau"){:target=\_blank}
 
-``` {.lang:default .decode:true}
+```
 algoritmo "EquaçãoDoSegundoGrau"
 var
    a, b, c, delta, x1, x2: REAL
@@ -163,13 +154,10 @@ criar procedimento é a mesma coisa, só que não retorna resultado e
 usamos a outra sintaxe apresentada anteriormente. Um possível resultado
 da execução desse algoritmo é esse:
 
-[![resultado equação do segundo
-grau](http://www.dicasdeprogramacao.com.br/wp-content/uploads/resultado-equação-do-segundo-grau.png){.aligncenter
-.size-full .wp-image-1682 width="681"
-height="147"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/resultado-equação-do-segundo-grau.png)
+![resultado equação do segundo
+grau](/images/o-que-sao-funcoes-e-procedimentos/resultado-equação-do-segundo-grau.png){.aligncenter}
 
-Conclusão
----------
+##Conclusão
 
 **Funções** e **procedimentos** são utilizados com muita frequência em
 desenvolvimento de softwares. São vários benefícios como: evita
@@ -186,7 +174,8 @@ Pratique identificando no seu código, onde você pode utilizar funções e
 procedimentos. Um exemplo, é unir em um só procedimento aquele código de
 leitura de valores do usuário que sempre utilizamos:
 
-> ESCREVA ("Informe o valor de A: ")\
+> ESCREVA ("Informe o valor de A: ")
+>
 > LEIA (a)
 
 Já imagina como fazer isso? Qualquer dúvida, deixe nos comentários aí em
