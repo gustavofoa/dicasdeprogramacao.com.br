@@ -1,34 +1,32 @@
-Title: Conheça os Operadores Relacionais!
-Date: 2013-05-02 13:45
-Author: gustavo.foa
-Category: Iniciante
-Tags: igual em objetos, igual em String, lógica de programação, operações relacionais, operadores relacionais
-Slug: operadores-relacionais
-Status: published
+title: Conheça os Operadores Relacionais!
+date: 2013-05-02
+author: Gustavo Furtado de Oliveira Alves
+category: Iniciante
+slug: operadores-relacionais
 
 Operadores relacionais são utilizados para comparar valores, o resultado
 de uma expressão relacional é um valor
-[booleano](http://www.dicasdeprogramacao.com.br/tipos-de-dados-primitivos/ "Conheça os tipos de dados básicos em programação!")(VERDADEIRO
+[booleano](http://www.dicasdeprogramacao.com.br/tipos-de-dados-primitivos/ "Conheça os tipos de dados básicos em programação!"){:target=\_blank} (VERDADEIRO
 ou FALSO). Os operadores relacionais são: **igual**, **diferente**,
 **maior**, **menor**, **maior ou igual**, **menor ou igual**. Não é
 necessário explicar cada um, pois eles são auto-explicativos. Mas para
 quem é iniciante em desenvolvimento de softwares algumas informações
 podem ser importantes, principalmente pelo fato de haver diferença entre
 linguagens de
-programação.[![Operadores-relacionais](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Operadores-relacionais.jpg){.aligncenter
-.size-full .wp-image-1163 width="400"
-height="306"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/Operadores-relacionais.jpg)
+programação.
+![Operadores-relacionais](/images/operadores-relacionais/Operadores-relacionais.jpg){.aligncenter}
 
 Os operadores relacionais são diferente dependendo da linguagem de
 programação, mas conhecendo os símbolos mais comuns, a maioria da
 linguagens de programação fica mais fácil aprender. No
-[VisuAlg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!"),
+[VisuAlg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!"){:target=\_blank},
 os símbolos dos operadores relacionais são: =, &lt;&gt;, &gt;, &lt;,
 &gt;=, &lt;=. Vamos testar esses operadores no
-[Visualg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!")com
+[Visualg](http://www.dicasdeprogramacao.com.br/linguagem-de-programacao-para-iniciantes/ "Quer aprender programação? Saiba qual a melhor linguagem!"){:target=\_blank}
+com
 o algoritmo abaixo.
 
-``` {.lang:default .decode:true}
+```
 algoritmo "TesteOperadoresRelacionais"
 var
   numero1 : INTEIRO
@@ -90,13 +88,10 @@ relacionais com 3 possibilidades de valores: um número menor que o
 outro, dois números iguais e um número maior que outro. Abaixo o
 resultado da execução.
 
-[![resultado operadores
-relacionais](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/resultado-operadores-relacionais.png){.aligncenter
-.size-full .wp-image-1165 width="681"
-height="333"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/2013/03/resultado-operadores-relacionais.png)
+![resultado operadores
+relacionais](/images/operadores-relacionais/resultado-operadores-relacionais.png){.aligncenter}
 
-Operadores Relacionais e linguagens de programação
---------------------------------------------------
+##Operadores Relacionais e linguagens de programação
 
 Em todas as linguagens de programação existem símbolos para executarmos
 essas operações. As operações **maior**, **menor**, **maior ou
@@ -106,9 +101,9 @@ símbolo diferente para estes
 operadores): **&gt;** (maior), **&lt;** (menor), **&gt;=** (maior ou
 igual) e **&lt;=**(menor ou igual). Mas os vilões dos iniciantes são os
 símbolos para testar igualdade e diferença. Em cada linguagem é de um
-jeito! Em [](){#spiderWordFound6}java, C, C\#, javascript,… por exemplo,
+jeito! Em java, C, C\#, javascript, etc. Por exemplo,
 os símbolos de igual e diferente são: **==** e **!=**. Já em Pascal,
-SQL, Visual Basic, … os símbolos de igual e diferente
+SQL, Visual Basic, ... os símbolos de igual e diferente
 são: **=** e **&lt;&gt;**. Então fique esperto quando for aprender
 alguma dessas linguagens!
 
@@ -123,8 +118,7 @@ verificar a precedência alfabética de um [](){#spiderWordFound4}texto em
 relação a outro. Por exemplo: ”Pedro” &lt; “Paulo” resulta em **FALSO**,
 pois o texto “Pedro” alfabeticamente aparece depois do texto “Paulo”.
 
-Conclusão
----------
+##Conclusão
 
 Os operadores relacionais são muito utilizados em programação, as
 decisões dos algoritmos geralmente são tomadas nas operações
