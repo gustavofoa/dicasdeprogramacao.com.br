@@ -1,6 +1,6 @@
 title: O que é Algoritmo?
 date: 2013-03-04
-author: gustavo.foa
+author: Gustavo Furtado de Oliveira Alves
 category: Iniciante
 slug: o-que-e-algoritmo
 
