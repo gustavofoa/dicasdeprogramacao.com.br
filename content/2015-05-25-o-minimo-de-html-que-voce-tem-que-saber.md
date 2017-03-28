@@ -69,7 +69,7 @@ Você pode copiar esse código, salvar em um arquivo com a extensão
       <br>
       <br />
 
-      <img "cores rgb" alt="cores rgb" src="http://www.dicasdeprogramacao.com.br/wp-content/uploads/cores-rgb.jpg" />
+      <img "cores rgb" alt="cores rgb" src="http://www.dicasdeprogramacao.com.br/images/o-minimo-de-html-que-voce-tem-que-saber/cores-rgb.jpg" />
 
       <a href="http://www.dicasdeprogramacao.com.br/">Clique aqui para acessar o blog <strong>{ Dicas de Programação }</a>
 

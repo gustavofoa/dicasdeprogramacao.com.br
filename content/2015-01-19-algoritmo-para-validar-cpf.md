@@ -13,7 +13,7 @@ ser considerado válido. Se você acha que é complicado verificar se um
 CPF é válido ou não, você vai se surpreender!
 
 ![exemplo de
-CPF](http://www.dicasdeprogramacao.com.br/wp-content/uploads/cpf-exemplo.jpg){.aligncenter}
+CPF](/images/algoritmo-para-validar-cpf/cpf-exemplo.jpg){.aligncenter}
 
 ##Regra para validar CPF
 
