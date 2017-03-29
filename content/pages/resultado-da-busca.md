@@ -1,8 +1,5 @@
-Title: Resultado da busca
-Date: 2013-08-13 20:05
-Author: gustavo.foa
+title: Resultado da busca
 Slug: resultado-da-busca
-Status: published
 
 <p>
 <center>
@@ -24,4 +21,3 @@ Status: published
 \
 </center>
 </p>
-

@@ -15,9 +15,6 @@ programadores um pouco mais experientes. Os assuntos tratados aqui são:
 Nossa proposta é fornecer dicas práticas da área de desenvolvimento de
 softwares.
 
-Caso esteja interessado em fazer alguma parceria leia nossa [Página de
-Parcerias](http://www.dicasdeprogramacao.com.br/parcerias/ "Parcerias com o { Dicas de Programação }").
-
 Não copie integralmente o conteúdo de nossos artigos, veja nossa [Página
 de Termos de
 Uso](http://www.dicasdeprogramacao.com.br/termos-de-uso/ "Termos de Uso - { Dicas de Programação }").
