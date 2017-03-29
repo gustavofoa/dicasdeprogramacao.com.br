@@ -1,7 +1,7 @@
 title: O curso de programação Playcode é realmente bom?
 date: 2015-02-24
 author: Gustavo Furtado de Oliveira Alves
-category: Iniciante, Programação
+category: Iniciante
 slug: o-curso-de-programacao-playcode-e-realmente-bom
 
 A muito tempo eu acompanho cursos e metodologias de ensino de

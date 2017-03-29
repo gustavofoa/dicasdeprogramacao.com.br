@@ -13,15 +13,15 @@ Se você é iniciante em programação e quer um conteúdo passo-a-passo para
 ingressar nessa área, inscreva-se no nosso minicurso gratuito de lógica
 de programação. Basta clicar no link abaixo e informar o seu e-mail.
 
-[**>> Quero me cadastrar no minicurso grátis de lógica de programação!**](http://mclp.dicasdeprogramacao.com.br/)
+[**>> Quero me cadastrar no minicurso grátis de lógica de programação!**](http://mclp.dicasdeprogramacao.com.br/){:target=\_blank}
 
 Não copie integralmente o conteúdo de nossos artigos, veja nossa [Página
 de Termos de
-Uso](http://www.dicasdeprogramacao.com.br/termos-de-uso/ "Termos de Uso - { Dicas de Programação }").
+Uso](http://www.dicasdeprogramacao.com.br/termos-de-uso/ "Termos de Uso - { Dicas de Programação }"){:target=\_blank}.
 
 Todos os dados de usuário são protegidos conforme nossa página de
 [Política de
-Privacidade](http://www.dicasdeprogramacao.com.br/politica-de-privacidade/ "Política de Privacidade - { Dicas de Programação }").
+Privacidade](http://www.dicasdeprogramacao.com.br/politica-de-privacidade/ "Política de Privacidade - { Dicas de Programação }"){:target=\_blank}.
 
 #Sobre Gustavo Furtado
 
@@ -34,8 +34,8 @@ orgulhosamente Técnico em Informática pela Escola Técnica Pandiá
 Calógeras. Trabalha a 10 anos com desenvolvimento de softwares e foca em utilizar metodologias ágeis.
 Possui as certificações **SCWCD** e **SCJP** e além de manter o blog **{ Dicas de
 Programação }**, Gustavo é criador do site [Músicas para
-Missa](http://musicasparamissa.com.br) e também tem um blog
-pessoal <http://www.gustavofurtado.com.br/>.
+Missa](http://musicasparamissa.com.br){:target=\_blank} e também tem um [blog
+pessoal](http://www.gustavofurtado.com.br/){:target=\_blank}.
 
 Para entrar em contato [clique
-aqui](http://www.dicasdeprogramacao.com.br/contato/ "Contato").
+aqui](http://www.dicasdeprogramacao.com.br/contato/ "Contato"){:target=\_blank}.
