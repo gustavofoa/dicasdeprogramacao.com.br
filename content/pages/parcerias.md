@@ -1,8 +1,5 @@
-Title: Parcerias
-Date: 2013-05-14 17:55
-Author: gustavo.foa
+title: Parcerias
 Slug: parcerias
-Status: published
 
 O objetivo do nosso blog é servir conhecimento da área de
 desenvolvimento de softwares para todos os níveis de programadores,
@@ -13,15 +10,12 @@ para os assuntos tratados aqui.
 Fique a vontade para divulgar o nosso banner, abaixo disponibilizo o
 código HTML para adicionar o banner em seu site.
 
-[![banner\_dicasdeprogramacao](http://www.dicasdeprogramacao.com.br/wp-content/uploads/banner_dicasdeprogramacao.png){.size-full
-.wp-image-1605 .alignleft width="121"
-height="60"}](http://www.dicasdeprogramacao.com.br/wp-content/uploads/banner_dicasdeprogramacao.png)
+![banner\_dicasdeprogramacao](/images/banner_dicasdeprogramacao.png){.aligncenter}
 
  
-
-``` {.lang:default .decode:true .crayon-selected}
+```
 <a href=”http://www.dicasdeprogramacao.com.br/”  target=”_blank”>
-<img src=”http://www.dicasdeprogramacao.com.br/wp-content/uploads/banner_dicasdeprogramacao.png” alt=”Dicas de Programação” title=”Dicas de Programação” width=”120″ height=”60″>
+  <img src=”http://www.dicasdeprogramacao.com.br/images/banner_dicasdeprogramacao.png” alt=”Dicas de Programação” title=”Dicas de Programação” width=”120″ height=”60″>
 </a>
 ```
 

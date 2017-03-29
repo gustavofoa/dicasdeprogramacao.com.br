@@ -1,8 +1,5 @@
-Title: Política de Privacidade
-Date: 2013-05-07 22:00
-Author: gustavo.foa
-Slug: politica-de-privacidade
-Status: published
+title: Política de Privacidade
+slug: politica-de-privacidade
 
 O **{ Dicas de Programação }** entende e respeita a sua privacidade.
 Esta política de privacidade foi criada para esclarecer aos leitores o
@@ -12,8 +9,7 @@ visto que todas as informações aqui coletadas são exclusivamente no
 sentido de estatísticas, não ficando qualquer dado pessoal armazenado em
 nosso banco de dados.
 
-Os Cookies e Web Beacons
-------------------------
+##Os Cookies e Web Beacons
 
 Utilizamos cookies para armazenar informação, tais como as suas
 preferências pessoais quando visita o nosso website.  Isto poderá
@@ -21,12 +17,11 @@ incluir um simples popup, ou uma ligação em vários serviços que
 providenciamos, tais como fóruns. **A Google faz uso do novo DART cookie
 para servir anúncios baseados nos seus interesses e na sua visita ao
 nosso blog e a outros endereços na web. Poderá optar por não utilizar o
-[DART cookie](http://www.doubleclick.com/privacy/faq.aspx "DART Cookie")
+[DART cookie](http://www.doubleclick.com/privacy/faq.aspx "DART Cookie"){:target=\_blank}
 visitando a página de anúncios Google ad e o programa de policiamento da
 empresa.**
 
-Informações Pessoais
---------------------
+##Informações Pessoais
 
 -   O **{ Dicas de Programação }** não armazena qualquer informação
     pessoal de seus leitores como nome, endereço ou qualquer outro dado
@@ -37,17 +32,15 @@ Informações Pessoais
     os blogs e sites da Internet o fazem automaticamente para
     fins estatísticos).
 
-Usos
-----
+##Usos
 
 O **{ Dicas de Programação }** não utiliza qualquer dado coletado para
 fins comerciais. Os dados que coletamos, automaticamente, são utilizados
 única e exclusivamente para fins de estatística interna e, em hipótese
 alguma, são divulgados em público.
 
-Dúvidas e Esclarecimentos
--------------------------
+##Dúvidas e Esclarecimentos
 
 Em caso de permanecer alguma dúvida, ou desejar um esclarecimento mais
 aprofundado, favor entrar em contato via formulário [clicando
-aqui](http://www.dicasdeprogramacao.com.br/contato/ "Contato").
+aqui](http://www.dicasdeprogramacao.com.br/contato/ "Contato"){:target=\_blank}.

@@ -1,8 +1,5 @@
-Title: Sobre
-Date: 2013-03-09 11:44
-Author: gustavo.foa
+title: Sobre
 Slug: sobre
-Status: published
 
 O **{ Dicas de Programação }** é uma iniciativa que tem por objetivo
 principal ajudar iniciantes na área de desenvolvimento de softwares.
@@ -29,16 +26,16 @@ Todos os dados de usuário são protegidos conforme nossa página de
 [Política de
 Privacidade](http://www.dicasdeprogramacao.com.br/politica-de-privacidade/ "Política de Privacidade - { Dicas de Programação }").
 
-Sobre Gustavo Furtado
----------------------
+#Sobre Gustavo Furtado
 
-Idealizador do **{ Dicas de Programação }**, Gustavo Furtado tem 26
+!['Gustavo Furtado'](http://gustavofurtado.com.br/images/profile.jpg){width=250px .alignright}
+
+Idealizador do **{ Dicas de Programação }**, Gustavo Furtado tem 27
 anos, é mestre em computação aplicada pelo Instituto Nacional de
 Pesquisas Espaciais, Engenheiro da Computação pela ETEP Faculdades, e
 orgulhosamente Técnico em Informática pela Escola Técnica Pandiá
-Calógeras. Trabalha a 9 anos com desenvolvimento de softwares e nos
-últimos anos tem trabalhado com softwares de geoprocessamento. Possui as
-certificações **SCWCD** e **SCJP** e além de manter o blog **{ Dicas de
+Calógeras. Trabalha a 10 anos com desenvolvimento de softwares e foca em utilizar metodologias ágeis.
+Possui as certificações **SCWCD** e **SCJP** e além de manter o blog **{ Dicas de
 Programação }**, Gustavo é criador do site [Músicas para
 Missa](http://musicasparamissa.com.br) e também tem um blog
 pessoal <http://www.gustavofurtado.com.br/>.
