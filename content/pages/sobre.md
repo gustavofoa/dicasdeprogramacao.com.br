@@ -4,16 +4,16 @@ Slug: sobre
 O **{ Dicas de Programação }** é uma iniciativa que tem por objetivo
 principal ajudar iniciantes na área de desenvolvimento de softwares.
 Nosso blog está dividido em categorias para também publicar conteúdo à
-programadores um pouco mais experientes. Os assuntos tratados aqui são:
-
--   [Programação para
-    iniciantes](http://www.dicasdeprogramacao.com.br/iniciante/ "Dicas de Programação para Iniciantes")
--   [Bancos de
-    Dados](http://www.dicasdeprogramacao.com.br/bancos-de-dados/ "Dicas sobre bancos de dados")
--   [Programação (Geral)](http://www.dicasdeprogramacao.com.br/programacao/)
+programadores um pouco mais experientes.
 
 Nossa proposta é fornecer dicas práticas da área de desenvolvimento de
-softwares.
+softwares sempre com uma linguagem simples e didática.
+
+Se você é iniciante em programação e quer um conteúdo passo-a-passo para
+ingressar nessa área, inscreva-se no nosso minicurso gratuito de lógica
+de programação. Basta clicar no link abaixo e informar o seu e-mail.
+
+[**>> Quero me cadastrar no minicurso grátis de lógica de programação!**](http://mclp.dicasdeprogramacao.com.br/)
 
 Não copie integralmente o conteúdo de nossos artigos, veja nossa [Página
 de Termos de
