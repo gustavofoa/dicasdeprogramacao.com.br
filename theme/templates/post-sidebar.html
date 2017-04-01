@@ -48,7 +48,14 @@
     					</a>
     				</h3>
     				<div class="entry-meta">
-              <span class="author"><a href="{{ SITEURL }}/{{ a.author.url }}" title="Posts de {{ a.author }}" rel="author">{{ a.author }}</a></span>
+              <span class="author">
+                <a href="{{ SITEURL }}/{{ a.author.url }}" title="Posts de {{ a.author }}" rel="author">
+                  {{ a.author }}
+                </a>
+              </span><br/>
+              <span class="comments">
+                <a href="{{ SITEURL }}/{{ a.url }}#disqus_thread"><i class="fa fa-comment-o"></i></a>
+              </span>
     				</div>
     		</div><!-- /item-post -->
       {% endif %}

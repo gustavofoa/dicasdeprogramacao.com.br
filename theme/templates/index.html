@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% set recent = articles if not all_articles else all_articles %}
+
 {% block title %}{{ SITENAME }} - Dicas para programação de desenvolvimento de softwares{%endblock%}
 
 {% block content %}
@@ -7,21 +9,160 @@
 {% include 'left-sidebar.html' %}
 
 <section id="primary">
-
 	<div id="content" role="main">
+		<div id="featured-cats">
+			<section id="feat-cat5" class="feat-cat">
+				<header class="cat-header">
+					<h3><a href="{{ SITEURL }}/arquivo" >Últimos Artigos</a></h3>
+					<a class="rss" href="{{ SITEURL}}/feeds/all.atom.xml" >RSS</a>
+					<div id="slide-cat5-nav" class="slide-cat-nav"></div>
+				</header>
 
-    <article class="page">
+				<div class="one-half">
+					<article class="main-post">
+						<div class="thumb-wrap">
+							<div class="thumb">
+								<a href="{{ recent[0].url }}">
+									<img width="305" height="175"
+									src="https://i0.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/ingles-1.jpg?resize=305%2C175"
+									class="attachment-wt-cat-img size-wt-cat-img wp-post-image" alt="{{recent[0].title}}"
+									srcset="
+										https://i0.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/ingles-1.jpg?resize=305%2C175 305w,
+										https://i0.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/ingles-1.jpg?zoom=2&amp;resize=305%2C175 610w,
+										https://i0.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/ingles-1.jpg?zoom=3&amp;resize=305%2C175 915w
+									"
+									sizes="(max-width: 305px) 100vw, 305px"
+									data-attachment-id="2682" data-permalink="{{recent[0].url}}"
+									data-orig-file="https://i0.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/ingles-1.jpg?fit=1200%2C900"
+									data-orig-size="1200,900" data-comments-opened="1"
+									data-image-meta="{
+										&quot;aperture&quot;:&quot;0&quot;,
+										&quot;credit&quot;:&quot;&quot;,
+										&quot;camera&quot;:&quot;&quot;,
+										&quot;caption&quot;:&quot;&quot;,
+										&quot;created_timestamp&quot;:&quot;0&quot;,
+										&quot;copyright&quot;:&quot;&quot;,
+										&quot;focal_length&quot;:&quot;0&quot;,
+										&quot;iso&quot;:&quot;0&quot;,
+										&quot;shutter_speed&quot;:&quot;0&quot;,
+										&quot;title&quot;:&quot;&quot;,
+										&quot;orientation&quot;:&quot;1&quot;
+									}" data-image-title="{{ recent[0].title }}" data-image-description="{{ recent[0].summary }}" data-medium-file="https://i0.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/ingles-1.jpg?fit=300%2C225" data-large-file="https://i0.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/ingles-1.jpg?fit=1024%2C768" />
+								</a>
+							</div>
+							<div class="overlay">
+								<a class="img-link" href="{{ recent[0].url }}">Leia o artigo</a>
+							</div>
+						</div>
+						<div class="post-wrap">
+							<header class="entry-header">
+								<h3>
+									<a href="{{ recent[0].url }}" rel="bookmark">
+										{{ recent[0].title }}
+									</a>
+								</h3>
+							</header>
+							<div class="entry-meta">
+								<span class="author">
+	                <a href="{{ SITEURL }}/{{ recent[0].author.url }}" title="Posts de {{ recent[0].author }}" rel="author">
+	                  {{ recent[0].author }}
+	                </a>
+	              </span>
+								<br/>
+								<span class="comments">
+			            <a href="{{ SITEURL }}/{{ recent[0].url }}#disqus_thread"><i class="fa fa-comment-o"></i></a>
+			          </span>
+							</div>
+							<p>
+								{{ recent[0].summary }}
+							</p>
+						</div>
+					</article>
+				</div><!-- /one-half -->
 
-    	<div class="entry-content">
-
-
-
-      </div>
-    </article>
-
-  </div>
+				<div class="slide-cat5 one-half last-col">
+					<ul class="slides">
+						<li>
+							{% for a in recent %}{% if loop.index > 1 and loop.index <= 16 %}
+								{% if loop.index != 2 and (loop.index-2) % 5 == 0 %}</li><li>{% endif %}
+								<article class="item-post">
+									<div class="thumb-wrap">
+										<div class="thumb">
+											<a href="http://www.dicasdeprogramacao.com.br/programacao-orientada-objetos-por-que-aprender-isso/">
+												<img width="75" height="75"
+												src="https://i1.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/canal-youtube-programacao-orientada-a-objetos.png?resize=75%2C75"
+												class="attachment-wt-medium-thumb size-wt-medium-thumb wp-post-image" alt=""
+												srcset="
+													https://i1.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/canal-youtube-programacao-orientada-a-objetos.png?resize=150%2C150 150w,
+													https://i1.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/canal-youtube-programacao-orientada-a-objetos.png?resize=270%2C270 270w,
+													https://i1.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/canal-youtube-programacao-orientada-a-objetos.png?resize=207%2C207 207w,
+													https://i1.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/canal-youtube-programacao-orientada-a-objetos.png?resize=75%2C75 75w
+												"
+												sizes="(max-width: 75px) 100vw, 75px" data-attachment-id="2668"
+												data-permalink="http://www.dicasdeprogramacao.com.br/programacao-orientada-objetos-por-que-aprender-isso/canal-youtube-programacao-orientada-a-objetos/"
+												data-orig-file="https://i1.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/canal-youtube-programacao-orientada-a-objetos.png?fit=628%2C468"
+												data-orig-size="628,468" data-comments-opened="1"
+												data-image-meta="{
+													&quot;aperture&quot;:&quot;0&quot;,
+													&quot;credit&quot;:&quot;&quot;,
+													&quot;camera&quot;:&quot;&quot;,
+													&quot;caption&quot;:&quot;&quot;,
+													&quot;created_timestamp&quot;:&quot;0&quot;,
+													&quot;copyright&quot;:&quot;&quot;,
+													&quot;focal_length&quot;:&quot;0&quot;,
+													&quot;iso&quot;:&quot;0&quot;,
+													&quot;shutter_speed&quot;:&quot;0&quot;,
+													&quot;title&quot;:&quot;&quot;,
+													&quot;orientation&quot;:&quot;0&quot;
+												}"
+												data-image-title="canal-youtube-programacao-orientada-a-objetos"
+												data-image-description=""
+												data-medium-file="https://i1.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/canal-youtube-programacao-orientada-a-objetos.png?fit=300%2C224" data-large-file="https://i1.wp.com/www.dicasdeprogramacao.com.br/wp-content/uploads/canal-youtube-programacao-orientada-a-objetos.png?fit=628%2C468" />
+											</a>
+										</div>
+										<div class="overlay">
+											<a class="img-link" href="http://www.dicasdeprogramacao.com.br/programacao-orientada-objetos-por-que-aprender-isso/">
+												Leia o artigo
+											</a>
+										</div>
+									</div>
+									<div class="post-wrap">
+										<header class="entry-header">
+											<h4>
+												<a href="{{ SITEURL }}/{{ a.url }}">
+													{{ a.title | truncate(40) }}
+												</a>
+											</h4>
+										</header>
+										<div class="entry-meta">
+											<span class="author">
+				                <a href="{{ SITEURL }}/{{ a.author.url }}" title="Posts de {{ a.author }}" rel="author">
+				                  {{ a.author.name | truncate(20) }}
+				                </a>
+				              </span>
+											<br/>
+											<span class="comments">
+						            <a href="{{ SITEURL }}/{{ a.url }}#disqus_thread"><i class="fa fa-comment-o"></i></a>
+						          </span>
+										</div>
+									</div>
+								</article>
+							{% endif %}{% endfor %}
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
 </section>
 
 {% include 'post-sidebar.html' %}
 
+<script type='text/javascript' src='/theme/js/jquery.js'></script>
+<script type='text/javascript' src='/theme/js/superfish.js'></script>
+<script type='text/javascript' src='/theme/js/flexslider-min.js'></script>
+<script type='text/javascript' src='/theme/js/jquery.mobilemenu.js'></script>
+<script type='text/javascript' src='/theme/js/jcarousellite_1.0.1.min.js'></script>
+<script type='text/javascript' src='/theme/js/MetroJs.min.js'></script>
+<script type='text/javascript' src='/theme/js/custom.js'></script>
 {% endblock %}
