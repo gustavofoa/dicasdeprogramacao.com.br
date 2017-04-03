@@ -17,11 +17,11 @@ de programação. Basta clicar no link abaixo e informar o seu e-mail.
 
 Não copie integralmente o conteúdo de nossos artigos, veja nossa [Página
 de Termos de
-Uso](http://www.dicasdeprogramacao.com.br/termos-de-uso/ "Termos de Uso - { Dicas de Programação }"){:target=\_blank}.
+Uso](/termos-de-uso "Termos de Uso - { Dicas de Programação }"){:target=\_blank}.
 
 Todos os dados de usuário são protegidos conforme nossa página de
 [Política de
-Privacidade](http://www.dicasdeprogramacao.com.br/politica-de-privacidade/ "Política de Privacidade - { Dicas de Programação }"){:target=\_blank}.
+Privacidade](/politica-de-privacidade "Política de Privacidade - { Dicas de Programação }"){:target=\_blank}.
 
 #Sobre Gustavo Furtado
 
@@ -38,4 +38,4 @@ Missa](http://musicasparamissa.com.br){:target=\_blank} e também tem um [blog
 pessoal](http://www.gustavofurtado.com.br/){:target=\_blank}.
 
 Para entrar em contato [clique
-aqui](http://www.dicasdeprogramacao.com.br/contato/ "Contato"){:target=\_blank}.
+aqui](/contato "Contato"){:target=\_blank}.

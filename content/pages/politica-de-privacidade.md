@@ -43,4 +43,4 @@ alguma, são divulgados em público.
 
 Em caso de permanecer alguma dúvida, ou desejar um esclarecimento mais
 aprofundado, favor entrar em contato via formulário [clicando
-aqui](http://www.dicasdeprogramacao.com.br/contato/ "Contato"){:target=\_blank}.
+aqui](/contato "Contato"){:target=\_blank}.
