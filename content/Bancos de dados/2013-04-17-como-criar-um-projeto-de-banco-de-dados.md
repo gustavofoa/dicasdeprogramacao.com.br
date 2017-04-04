@@ -1,7 +1,7 @@
 title: Como criar um projeto de banco de dados
 date: 2013-04-17
 author: Gustavo Furtado de Oliveira Alves
-category: Bancos de dados
+category: Banco de dados
 slug: como-criar-um-projeto-de-banco-de-dados
 
 O banco de dados, muitas vezes, é a parte mais importante do sistema,

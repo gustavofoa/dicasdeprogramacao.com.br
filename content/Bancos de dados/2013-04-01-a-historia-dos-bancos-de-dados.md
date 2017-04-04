@@ -1,7 +1,7 @@
 title: A história dos bancos de dados
 date: 2013-04-01
 author: Gustavo Furtado de Oliveira Alves
-category: Bancos de dados
+category: Banco de dados
 slug: a-historia-dos-bancos-de-dados
 
 Hoje os [bancos de

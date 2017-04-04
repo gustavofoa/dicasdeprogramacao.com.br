@@ -1,7 +1,7 @@
 title: 6 motivos para usar bancos de dados NoSQL
 date: 2015-06-10
 author: Gustavo Furtado de Oliveira Alves
-category: Bancos de dados
+category: Banco de dados
 slug: 6-motivos-para-usar-bancos-de-dados-nosql
 
 Você deve imaginar a velocidade em que a Web está crescendo hoje em dia.

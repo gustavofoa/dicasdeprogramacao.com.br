@@ -1,7 +1,7 @@
 title: O que é um Banco de Dados?
 date: 2013-03-26
 author: Gustavo Furtado de Oliveira Alves
-category: Bancos de dados
+category: Banco de dados
 slug: o-que-e-um-banco-de-dados
 
 Existem vários tipos de banco de dados e eles estão presentes na nossa

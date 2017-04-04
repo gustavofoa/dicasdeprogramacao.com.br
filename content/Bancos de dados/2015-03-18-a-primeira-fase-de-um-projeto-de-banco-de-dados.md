@@ -1,7 +1,7 @@
 title: A primeira fase de um projeto de banco de dados
 date: 2015-03-18
 author: Gustavo Furtado de Oliveira Alves
-category: Bancos de dados
+category: Banco de dados
 slug: a-primeira-fase-de-um-projeto-de-banco-de-dados
 
 O projeto de banco de dados é, geralmente, uma das partes mais

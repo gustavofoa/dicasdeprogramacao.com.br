@@ -1,7 +1,7 @@
 title: Qual a diferênça entre View e Materialized View?
 date: 2015-08-20 08:59
 author: Gustavo Furtado de Oliveira Alves
-category: Bancos de dados
+category: Banco de dados
 slug: qual-a-diferenca-entre-view-e-materialized-view
 
 Quando se trabalha com banco de dados podemos dizer que uma das tarefas

@@ -1,7 +1,7 @@
 title: Como desinstalar o Oracle completamente
 date: 2014-07-31
 author: Gustavo Furtado de Oliveira Alves
-category: Bancos de dados
+category: Banco de dados
 tags: Oracle
 slug: como-desinstalar-o-oracle-completamente
 
