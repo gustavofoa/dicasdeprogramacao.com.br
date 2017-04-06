@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Dicas para programação de desenvolvimento de softwares{%endblock%}
+
+{% block content %}
+
+{% include 'left-sidebar.html' %}
+
+<section id="primary">
+	<div id="content" role="main">
+
+		<div class="archive">
+
+			<header class="page-header">
+				<h1 class="page-title">Artigos de {{ category }}</h1>
+			</header>
+
+			{% for article in articles_page.object_list %}
+
+			<article class="post type-post status-publish format-standard has-post-thumbnail hentry">
+
+				<a href="{{ SITEURL }}/{{ article.url }}">
+					<img width="305" height="175"
+					src="{{ SITEURL }}/images/{{ article.slug }}/destaque-305x175.png"
+					class="attachment-wt-cat-img size-wt-cat-img wp-post-image"
+					alt="{{article.title}}"
+					srcset="{{ SITEURL }}/images/{{ article.slug }}/destaque-305x175.png 305w,{{ SITEURL }}/images/{{ article.slug }}/destaque-305x175.png 610w,{{ SITEURL }}/images/{{ article.slug }}/destaque-305x175.png 915w"
+					sizes="(max-width: 305px) 100vw, 305px"
+					data-attachment-id="2682"
+					data-permalink="{{ SITEURL }}/{{ article.url }}"
+					data-orig-file="{{ SITEURL }}/images/{{ article.slug }}/destaque.png"
+					data-comments-opened="1"
+					data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
+					data-image-title="{{ article.title }}"
+					data-medium-file="{{ SITEURL }}/images/{{ article.slug }}/destaque-300x225.png"
+					data-large-file="{{ SITEURL }}/images/{{ article.slug }}/destaque-1024x768.png" />
+				</a>
+
+				<div class="post-right">
+
+					<header class="entry-header">
+						<h3 class="entry-title">
+							<a href="{{ SITEURL }}/{{ article.slug }}">
+								{{ article.title }}
+							</a>
+						</h3>
+
+						<div class="entry-meta">
+							<span class="author">
+								<a href="{{ SITEURL }}/{{ article.author.url }}" title="Posts de {{ article.author }}" rel="author">
+									{{ article.author.name  }}
+								</a>
+							</span>
+							<br/>
+							<span class="date">{{ article.locale_date }}</span>
+							<br/>
+							<span class="comments">
+								<a href="{{ SITEURL }}/{{ article.url }}#disqus_thread"><i class="fa fa-comment-o"></i></a>
+							</span>
+						</div>
+
+					</header><!-- /entry-header -->
+
+					<div class="entry-content">
+						{{ article.summary }}
+					</div><!-- /entry-content -->
+
+					<footer class="entry-footer">
+
+					</footer><!-- /entry-footer -->
+
+				</div> <!-- /post-right -->
+
+			</article><!-- /post -->
+
+			{% endfor %}
+
+			{% if articles_page.has_other_pages() %}
+			    {% include 'pagination.html' %}
+			{% endif %}
+
+		</div>
+
+	</div>
+</section>
+
+{% include 'post-sidebar.html' %}
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% if DEFAULT_PAGINATION %}
+<!-- PAGINATAION -->
+<div class="pagination">
+
+  {% if articles_page.has_previous() %}
+  <a class="prev page-numbers" href="{{ SITEURL }}/{{ articles_previous_page.url }}">&laquo; Anterior</a>
+  {% endif %}
+
+  {% for num in range( 1, 1 + articles_paginator.num_pages ) %}
+    {% if num == articles_page.number %}
+      <span class='page-numbers current'>{{ num }}</span>
+    {% else %}
+      <a class='page-numbers' href='{{ SITEURL }}/{{ articles_paginator.page(num).url }}'>{{ num }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if articles_page.has_next() %}
+  <a class="next page-numbers" href="{{ SITEURL }}/{{ articles_next_page.url }}">Próximo &raquo;</a>
+  {% endif %}
+
+</div><!--// end .pagination -->
+{% endif %}

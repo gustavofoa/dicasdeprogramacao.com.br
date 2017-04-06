@@ -12,7 +12,7 @@
       <article class="main-post">
         <div class="thumb-wrap">
           <div class="thumb">
-            <a href="{{ recent[0].url }}">
+            <a href="{{ SITEURL }}/{{ recent[0].url }}">
               <img width="305" height="175"
               src="{{ SITEURL }}/images/{{ recent[0].slug }}/destaque-305x175.png"
               class="attachment-wt-cat-img size-wt-cat-img wp-post-image"
@@ -20,12 +20,11 @@
               srcset="{{ SITEURL }}/images/{{ recent[0].slug }}/destaque-305x175.png 305w,{{ SITEURL }}/images/{{ recent[0].slug }}/destaque-305x175.png 610w,{{ SITEURL }}/images/{{ recent[0].slug }}/destaque-305x175.png 915w"
               sizes="(max-width: 305px) 100vw, 305px"
               data-attachment-id="2682"
-              data-permalink="{{recent[0].url}}"
+              data-permalink="{{ SITEURL }}/{{recent[0].url}}"
               data-orig-file="{{ SITEURL }}/images/{{ recent[0].slug }}/destaque.png"
               data-comments-opened="1"
               data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
               data-image-title="{{ recent[0].title }}"
-              data-image-description="{{ recent[0].summary }}"
               data-medium-file="{{ SITEURL }}/images/{{ recent[0].slug }}/destaque-300x225.png"
               data-large-file="{{ SITEURL }}/images/{{ recent[0].slug }}/destaque-1024x768.png" />
             </a>

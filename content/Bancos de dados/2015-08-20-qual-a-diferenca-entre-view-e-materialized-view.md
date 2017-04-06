@@ -5,7 +5,7 @@ category: Banco de dados
 slug: qual-a-diferenca-entre-view-e-materialized-view
 
 Quando se trabalha com banco de dados podemos dizer que uma das tarefas
-mais importantes a ser realizada é a otimização do desempenho dobanco de
+mais importantes a ser realizada é a otimização do desempenho do banco de
 dados.
 
 Dependendo da aplicação, uma determinada tabela deve ser otimizada para
