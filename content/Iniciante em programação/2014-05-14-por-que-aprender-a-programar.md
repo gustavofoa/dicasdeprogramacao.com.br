@@ -1,6 +1,6 @@
 title: Por quê aprender a programar?
 date: 2014-05-14
-author: Gustavo Furtado de Olivera Alves
+author: Gustavo Furtado de Oliveira Alves
 category: Iniciante em programação
 slug: por-que-aprender-a-programar
 

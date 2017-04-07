@@ -27,9 +27,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-DEFAULT_PAGINATION = 5
-SUMMARY_MAX_LENGTH = 40
-
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -61,6 +58,19 @@ AUTHOR_URL = 'autor/{slug}/'
 AUTHOR_SAVE_AS = 'autor/{slug}/index.html'
 CATEGORY_URL = 'categoria/{slug}/'
 CATEGORY_SAVE_AS = 'categoria/{slug}/index.html'
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+ARCHIVES_URL = 'arquivo/'
+ARCHIVES_SAVE_AS = 'arquivo/index.html'
+
+PAGINATED_DIRECT_TEMPLATES = ['archives']
+PAGINATION_PATTERNS = (
+    (1, '{base_name}/', '{base_name}/index.html'),
+    (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
+)
+DEFAULT_PAGINATION = 5
+SUMMARY_MAX_LENGTH = 40
+
 
 #Theme
 THEME = 'theme'

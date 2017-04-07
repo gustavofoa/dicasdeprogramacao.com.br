@@ -53,7 +53,7 @@
             </span>
           </div>
           <p>
-            {{ cat2_articles[0].summary }}
+            {{ cat2_articles[0].summary | replace ('"',"'") | striptags }}
           </p>
         </div>
       </article>

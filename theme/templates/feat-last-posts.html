@@ -53,7 +53,7 @@
             </span>
           </div>
           <p>
-            {{ recent[0].summary }}
+            {{ recent[0].summary | replace ('"',"'") | striptags }}
           </p>
         </div>
       </article>
