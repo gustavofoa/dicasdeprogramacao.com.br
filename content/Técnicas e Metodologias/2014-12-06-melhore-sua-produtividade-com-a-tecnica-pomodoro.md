@@ -1,6 +1,6 @@
 title: Melhore sua produtividade com a técnica Pomodoro!
 date: 2014-12-06
-author: Gustavo furtado de Oliveira Alves
+author: Gustavo Furtado de Oliveira Alves
 category: Técnicas e Metodologias
 slug: melhore-sua-produtividade-com-a-tecnica-pomodoro
 

@@ -15,6 +15,10 @@
 				<h1 class="page-title">Artigos de {{ author }}</h1>
 			</header>
 
+			<div>
+				{% include 'author-info.html' %}
+			</div>									
+
 			{% for article in articles_page.object_list %}
 
 			{% include 'archive_item.html' %}

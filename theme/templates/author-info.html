@@ -1,15 +1,12 @@
 <div class="entry-author">
-  <h3 class="title">Sobre {{ article.author }}</h3>
+  <h3 class="title">Sobre {{ author }}</h3>
   <div class="author-avatar">
-    <img alt='' src='http://1.gravatar.com/avatar/7076569b0bebc4d11c492ab50e6135d0?s=68&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7076569b0bebc4d11c492ab50e6135d0?s=136&amp;d=mm&amp;r=g 2x' class='avatar avatar-68 photo' height='68' width='68' />				</div><!-- /author-avatar -->
+    <img alt='' src='{{ AUTHORS[author.name].image }}' class='avatar avatar-68 photo' height='68' width='68' />				</div><!-- /author-avatar -->
   <div class="author-description">
-    É mestre em computação aplicada pelo Institudo Nacional de Pesquisas Espaciais,
-    Engenheiro da Computação pela ETEP Faculdades e
-    Técnico em Informática pela Escola Técnica Pandiá Calógeras.
-    Possui as certificações SCWCD e SCJP e trabalha com desenvolvimento de softwares desde 2007.
+    {{ AUTHORS[author.name].summary }}
     <div id="author-link">
-      <a href="{{ SITEURL }}/{{ article.author.url }}" rel="author">
-        Veja todos os artigos de {{ article.author }} <span class="meta-nav">&rarr;</span>
+      <a href="{{ SITEURL }}/{{ author.url }}" rel="author">
+        Veja todos os artigos de {{ author }} <span class="meta-nav">&rarr;</span>
       </a>
     </div><!-- /author-link	-->
   </div><!-- /author-description -->
