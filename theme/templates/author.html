@@ -15,9 +15,7 @@
 				<h1 class="page-title">Artigos de {{ author }}</h1>
 			</header>
 
-			<div>
-				{% include 'author-info.html' %}
-			</div>									
+			{% include 'author-info.html' %}
 
 			{% for article in articles_page.object_list %}
 

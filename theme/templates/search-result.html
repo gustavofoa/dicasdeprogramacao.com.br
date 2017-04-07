@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ SITENAME }}{%endblock%}
+
+{% block content %}
+
+{% include 'left-sidebar.html' %}
+
+<section id="primary">
+
+	<div id="content" class="contact-page" role="main">
+
+  	<header class="entry-header">
+
+  		<h1 class="entry-title">{{ page.title }}</h1>
+
+  	</header><!-- /entry-header -->
+
+		<div class="contact-text">
+
+      {{ page.content }}
+
+    </div>
+
+		<div class="contact-wrap">
+				<div class="contact-form">
+							<form method="POST" id="wt_contact_form" action="http://formspree.io/{{ CONTACT_EMAIL}}">
+
+								<div class="row">
+
+									<div class="row-half">
+										<div class="field">
+											<label for="sender_name">Nome<span class="required">obrigatório</span></label>
+											<input type="text" class="text name_field requiredField" name="name" id="sender_name" placeholder="Seu nome" value="" />
+										</div>
+									</div>
+
+									<div class="row-half right">
+										<div class="field">
+											<label for="\_replyto">Email<span class="required">obrigatório</span></label>
+											<input type="text" class="text requiredField email" name="\_replyto" id="sender_email" placeholder="Para entrarmos em contato" value="" />
+										</div>
+									</div>
+
+		            </div>
+
+								<div class="row">
+									<div class="field textarea-field">
+										<label for="message_text">Escreva sua mensagem abaixo<span class="required">obrigatório</span></label>
+										<textarea class="textarea message_field requiredField" name="message" id="message_text" placeholder="Sua mensagem aqui"></textarea>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="field">
+										<input type="submit" name="wt_submit" value="Enviar mensagem" class="button" />
+									</div>
+								</div>
+
+		          <input type="text" name="_gotcha" style="display:none">
+		          <input type="hidden" name="_subject" value="Mensagem via {{ SITEURL }}">
+		          <input type="hidden" name="_next" value="{{ SITEURL }}/mensagem-enviada" />
+
+						</form>
+				</div>
+			</div>
+
+  </div>
+
+</section>
+
+{% include 'post-sidebar.html' %}
+
+{% endblock %}

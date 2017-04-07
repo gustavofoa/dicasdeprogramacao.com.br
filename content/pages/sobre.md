@@ -1,5 +1,5 @@
 title: Sobre
-Slug: sobre
+slug: sobre
 
 O **{ Dicas de Programação }** é uma iniciativa que tem por objetivo
 principal ajudar iniciantes na área de desenvolvimento de softwares.

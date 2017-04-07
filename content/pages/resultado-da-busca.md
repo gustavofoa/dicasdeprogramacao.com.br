@@ -1,5 +1,6 @@
 title: Resultado da busca
-Slug: resultado-da-busca
+slug: resultado-da-busca
+template: search-result
 
 <p>
 <center>

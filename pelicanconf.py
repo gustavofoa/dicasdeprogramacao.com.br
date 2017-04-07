@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Gustavo Furtado de Oliveira Alves'
 SITENAME = '{ Dicas de Programação }'
 SITEURL = ''
+CONTACT_EMAIL = 'gustavo@dicasdeprogramacao.com.br'
 
 PATH = 'content'
 
