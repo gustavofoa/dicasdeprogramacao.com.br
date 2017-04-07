@@ -4,32 +4,29 @@
 
 {% block content %}
 
-{% include 'left-sidebar.html' %}
-
 <section id="primary">
-	<div id="content" role="main">
+	<div id="content" class="full-content" role="main">
 
-		<div class="archive">
+	<article class="page type-page status-publish hentry">
 
-			<header class="page-header">
-				<h1 class="page-title">Arquivo</h1>
-			</header>
+		<header class="entry-header">
+			<h1 class="entry-title">Resultado da busca</h1>
+		</header><!-- /entry-header -->
 
-			{% for article in articles_page.object_list %}
-
-			{% include 'archive_item.html' %}
-
-			{% endfor %}
-
-			{% if articles_page.has_other_pages() %}
-			    {% include 'pagination.html' %}
-			{% endif %}
-
-		</div>
-
-	</div>
-</section>
-
-{% include 'post-sidebar.html' %}
+		<div class="entry-content">
+			<center>
+				<div id="cse-search-results"></div>
+				<script type="text/javascript">// <![CDATA[
+				  var googleSearchIframeName = "cse-search-results";
+				  var googleSearchFormName = "cse-search-box";
+				  var googleSearchFrameWidth = 1200;
+				  var googleSearchDomain = "www.google.com.br";
+				  var googleSearchPath = "/cse";
+				// ]]&gt;</script><br />
+				<script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script><br />
+			</center>
+		</div><!-- /entry-content -->
+		</article><!-- /post-1748 -->				</div><!-- /content -->
+</section><!-- /primary -->
 
 {% endblock %}
