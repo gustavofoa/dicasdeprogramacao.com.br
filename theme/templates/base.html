@@ -21,6 +21,8 @@
 
       <link rel="stylesheet" href="/theme/css/styles.css">
       <link rel="stylesheet" href="/theme/css/custom.css">
+      {% block css %}
+      {% endblock css %}
 
 </head>
 
@@ -47,6 +49,8 @@
 
   <script id="dsq-count-scr" src="//dicas-de-programacao.disqus.com/count.js" async></script>
 
+  {% block js %}
+  {% endblock js %}
 </body>
 
 </html>

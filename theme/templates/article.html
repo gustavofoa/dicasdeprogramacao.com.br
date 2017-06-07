@@ -16,14 +16,20 @@
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="600">
 <meta property="og:image:height" content="315">
+
 {% endblock %}
+
+
+{% block css %}
+<link rel="stylesheet" href="/theme/css/share_post.css">
+{% endblock %}
+
 
 {% block content %}
 
 <section id="primary">
 
 	<div id="content" class="onesidebar-page" role="main">
-
 
     <article class="post">
 
@@ -48,6 +54,11 @@
         {{ article.content }}
 
       </div>
+
+
+			{% include 'share_post.html' %}
+
+
     </article>
 
 					{% set author = article.author %}
@@ -64,4 +75,8 @@
 
 {% include 'post-sidebar.html' %}
 
+{% endblock %}
+
+{% block js %}
+<script src="/theme/js/share_post.js"></script>
 {% endblock %}

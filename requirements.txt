@@ -3,3 +3,4 @@ ghp-import
 Markdown
 pelican-minify
 pillow==3.3.1
+beautifulsoup4

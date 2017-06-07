@@ -34,7 +34,7 @@ AUTHOR_FEED_RSS = None
 
 # Plugins
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap']
+PLUGINS = ['sitemap','share_post']
 
 # Sitemap
 SITEMAP = {
