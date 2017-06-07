@@ -28,6 +28,15 @@
     -webkit-border-radius: 8px;
     border-radius: 8px
 }
+
+#share_post-box img {
+    width: 50px;
+    /*padding: 5px;*/
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+
 #share_post-twitter iframe {
     height: 63px !important
 }
@@ -39,16 +48,4 @@
 }
 #share_post-facebook .fb_iframe_widget iframe {
     position: relative !important
-}
-#share_post-email a {
-    border: 1px solid #ccc;
-    color: #777;
-    display: block;
-    text-decoration: none
-}
-#share_post-email a a:hover {
-    background: #eee
-}
-#fb-root {
-    display: none
 }
