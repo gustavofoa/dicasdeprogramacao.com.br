@@ -22,7 +22,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Plugins
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap', 'minify']
+PLUGINS = ['sitemap', 'minify', 'share_post']
 
 #DISQUS_SITENAME = ""
 GOOGLE_ANALYTICS = "UA-39997045-1"
