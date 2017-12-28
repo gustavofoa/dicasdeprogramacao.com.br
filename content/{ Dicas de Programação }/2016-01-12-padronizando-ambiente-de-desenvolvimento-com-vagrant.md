@@ -1,7 +1,8 @@
 title: Padronizando ambiente de desenvolvimento com Vagrant
 date: 2016-01-12
 author: Gustavo Furtado de Oliveira Alves
-category: Ferramentas
+category: { Dicas de Programação }
+tags: Ferramentas
 slug: padronizando-ambiente-de-desenvolvimento-com-vagrant
 
 Com a evolução do desenvolvimento de um projeto de software é normal a

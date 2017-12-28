@@ -1,7 +1,8 @@
 title: Sublime Text: O queridinho dos programadores
 date: 2015-01-04
 author: Gustavo Furtado de Oliveira Alves
-category: Ferramentas
+category: { Dicas de Programação }
+tags: Ferramentas
 slug: sublime-text-o-queridinho-dos-programadores
 
 O que faz um profissional importante é seu conhecimento sobre as

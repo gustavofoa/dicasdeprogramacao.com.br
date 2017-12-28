@@ -1,7 +1,8 @@
 title: Como descobrir o primeiro e o último dia do mês em C#
 date: 2015-03-26
 author: Gustavo Furtado de Oliveira Alves
-category: { Dicas Rápidas }
+category: { Dicas de Programação }
+tags: { Dicas Rápidas }
 slug: como-descobrir-o-primeiro-e-o-ultimo-dia-do-mes-em-c
 
 Criar uma data em C\# com o primeiro dia do mês é simples, mas muita

@@ -1,7 +1,8 @@
 title: DICA: Os melhores livros sobre programação!
 date: 2013-12-19
 author: Gustavo Furtado de Oliveira Alves
-category: Programação
+category: { Dicas de Programação }
+tags: Livros
 slug: os-melhores-livros-sobre-programacao
 
 Eu sei a dificuldade que é aprender desenvolvimento de softwares, ainda

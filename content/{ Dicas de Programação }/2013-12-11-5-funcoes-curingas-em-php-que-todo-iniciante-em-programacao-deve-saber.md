@@ -1,7 +1,7 @@
 title: 5 funções curingas em PHP que todo iniciante em programação deve saber
 date: 2013-12-11
 author: Gustavo Furtado de Oliveira Alves
-category: Programação
+category: { Dicas de Programação }
 tags: PHP
 slug: 5-funcoes-curingas-em-php-que-todo-iniciante-em-programacao-deve-saber
 

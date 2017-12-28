@@ -1,7 +1,8 @@
 title: Competição de desenvolvimento de aplicativos
 date: 2016-04-19
 author: Gustavo Furtado de Oliveira Alves
-category: Eventos
+category: { Dicas de Programação }
+tags: Eventos
 slug: competicao-de-desenvolvimento-de-aplicativos
 
 Que tal participar de uma competição de desenvolvimento de app,
