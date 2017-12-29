@@ -1,0 +1,120 @@
+
+{% for cat3, cat3_articles in categories if cat3 == CATEGORY_3 %}
+
+<section id="feat-cat3" class="feat-cat">
+    <header class="cat-header">
+        <h3><a href="{{ SITEURL }}/categoria/banco-de-dados/" >{{ CATEGORY_3 }}</a></h3>
+        <a class="rss" href="{{ SITEURL}}/feeds/banco-de-dados.atom.xml" >RSS</a>
+        <div id="slide-cat3-nav" class="slide-cat-nav"></div>
+    </header>
+
+    <div class="one-half">
+        <article class="main-post">
+            <div class="thumb-wrap">
+                <div class="thumb">
+                    <a href="{{ SITEURL }}/{{ cat3_articles[0].url }}">
+                        <img width="305" height="175"
+                             src="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-305x175.png"
+                             class="attachment-wt-cat-img size-wt-cat-img wp-post-image"
+                             alt="{{cat3_articles[0].title}}"
+                             srcset="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-305x175.png 305w,{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-305x175.png 610w,{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-305x175.png 915w"
+                             sizes="(max-width: 305px) 100vw, 305px"
+                             data-attachment-id="2682"
+                             data-permalink="{{ SITEURL }}/{{ cat3_articles[0].url }}"
+                             data-orig-file="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque.png"
+                             data-comments-opened="1"
+                             data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
+                             data-image-title="{{ cat3_articles[0].title }}"
+                             data-medium-file="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-300x225.png"
+                             data-large-file="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-1024x768.png" />
+                    </a>
+                </div>
+                <div class="overlay">
+                    <a class="img-link" href="{{ cat3_articles[0].url }}">Leia o artigo</a>
+                </div>
+            </div>
+            <div class="post-wrap">
+                <header class="entry-header">
+                    <h3>
+                        <a href="{{ cat3_articles[0].url }}" rel="bookmark">
+                            {{ cat3_articles[0].title }}
+                        </a>
+                    </h3>
+                </header>
+                <div class="entry-meta">
+            <span class="author">
+              <a href="{{ SITEURL }}/{{ cat3_articles[0].author.url }}" title="Posts de {{ cat3_articles[0].author }}" rel="author">
+                {{ cat3_articles[0].author }}
+              </a>
+            </span>
+                    <br/>
+                    <span class="comments">
+              <a href="{{ SITEURL }}/{{ cat3_articles[0].url }}#disqus_thread"><i class="fa fa-comment-o"></i></a>
+            </span>
+                </div>
+                <p>
+                    {{ cat3_articles[0].summary | replace ('"',"'") | striptags }}
+                </p>
+            </div>
+        </article>
+    </div><!-- /one-half -->
+
+    <div class="slide-cat3 one-half last-col">
+        <ul class="slides">
+            <li>
+                {% for a in cat3_articles %}{% if loop.index > 1 and loop.index <= 16 %}
+                {% if loop.index != 2 and (loop.index-2) % 5 == 0 %}</li><li>{% endif %}
+            <article class="item-post">
+                <div class="thumb-wrap">
+                    <div class="thumb">
+                        <a href="{{ SITEURL }}/{{ a.slug }}">
+                            <img width="75" height="75"
+                                 src="{{ SITEURL }}/images/{{ a.slug }}/destaque-75x75.png"
+                                 class="attachment-wt-medium-thumb size-wt-medium-thumb wp-post-image"
+                                 alt="{{ a.title }}"
+                                 srcset="{{ SITEURL }}/images/{{ a.slug }}/destaque-150x150.png 150w,{{ SITEURL }}/images/{{ a.slug }}/destaque-270x270.png 270w,{{ SITEURL }}/images/{{ a.slug }}/destaque-207x207.png 207w,{{ SITEURL }}/images/{{ a.slug }}/destaque-75x75.png 75w"
+                                 sizes="(max-width: 75px) 100vw, 75px"
+                                 data-permalink="{{ SITEURL }}//{{ a.slug }}"
+                                 data-orig-file="{{ SITEURL }}/images/{{ a.slug }}/destaque.png"
+                                 data-comments-opened="1"
+                                 data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+                                 data-image-title="{{ a.slug }}"
+                                 data-image-description=""
+                                 data-medium-file="{{ SITEURL }}/images/{{ a.slug }}/destaque-300x225.png"
+                                 data-large-file="{{ SITEURL }}/images/{{ a.slug }}/destaque-1024x768.png" />
+                        </a>
+                    </div>
+                    <div class="overlay">
+                        <a class="img-link" href="{{ SITEURL }}/{{ a.slug }}">
+                            Leia o artigo
+                        </a>
+                    </div>
+                </div>
+                <div class="post-wrap">
+                    <header class="entry-header">
+                        <h4>
+                            <a href="{{ SITEURL }}/{{ a.url }}">
+                                {{ a.title | truncate(40) }}
+                            </a>
+                        </h4>
+                    </header>
+                    <div class="entry-meta">
+                  <span class="author">
+                    <a href="{{ SITEURL }}/{{ a.author.url }}" title="Posts de {{ a.author }}" rel="author">
+                      {{ a.author.name | truncate(20) }}
+                    </a>
+                  </span>
+                        <br/>
+                        <span class="comments">
+                    <a href="{{ SITEURL }}/{{ a.url }}#disqus_thread"><i class="fa fa-comment-o"></i></a>
+                  </span>
+                    </div>
+                </div>
+            </article>
+            {% endif %}{% endfor %}
+        </li>
+        </ul>
+    </div>
+</section>
+
+{% endfor %}

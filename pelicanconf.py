@@ -9,15 +9,14 @@ CONTACT_EMAIL = 'gustavo@dicasdeprogramacao.com.br'
 
 PATH = 'content'
 
-#language
-TIMEZONE = 'America/Sao_Paulo'
-# I18N_TEMPLATES_LANG = 'pt_BR'
-# DEFAULT_LANG = 'pt_BR'
-# OG_LOCALE = 'pt_BR'
-# LANGUAGE = 'pt_BR'
-# LOCALE = 'pt_BR'
-
 DEFAULT_DATE_FORMAT = '%d de %B de %Y'
+
+TIMEZONE = 'America/Sao_Paulo'
+# Your language.
+#DEFAULT_LANG = u'pt_BR'
+#OG_LOCALE = u'pt_BR'
+#LOCALE = ('pt','bra', 'pt_BR')
+#LANGUAGE = u'pt_BR'
 
 DEFAULT_LANG = u'pt_BR'
 
@@ -85,3 +84,7 @@ AUTHORS = {
 
 #Theme
 THEME = 'theme'
+
+CATEGORY_1 = 'Iniciante em programação'
+CATEGORY_2 = 'Banco de dados'
+CATEGORY_3 = '{ Dicas de Programação }'

@@ -1,9 +1,9 @@
 
-{% for cat2, cat2_articles in categories if cat2 == 'Banco de dados' %}
+{% for cat2, cat2_articles in categories if cat2 == CATEGORY_2 %}
 
   <section id="feat-cat2" class="feat-cat">
     <header class="cat-header">
-      <h3><a href="{{ SITEURL }}/categoria/banco-de-dados/" >Banco de dados</a></h3>
+      <h3><a href="{{ SITEURL }}/categoria/banco-de-dados/" >{{ CATEGORY_2 }}</a></h3>
       <a class="rss" href="{{ SITEURL}}/feeds/banco-de-dados.atom.xml" >RSS</a>
       <div id="slide-cat2-nav" class="slide-cat-nav"></div>
     </header>
