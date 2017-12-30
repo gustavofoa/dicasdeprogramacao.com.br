@@ -11,12 +11,8 @@ PATH = 'content'
 
 DEFAULT_DATE_FORMAT = '%d de %B de %Y'
 
-TIMEZONE = 'America/Sao_Paulo'
 # Your language.
 DEFAULT_LANG = u'pt_BR'
-OG_LOCALE = u'pt_BR'
-LOCALE = ('pt','bra', 'pt_BR')
-LANGUAGE = u'pt_BR'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -74,7 +70,7 @@ AUTHORS = {
         'summary':'É mestre em computação aplicada pelo Institudo Nacional de Pesquisas Espaciais, '+
                   'Engenheiro da Computação pela ETEP Faculdades e '+
                   'Técnico em Informática pela Escola Técnica Pandiá Calógeras. '+
-                  'Possui as certificações SCWCD e SCJP e trabalha com desenvolvimento de softwares desde 2007.',
+                  'Possui as certificações SCWCD, SCJP e ASF e trabalha com desenvolvimento de softwares desde 2007.',
         'image': '/images/author-gustavo.jpeg'
     }
 }
