@@ -74,7 +74,7 @@ AUTHORS = {
         'summary':'É mestre em computação aplicada pelo Institudo Nacional de Pesquisas Espaciais, '+
                   'Engenheiro da Computação pela ETEP Faculdades e '+
                   'Técnico em Informática pela Escola Técnica Pandiá Calógeras. '+
-                  'Possui as certificações SCWCD e SCJP e trabalha com desenvolvimento de softwares desde 2007.',
+                  'Possui as certificações ASF, SCWCD e SCJP e trabalha com desenvolvimento de softwares desde 2007.',
         'image': '/images/author-gustavo.jpeg'
     }
 }

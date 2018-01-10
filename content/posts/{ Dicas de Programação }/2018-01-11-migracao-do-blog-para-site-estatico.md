@@ -1,5 +1,5 @@
 title: Migração do blog para Site Estático
-date: 2018-01-10
+date: 2018-01-11
 author: Gustavo Furtado de Oliveira Alves
 category: { Dicas de Programação }
 tags: blogs
