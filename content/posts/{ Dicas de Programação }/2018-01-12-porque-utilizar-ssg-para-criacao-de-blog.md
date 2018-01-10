@@ -88,8 +88,8 @@ Por isso, manter um blog com um CMS pode ficar caro ao longo do tempo, com o aum
 
 Criando o seu blog como um **site estático** você não precisa se preocupar com nada disso.
 Pois no final das contas nós teremos apenas arquivos HTML, CSS e Javascript para hospedar em qualquer servidor barato.
-Você poderá utilizar um [S3 da Amazon Web Service](TODO)
-com custo baixíssimo, ou mesmo hospedar o seu blog de graça no [Github Pages](TODO).
+Você poderá utilizar um [S3 da Amazon Web Service](https://aws.amazon.com/pt/s3/){:target=_\blank}
+com custo baixíssimo, ou mesmo hospedar o seu blog de graça no [Github Pages](https://pages.github.com/){:target=_\blank}.
 
 # Geradores de Sites Estáticos
 
