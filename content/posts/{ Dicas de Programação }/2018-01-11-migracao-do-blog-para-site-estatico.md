@@ -106,3 +106,5 @@ acredito que terei mais ânimo para escrever.
 
 Na próxima semana vou postar um artigo com as vantagens de se utilizar um SSG,
 ao invés de um CMS como o Wordpress.
+
+Até lá!
