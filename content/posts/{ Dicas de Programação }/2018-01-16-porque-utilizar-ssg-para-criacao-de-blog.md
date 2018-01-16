@@ -1,5 +1,5 @@
 title: Porque utilizar SSG para criação de blogs
-date: 2018-01-12
+date: 2018-01-16
 author: Gustavo Furtado de Oliveira Alves
 category: { Dicas de Programação }
 tags: Blogs
@@ -40,22 +40,22 @@ um formulário de contatos, gestão de comentários, etc.
 E para implementar isso era necessário ter as soluções no próprio sistema de gestão do blog.
 Mas hoje em dia todas essas necessidades podem ser atendidas por sistemas terceiros.
 
-Por exemplo, para gestão de comentários nós podemos utilizar o [Disqus](https://disqus.com/),
-ou até mesmo o [Facebook](https://developers.facebook.com/).
-Para formulário de contatos também existem vários serviços como [Formspree](https://formspree.io) ou
-[Formbucket](https://www.formbucket.com/).
-Para controle de acesso de gestão de conteúdo, podemos utilizar o próprio [Github](https://github.com/),
+Por exemplo, para gestão de comentários nós podemos utilizar o [Disqus](https://disqus.com/){:target=\_blank},
+ou até mesmo o [Facebook](https://developers.facebook.com/){:target=\_blank}.
+Para formulário de contatos também existem vários serviços como [Formspree](https://formspree.io){:target=\_blank} ou
+[Formbucket](https://www.formbucket.com/){:target=\_blank}.
+Para controle de acesso de gestão de conteúdo, podemos utilizar o próprio [Github](https://github.com/){:target=\_blank},
 com o processo de aprovação via _Pull Requests_ que a maioria dos programadores já está acostumada.
 
 Além de podermos utilizar sistemas terceiros para as partes dinâmicas do nosso blog,
 CMSs como o Workdpress têm algumas desvantagens que já me deram algumas dores de cabeça no passado,
-tanto aqui no **{ Dicas de Programação }**, quanto em outro site meu chamado [**Músicas para Missa**](https://musicasparamissa.com.br).
+tanto aqui no **{ Dicas de Programação }**, quanto em um outro site meu chamado [**Músicas para Missa**](https://musicasparamissa.com.br){:target=\_blank}.
 
 ## Segurança
 
 A principal desvantagem é que por ser o CMS mais utilizado no mundo,
 o Wordpress sofre ataques harckers constantemente.
-É frequente a descoberta de uma ou outra [brecha de segurança no Wordpress](https://www.google.com.br/search?q=falha+de+segurança+no+wordpress).
+É frequente a descoberta de uma ou outra [brecha de segurança no Wordpress](https://www.google.com.br/search?q=falha+de+segurança+no+wordpress){:target=\_blank}.
 Eu mesmo já tive blog invadido por causa de uma dessas brechas de segurança.
 
 Não que o Wordpress seja ruim na parte de segurança, na verdade é um problema dos sistemas de sucesso, como o próprio Windows.
@@ -74,7 +74,8 @@ sobre a forma como o CMS faz esse gerenciamento de versões.
 
 Sabemos que todo programador curte os sistemas de gerenciamento de versões como GIT, SVN, etc.
 Por que não utilizar esses sistemas para gerenciar o blog inteiro, principalmente o seu conteúdo?
-Agora que o **{ Dicas de Programação }** é um blog estático eu escrevo post na minha IDE preferida. ;)
+[Agora que o **{ Dicas de Programação }** é um blog estático](https://dicasdeprogramacao.com.br/migracao-do-blog-para-site-estatico/){:target=\_blank}
+ eu escrevo post na minha IDE preferida. ;)
 
 ## Custo
 
@@ -88,8 +89,8 @@ Por isso, manter um blog com um CMS pode ficar caro ao longo do tempo, com o aum
 
 Criando o seu blog como um **site estático** você não precisa se preocupar com nada disso.
 Pois no final das contas nós teremos apenas arquivos HTML, CSS e Javascript para hospedar em qualquer servidor barato.
-Você poderá utilizar um [S3 da Amazon Web Service](https://aws.amazon.com/pt/s3/){:target=_\blank}
-com custo baixíssimo, ou mesmo hospedar o seu blog de graça no [Github Pages](https://pages.github.com/){:target=_\blank}.
+Você poderá utilizar um [S3 da Amazon Web Service](https://aws.amazon.com/pt/s3/){:target=\_blank}
+com custo baixíssimo, ou mesmo hospedar o seu blog de graça no [Github Pages](https://pages.github.com/){:target=\_blank}.
 
 # Geradores de Sites Estáticos
 
