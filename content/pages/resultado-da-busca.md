@@ -2,23 +2,17 @@ title: Resultado da busca
 slug: resultado-da-busca
 template: search-result
 
-<p>
-<center>
-</p>
-<div id="cse-search-results">
 
-</div>
+<script>
+  (function() {
+    var cx = 'partner-pub-6041601556788047:2286672573';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
 
-<p>
-<script type="text/javascript">// <![CDATA[<br />
-  var googleSearchIframeName = "cse-search-results";<br />
-  var googleSearchFormName = "cse-search-box";<br />
-  var googleSearchFrameWidth = 1200;<br />
-  var googleSearchDomain = "www.google.com.br";<br />
-  var googleSearchPath = "/cse";<br />
-// ]]></script>
-\
-<script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script>
-\
-</center>
-</p>
+<gcse:searchresults-only></gcse:searchresults-only>

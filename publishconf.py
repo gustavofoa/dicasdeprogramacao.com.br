@@ -16,6 +16,13 @@ RELATIVE_URLS = False
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
+TIMEZONE = 'America/Sao_Paulo'
+# Your language.
+DEFAULT_LANG = u'pt_BR'
+OG_LOCALE = u'pt_BR'
+LOCALE = ('pt','bra', 'pt_BR')
+LANGUAGE = u'pt_BR'
+
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing

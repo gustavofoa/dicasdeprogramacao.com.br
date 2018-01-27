@@ -1,7 +1,13 @@
 from PIL import Image, ImageOps, ImageDraw
-import glob, os, math
+import glob, os, math, sys
 
-for infile in glob.glob("*/destaque.png"):
+folder = "*"
+print(sys.argv[0])
+if len(sys.argv[1:]) == 1:
+    folder = sys.argv[1].strip()
+print("Getting images from " + folder+".")
+
+for infile in glob.glob(folder + "/destaque.png"):
     file, ext = os.path.splitext(infile)
     img = Image.open(infile)
 

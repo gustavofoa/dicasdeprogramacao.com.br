@@ -4,4 +4,23 @@
 
 {% block content %}
 
+<section id="primary">
+
+        <header class="entry-header">
+
+            <h1 class="entry-title">{{ page.title }}</h1>
+
+        </header>
+
+        <div class="container" style="padding-top:50px">
+            <div class="row">
+                <div class="col-sm-12 grid-posts">
+
+            {{ page.content }}
+
+                </div>
+            </div>
+        </div>
+
+</section>
 {% endblock %}

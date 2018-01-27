@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Gustavo Furtado de Oliveira Alves'
 SITENAME = '{ Dicas de Programação }'
-SITEURL = 'http://localhost:1337/'
+SITEURL = 'http://localhost:1337'
 CONTACT_EMAIL = 'gustavo@dicasdeprogramacao.com.br'
 
 PATH = 'content'
@@ -46,7 +46,7 @@ SITEMAP = {
         'pages': 0.5
     },
     'changefreqs': {
-        'articles': 'monthly',
+        'articles': 'weekly',
         'indexes': 'monthly'
     }
 }
