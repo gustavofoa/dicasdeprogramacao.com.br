@@ -33,6 +33,10 @@ AUTHOR_FEED_RSS = None
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['sitemap','share_post']
 
+# Extras
+STATIC_PATHS = ['images', 'download']
+
+
 # Sitemap
 SITEMAP = {
     'format': 'xml',
