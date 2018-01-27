@@ -16,7 +16,7 @@ Basta baixar e usar, inclusive é possível executá-lo através de um Pen-drive
 Para baixar o <strong>VisuAlg</strong> basta clicar no botão abaixo.
 
 <center>
-[![Clique aqui para baixar o Visualg 2.5 gratuitamente!](/images/botao-download-gratis.png)](http://www.dicasdeprogramacao.com.br/wp-content/uploads/visualg.zip)
+[![Clique aqui para baixar o Visualg 2.5 gratuitamente!](/images/botao-download-gratis.png)](/download/visualg.zip)
 </center>
 
 ##Versão 3.0
