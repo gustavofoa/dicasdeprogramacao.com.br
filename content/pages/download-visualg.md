@@ -11,20 +11,28 @@ e outras características que auxiliam o aprendizado das técnicas de programaç
 É um programa de livre uso e distribuição, empregado no ensino de programação
 em várias escolas e universidades no Brasil e no exterior.
 
+Existem duas grandes versões do Visualg: a 2.5 e a 3.*.
+Abaixo você confere os links de download dessas duas versões.
+
 A versão 2.5 do software é standalone, ou seja, não é necessário instalar o programa.
 Basta baixar e usar, inclusive é possível executá-lo através de um Pen-drive.
-Para baixar o <strong>VisuAlg</strong> basta clicar no botão abaixo.
+Para <strong>baixar o VisuAlg 2.5</strong> basta clicar no link abaixo.
 
-<center>
-[![Clique aqui para baixar o Visualg 2.5 gratuitamente!](/images/botao-download-gratis.png)](/download/visualg-2-5.zip)
-</center>
+## [**>> Baixar o Visualg 2.5**](/download/visualg-2-5.zip)
 
-##Versão 3.0
+
 
 Felizmente, o professor Antonio Carlos Nicolodi tomou a iniciativa de 
 [continuar o projeto do Visualg](http://www.dicasdeprogramacao.com.br/uhul-o-visualg-continua-conheca-a-versao-3-0/){:target=\_blank}
 e criou a versão 3.0 com nova interface e algumas melhorias.
 
-Se quiser, você pode baixar o Visualg 3.0 no link:
+Se quiser, você pode **baixar o Visualg 3.0** no link abaixo.
 
-&gt;&gt; <a href="http://sourceforge.net/projects/visualg30/" target="_blank">http://sourceforge.net/projects/visualg30/</a> &lt;&lt;
+## [**>> Baixar o Visualg 3.0**](http://sourceforge.net/projects/visualg30/)
+
+
+
+A versão 3.0 é oferecida compactada no formato **RAR**, por isso para descompactar o arquivo
+é necessário instalar o WinRAR que você encontra no link abaixo.
+
+## [**>> Baixar o Winrar!**](https://www.win-rar.com/)
