@@ -207,7 +207,6 @@ resolver sozinho e comprar a sua resposta com a minha. E caso não
 consiga fazer sozinho, pode entender a minha solução que vai junto com
 uma explicação detalhada.
 
-**[&gt;&gt; CLIQUE AQUI e se inscreva no minicurso GRATUITO de lógica
-> de programação !](http://mclp.dicasdeprogramacao.com.br/)**
+**[&gt;&gt; CLIQUE AQUI e se inscreva no minicurso GRATUITO de lógica> de programação !](http://mclp.dicasdeprogramacao.com.br/)**
 
 Um grande abraço!
