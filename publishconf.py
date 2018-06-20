@@ -34,8 +34,8 @@ PLUGINS = ['sitemap', 'minify', 'share_post']
 #DISQUS_SITENAME = ""
 GOOGLE_ANALYTICS = "UA-39997045-1"
 
-#MINIFY = {
-#  'remove_comments': True,
-#  'remove_all_empty_space': True,
-#  'remove_optional_attribute_quotes': False
-#}
+MINIFY = {
+ 'remove_comments': True,
+ 'remove_all_empty_space': True,
+ 'remove_optional_attribute_quotes': False
+}
