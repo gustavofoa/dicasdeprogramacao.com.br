@@ -96,6 +96,11 @@ Assim você pode ver como eu faço na prática!
 <iframe src="https://www.youtube.com/embed/CI9P9hD74G4" allowfullscreen seamless frameBorder="0"></iframe>
 </div>
 
+Gostou do post? Você pode ter acesso GRATUITO a um minicurso e um e-book
+de lógica de programação para iniciantes. Basta se inscrever no link abaixo.
+
+[>> Quero me inscrever no minicurso GRATUITO de lógica de programação!](https://mclp.dicasdeprogramacao.com.br)
+
 Escreva aqui em baixo nos comentários o que você achou do post e do video.
 
 E se você ficou com alguma dúvida, fique a vontade para perguntar nos comentários que eu respondo!
