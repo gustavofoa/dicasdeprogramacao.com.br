@@ -5,7 +5,7 @@ category: Iniciante em programação
 slug: tipos-de-dados-primitivos
 
 Nos
-[algoritmos](http://www.dicasdeprogramacao.com.br/o-que-e-um-algoritmo/ "O que é Algoritmo?"){:target=\_blank}
+[algoritmos](http://www.dicasdeprogramacao.com.br/o-que-e-algoritmo/ "O que é Algoritmo?"){:target=\_blank}
 criados para realizar tarefas na computação utilizamos
 [variáveis](http://www.dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/ "O que é variável e constante?"){:target=\_blank} para
 manipular dados, por exemplo: nome, idade, altura, peso, data de

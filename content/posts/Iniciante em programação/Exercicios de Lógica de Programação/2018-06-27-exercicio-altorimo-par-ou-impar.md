@@ -45,7 +45,7 @@ Inicio
 Fimalgoritmo
 ```
 
-Veja a execução deste algorítmo no [Visualg 3](https://dicasdeprogramacao.com.br/downloads/visualg){:target=\_blank}.
+Veja a execução deste algorítmo no [Visualg 3](https://dicasdeprogramacao.com.br/download-visualg/){:target=\_blank}.
 
 ![Lendo o valor digitado pelo usuário em uma variável](/images/exercicio-algoritmo-par-ou-impar/lendo-valor-na-variavel.gif){:width=100%}
 
