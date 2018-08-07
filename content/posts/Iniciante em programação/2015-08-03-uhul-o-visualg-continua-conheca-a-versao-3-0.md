@@ -28,7 +28,7 @@ Visualg ficou um tempo sem novas atualizações. Mas mesmo assim o Visualg
 continuou sendo o software preferido dos iniciantes em programação.
 Inclusive a maioria dos exemplos de lógica de programação que dou nos
 meus [artigos para
-iniciantes](http://www.dicasdeprogramacao.com.br/iniciante/){:ttarget=\_blank} foram
+iniciantes](https://dicasdeprogramacao.com.br/categoria/iniciante-em-programacao/){:ttarget=\_blank} foram
 criados no Visualg.
 
 ##O Visualg não morreu!

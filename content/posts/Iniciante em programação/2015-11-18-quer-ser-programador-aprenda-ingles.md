@@ -106,9 +106,9 @@ duolingo](/images/quer-ser-programador-aprenda-ingles/reforço-duolingo.png){.al
 **Importante!** Você não precisa ter um smartphone para usar o Duolingo,
 você pode acessar [duolingo.com](http://duolingo.com){:target=\_blank} e jogar online.
 
-### Dica 2: + 6 Aplicativos para aprender inglês
+### Dica 2: + 5 Aplicativos para aprender inglês
 
-Continuando o mesmo assunto da dica \#1 vejamos mais 6 aplicativos
+Continuando o mesmo assunto da dica \#1 vejamos mais 5 aplicativos
 gratuitos que você pode instalar no seu smartphone para estudar inglês
 todos os dias e em qualquer lugar.
 
@@ -136,17 +136,13 @@ todos os dias e em qualquer lugar.
     [iOS](https://itunes.apple.com/br/app/learnenglish-grammar-uk-edition/id488099900?mt=8){:target=\_blank}
     e [Android](https://play.google.com/store/apps/details?id=bc.leg){:target=\_blank}
     (Inglês britânico)
-4.  **PhrasalStein**: App para aprender *phrasal verbs*. Links:
-    [iOS](https://itunes.apple.com/br/app/phrasalstein/id722736985?mt=8){:target=\_blank}
-    e
-    [Android](https://play.google.com/store/apps/details?id=air.org.cambridge.phrasalsteinlite){:target=\_blank}
-5.  **Memrise**: App para aprender e memorizar novas palavras. A ideia
+4.  **Memrise**: App para aprender e memorizar novas palavras. A ideia
     deste app é que você consiga memorizar palavras com
     coisa engraçadas. Links:
     [iOS](https://itunes.apple.com/br/app/memrise-ultimate-memorisation/id635966718?mt=8){:target=\_blank}
     e
     [Android](https://play.google.com/store/apps/details?id=com.memrise.android.memrisecompanion&hl=en){:target=\_blank}
-6.  **Letroca**: Jogo educativo de raciocínio onde você combina as
+5.  **Letroca**: Jogo educativo de raciocínio onde você combina as
     letras disponíveis para formar palavras do vocabulário inglês. É
     mais um joguinho viciante para aprender inglês. Links:
     [iOS](https://itunes.apple.com/app/id658511180?mt=8){:target=\_blank} e
