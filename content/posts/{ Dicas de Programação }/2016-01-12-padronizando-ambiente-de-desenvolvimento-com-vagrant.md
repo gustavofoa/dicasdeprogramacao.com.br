@@ -143,7 +143,7 @@ configurações.
 "ubuntu/trusty64" é uma box básica com o **Ubuntu 14.04 LTS
 64-bit**, mas você pode configurar qualquer box que esteja no
 repositório do Vagrant, você pode encontrar novas boxes
-acessando <https://atlas.hashicorp.com/boxes/search>.
+acessando <https://app.vagrantup.com/boxes/search>.
 
 Com o arquivo **Vagrantfile **criado, agora você pode iniciar a sua VM
 com o comando **vagrant up**. O Vagrant vai baixar a box configurada,
