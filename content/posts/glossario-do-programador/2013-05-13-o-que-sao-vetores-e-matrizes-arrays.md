@@ -1,7 +1,7 @@
 title: O que são Vetores e Matrizes (arrays)
 date: 2013-05-13
 author: Gustavo Furtado de Oliveira Alves
-category: Iniciante em programação
+category: Glossário do programador
 slug: o-que-sao-vetores-e-matrizes-arrays
 
 **Vetores** e **Matrizes** são estruturas de dados muito simples que

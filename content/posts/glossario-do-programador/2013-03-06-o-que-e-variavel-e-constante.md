@@ -1,7 +1,7 @@
 title: O que é variável e constante?
 date: 2013-03-06
 author: Gustavo Furtado de Oliveira Alves
-category: Iniciante em programação
+category: Glossário do programador
 slug: o-que-e-variavel-e-constante
 
 Programas de computador utilizam os recursos de hardware mais básicos

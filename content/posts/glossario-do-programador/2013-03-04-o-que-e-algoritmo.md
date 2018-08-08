@@ -1,7 +1,7 @@
 title: O que é Algoritmo?
 date: 2013-03-04
 author: Gustavo Furtado de Oliveira Alves
-category: Iniciante em programação
+category: Glossário do programador
 slug: o-que-e-algoritmo
 
 Embora as vezes não percebemos, utilizamos algoritmos no nosso dia-a-dia
