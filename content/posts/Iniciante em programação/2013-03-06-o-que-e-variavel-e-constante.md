@@ -33,7 +33,7 @@ das **constantes**, que é um espaço reservado na memória para armazenar
 um valor que não muda com o tempo. Por exemplo, o valor PI
 (3.14159265359...) que nunca vai mudar!
 
-##Veja como funciona uma variável com um [algoritmo](http://www.dicasdeprogramacao.com.br/o-que-e-um-algoritmo/ "O que é Algoritmo?"){:target=\_blank}
+##Veja como funciona uma variável com um [algoritmo](http://www.dicasdeprogramacao.com.br/o-que-e-algoritmo/ "O que é Algoritmo?"){:target=\_blank}
 
 Para não restar dúvidas, vamos mostrar como funciona uma variável em um
 algoritmo.
