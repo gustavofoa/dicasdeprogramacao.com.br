@@ -116,7 +116,7 @@ Existem boxes que já vem com várias coisas instaladas prontas para
 desenvolver. Eu, particularmente, prefiro pegar um ubuntu limpo e criar
 um script para instalar as dependências que vou precisar para o meu
 projeto. Para visualizar as boxes disponíveis no repositório do Vagrant
-acesse: <https://atlas.hashicorp.com/boxes/search>.
+acesse: <https://app.vagrantup.com/boxes/search>.
 
 Entendido o que são boxes (imagens de sistemas operacionais), vamos
 criar a nossa configuração do Vagrant. Para isto basta criar um arquivo
