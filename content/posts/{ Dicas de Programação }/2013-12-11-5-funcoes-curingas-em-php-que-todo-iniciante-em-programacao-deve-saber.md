@@ -246,7 +246,7 @@ ver 
 
 Estas funções são básicas e servem como base para seus projetos em
 desenvolvimento e [criação de
-sites](http://fastcom.com.br/servicos/criacao-de-sites/){:target=\_blank}. Em caso de
+sites](https://fastcom.com.br/solucoes/desenvolvimento-web/){:target=\_blank}. Em caso de
 dúvidas, entre em contato com a gente!
 
 *Fonte:* [*FastCom*](http://fastcom.com.br/)*.*
