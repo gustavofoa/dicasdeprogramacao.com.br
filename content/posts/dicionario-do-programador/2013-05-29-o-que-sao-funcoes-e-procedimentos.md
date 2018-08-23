@@ -1,7 +1,7 @@
 title: O que são Funções e Procedimentos?
 date: 2013-05-29
 author: Gustavo Furtado de Oliveira Alves
-category: Glossário do programador
+category: Dicionário de programador
 slug: o-que-sao-funcoes-e-procedimentos
 
 Me responda essa pergunta: Você saberia fazer um algoritmo para calcular
