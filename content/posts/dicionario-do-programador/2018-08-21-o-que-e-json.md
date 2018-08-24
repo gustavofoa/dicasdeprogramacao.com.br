@@ -1,12 +1,15 @@
+--------------------
 title: O que é JSON?
 date: 2018-08-21
 author: Gustavo Furtado de Oliveira Alves
 category: Dicionário de programador
 slug: o-que-e-json
+--------------------
 
 Por ser um dos formatos mais utilizados para comunicação entre serviços web (webservices),
-principalmente quando estamos falando de APIs REST, entender o que é e como funciona um JSON é primordial para qualquer pessoa que deseja trabalhar com desenvolvimento de softwares.
-E neste post você vai aprender tudo que precisa para trabalhar com o famoso JSON.
+principalmente quando estamos falando de **APIs REST**, entender o que é e como funciona um JSON é primordial para qualquer pessoa que deseja trabalhar com desenvolvimento de softwares.
+E neste post você vai aprender tudo que precisa saber para trabalhar com o famoso JSON.
+
 Neste post você vai ver:
 
 -   O que é JSON
