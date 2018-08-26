@@ -1,4 +1,4 @@
-title: O que é JSON?
+title: O mínimo que você precisa saber sobre JSON para ser um programador!
 date: 2018-08-21
 author: Gustavo Furtado de Oliveira Alves
 category: Dicionário de programador
@@ -14,8 +14,10 @@ Neste post você vai ver:
 -   Porque saber usar JSON é essencial para sua carreira
 -   A Sintaxe básica do JSON
 -   Os Tipos de dados do JSON
--   Como trabalar com JSON no Javascript
--   Como trabalar com JSON no Python
+-   Como manipular objetos JSON
+-   Como trabalhar com JSON no Javascript
+-   Como trabalhar com JSON no Python
+-   Como trabalhar com JSON no Java
 -   O que estudar depois de saber JSON
 
 ## O que é JSON
@@ -140,8 +142,69 @@ Veja abaixo um exemplo de objeto JSON com todos estes tipos de dados.
 }
 ```
 
-## Como trabalar com JSON no Javascript
+## Como manipular objetos JSON
 
-## Como trabalar com JSON no Python
+Ao longo da sua vida como desenvolvedor você vai precisar trabalhar com JSON
+executando algumas tarefas básicas, como:
+
+1. Converter uma String (texto) para um objeto JSON;
+2. Converter um objeto JSON para String;
+3. Ler dados dos atributos de um JSON;
+4. Inserir/Alterar dados nos atributos de um JSON;
+5. Iterar (acessar todos os valores) sobre um array JSON.
+
+Em algumas linguagens de programação é muito fácil manipular objetos JSON,
+em outras já é mais complicado um pouco, mas também, nada de outro mundo.
+
+Vamos ver como manipular JSON em três das linguagens mais utilizadas no mercado de trabalho hoje em dia: **Javascript**, **Python** e **Java**
+
+## Como trabalhar com JSON no Javascript
+
+Obviamente a linguagem mais simples de se trabalhar com JSON é o próprio **Javascript**.
+Aliás, **JSON** tem Javascript até no nome, lembra? _**J**ava**S**cript **O**bject **N**otation_.
+
+Vejamos então como executar as ações básicas sobre JSON com Javascript.
+
+### 1. Converter uma String (texto) para um objeto JSON;
+
+
+### 2. Converter um objeto JSON para String;
+
+
+### 3. Ler dados dos atributos de um JSON;
+
+
+### 4. Inserir/Alterar dados nos atributos de um JSON;
+
+
+### 5. Iterar (acessar todos os valores) sobre um array JSON.
+
+
+## Como trabalhar com JSON no Python
+
+Python tem se destacado bastante, por ser uma linguagem simples de se aprender.
+
+Esta linguagem tem sido a escolha de muitas pessoas que não trabalham diretamente com desenvolvimento de softwares, mas precisam aprender programação para suas profissões, tais como estatísticos, jornalistas, advogados, biólogos, geógrafos, etc.
+
+E não é por menos, um exemplo de facilidade do python é que, assim como em Javascript, a manipulação de JSON com Python é muito simples e nativo da linguagem.
+
+Vejamos então como executar as ações básicas sobre JSON com Python.
+
+### 1. Converter uma String (texto) para um objeto JSON;
+
+
+### 2. Converter um objeto JSON para String;
+
+
+### 3. Ler dados dos atributos de um JSON;
+
+
+### 4. Inserir/Alterar dados nos atributos de um JSON;
+
+
+### 5. Iterar (acessar todos os valores) sobre um array JSON.
+
+
+## Como trabalhar com JSON no Java
 
 ## O que estudar depois de saber JSON
