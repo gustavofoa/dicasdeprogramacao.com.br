@@ -136,7 +136,7 @@ conforme já falei [neste post](https://dicasdeprogramacao.com.br/porque-utiliza
 
 E você também pode participar!
 Se quiser saber como fazer alguma coisa específica nestas linguagens,
-basta acessar os blogs, clicar no link **Pedir dica!" disponível nos 3 blogs
+basta acessar os blogs, clicar no link **"Pedir dica!"** disponível nos 3 blogs
 e pedir uma explicação sobre a sua dúvida.
 
 Além disso, você também pode contribuir com os blogs criando _guest posts_.
