@@ -22,6 +22,8 @@ Neste post você vai ver:
 
 ## O que é JSON
 
+![O que é JSON](/images/o-que-e-json/destaque.png){:width=100%}
+
 JSON é um formado de representação de dados baseado na linguagem de programação [Javascript](https://dicasdejavascript.com.br/), daí o nome _JavaScript Object Notation_.
 Ou seja, _Notação de Objeto em Javascript_.
 
@@ -167,6 +169,13 @@ Vejamos então como executar as ações básicas sobre JSON com Javascript.
 
 ### 1. Converter uma String (texto) para um objeto JSON;
 
+É muito comum você receber um JSON no formato de String e precisar transformar essa String em um JSON.
+
+Para isso basta usar a função `JSON.parse(json_em_texto)` passando a string como parâmetro.
+
+Você pode encontrar mais detalhes neste outro post aqui:
+
+**>> [Javascript: Como converter string em objeto JSON](https://dicasdejavascript.com.br/javascript-como-converter-string-em-objeto-json/)**
 
 ### 2. Converter um objeto JSON para String;
 
