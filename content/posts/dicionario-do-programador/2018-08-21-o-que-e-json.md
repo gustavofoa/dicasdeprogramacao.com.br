@@ -17,7 +17,6 @@ Neste post você vai ver:
 -   Como manipular objetos JSON
 -   Como trabalhar com JSON no Javascript
 -   Como trabalhar com JSON no Python
--   Como trabalhar com JSON no Java
 -   O que estudar depois de saber JSON
 
 ## O que é JSON
@@ -171,13 +170,39 @@ Vejamos então como executar as ações básicas sobre JSON com Javascript.
 
 É muito comum você receber um JSON no formato de String e precisar transformar essa String em um JSON.
 
-Para isso basta usar a função `JSON.parse(json_em_texto)` passando a string como parâmetro.
+Para isso basta usar a função `JSON.parse()` passando a string como parâmetro.
+
+Por exemplo:
+
+```javascript
+var texto = '{"atributo1": "valor 1", "atributo2": 23}';
+
+var objeto = JSON.parse(texto);
+
+console.log(objeto);
+```
 
 Você pode encontrar mais detalhes neste outro post aqui:
 
-**>> [Javascript: Como converter string em objeto JSON](https://dicasdejavascript.com.br/javascript-como-converter-string-em-objeto-json/)**
+**[>> Javascript: Como converter string em objeto JSON](https://dicasdejavascript.com.br/javascript-como-converter-string-em-objeto-json/)**
 
 ### 2. Converter um objeto JSON para String;
+
+Outras vezes precisamos fazer o caminho contrário, transformar um objeto JSON em String.
+
+Para isso basta usar a função `JSON.stringify()` passando o objeto como parâmetro.
+
+Por exemplo:
+
+```javascript
+var objeto = {"atributo1": "valor 1", "atributo2": 23};
+
+var texto = JSON.stringify(objeto);
+
+console.log(texto);
+```
+
+**[>> Javascript: Como converter um objeto JSON em string](https://dicasdejavascript.com.br/javascript-como-converter-objeto-json-em-string/)**
 
 
 ### 3. Ler dados dos atributos de um JSON;
@@ -213,7 +238,5 @@ Vejamos então como executar as ações básicas sobre JSON com Python.
 
 ### 5. Iterar (acessar todos os valores) sobre um array JSON.
 
-
-## Como trabalhar com JSON no Java
 
 ## O que estudar depois de saber JSON
