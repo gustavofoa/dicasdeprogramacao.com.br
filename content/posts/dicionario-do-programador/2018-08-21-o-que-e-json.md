@@ -81,7 +81,7 @@ Além disso, tem algumas outras regras, nos **objetos** os atributos devem segui
 
 Já os **arrays** só podem ser de um determinado tipo de dados (veja a próxima sessão), não pode misturar texto com número, por exemplo.
 
-//LINK POST DE VETORES E MATRIZES
+[>> O que são Vetores e Matrizes (arrays)](https://dicasdeprogramacao.com.br/o-que-sao-vetores-e-matrizes-arrays/){:target=\_blank}
 
 Veja abaixo um exemplo de objeto e um exemplo de array.
 
@@ -121,8 +121,7 @@ Ah! Tanto array quando objeto podem ser vazios em JSON. Assim:
 ## Os Tipos de dados do JSON
 
 Além de _objeto_ e _array_ serem considerados os tipos de dados principais.
-O JSON também tem os tipos de dados primitivos que nós já falamos aqui no { Dicas de Programação }.
-//LINK
+O JSON também tem os tipos de dados primitivos que nós [já falamos aqui no { Dicas de Programação }](https://dicasdeprogramacao.com.br/tipos-de-dados-primitivos/){:target=\_blank}.
 
 Os tipos de dados básicos do JSON são:
 
@@ -150,8 +149,8 @@ executando algumas tarefas básicas, como:
 
 1. Converter uma String (texto) para um objeto JSON;
 2. Converter um objeto JSON para String;
-3. Ler dados dos atributos de um JSON;
-4. Inserir/Alterar dados nos atributos de um JSON;
+3. Ler os dados dos atributos de um JSON;
+4. Inserir e alterar os dados dos atributos de um JSON;
 5. Iterar (acessar todos os valores) sobre um array JSON.
 
 Em algumas linguagens de programação é muito fácil manipular objetos JSON,
@@ -184,7 +183,7 @@ console.log(objeto);
 
 Você pode encontrar mais detalhes neste outro post aqui:
 
-**[>> Javascript: Como converter string em objeto JSON](https://dicasdejavascript.com.br/javascript-como-converter-string-em-objeto-json/)**
+**[>> Javascript: Como converter string em objeto JSON](https://dicasdejavascript.com.br/javascript-como-converter-string-em-objeto-json/){:target=\_blank}**
 
 ### 2. Converter um objeto JSON para String;
 
@@ -202,14 +201,45 @@ var texto = JSON.stringify(objeto);
 console.log(texto);
 ```
 
-**[>> Javascript: Como converter um objeto JSON em string](https://dicasdejavascript.com.br/javascript-como-converter-objeto-json-em-string/)**
+**[>> Javascript: Como converter um objeto JSON em string](https://dicasdejavascript.com.br/javascript-como-converter-objeto-json-em-string/){:target=\_blank}**
 
+### 3. Ler os dados dos atributos de um JSON;
 
-### 3. Ler dados dos atributos de um JSON;
+Existem duas formas de ler o valor de um atributo de um objeto json.
 
+A primeira é através do ponto (`.`), você escreve o nome do objeto ponto (`.`) e o nome do atributo.
 
-### 4. Inserir/Alterar dados nos atributos de um JSON;
+A segunda maneira é com colchetes e uma string com o nome do atributo.
 
+Vamos ver um exemplo
+
+Suponhamos que temos um objeto como o do exemplo anterior e queremos acessar o `atributo1`,
+podemos fazer isso desses dois jeitos:
+
+```javascript
+var objeto = {"atributo1": "valor 1", "atributo2": 23};
+
+console.log(objeto.atributo1);
+
+console.log(objeto['atributo2']);
+```
+
+A saída deste script é essa:
+
+```
+valor 1
+23
+```
+
+**[>> Javascript: Como ler os dados dos atributos de um objeto JSON](https://dicasdejavascript.com.br/javascript-como-ler-os-dados-dos-atributos-de-um-objeto-json/){:target=\_blank}**
+
+### 4. Inserir e alterar os dados dos atributos de um JSON;
+
+Os objetos JSON do Javascript são dinâmicos. Isso significa que eles podem ter a sua estrutura modificada.
+
+Logo, você consegue adicionar novos atributos a um objeto, bem como alterar o valor dos atributos já existentes.
+
+Veja o exemplo abaixo:
 
 ### 5. Iterar (acessar todos os valores) sobre um array JSON.
 
