@@ -151,7 +151,6 @@ executando algumas tarefas básicas, como:
 2. Converter um objeto JSON para String;
 3. Ler os dados dos atributos de um JSON;
 4. Inserir e alterar os dados dos atributos de um JSON;
-5. Iterar (acessar todos os valores) sobre um array JSON.
 
 Em algumas linguagens de programação é muito fácil manipular objetos JSON,
 em outras já é mais complicado um pouco, mas também, nada de outro mundo.
@@ -237,11 +236,9 @@ valor 1
 
 Os objetos JSON do Javascript são dinâmicos. Isso significa que eles podem ter a sua estrutura modificada.
 
-Logo, você consegue adicionar novos atributos a um objeto, bem como alterar o valor dos atributos já existentes.
+Logo, você consegue adicionar novos atributos a um objeto dinamicamente, bem como alterar o valor dos atributos já existentes.
 
 Veja o exemplo abaixo:
-
-### 5. Iterar (acessar todos os valores) sobre um array JSON.
 
 
 ## Como trabalhar com JSON no Python
@@ -266,7 +263,41 @@ Vejamos então como executar as ações básicas sobre JSON com Python.
 ### 4. Inserir/Alterar dados nos atributos de um JSON;
 
 
-### 5. Iterar (acessar todos os valores) sobre um array JSON.
-
 
 ## O que estudar depois de saber JSON
+
+JSON é um formato de representação de Objetos muito utilizado na atualidade,
+principalmente para comunicação entre sistemas através de APIs REST.
+
+Se você se interessou em entender o que é JSON, muito provavelmente você também
+tem interesse em desenvolvimento de aplicações Web e Mobile e comunicação entre Front-end e Back-end.
+
+Por isso, eu tenho algumas sugestões de coisas que devem ser estudadas
+se você pretende ser um bom desenvolvedor web/mobile.
+
+Aqui está a minha lista de sugestões:
+
+- Funcionamento básico de um servidor Web
+- Funcionamento do Protocolo HTTP
+    - Estrutura de uma requisição HTTP
+    - Estrutura de uma resposta HTTP
+    - Cabeçalhos HTTP
+    - Métodos HTTP (também conhecidos como verbos HTTP)
+    - Códigos de resposta e seus significados
+    - GET vs POST
+- APIs REST e RESTFul
+- Segurança na Web com protocolo HTTPS
+- Controle de acesso (CORS)
+- Implementar uma API REST (escolha uma linguagem utilizada no backend)
+- Autenticações OAuth, OAuth2, SAML, etc.
+
+Enfim, essa é uma listinha básica que percebo que falta de conhecimento
+para muitas pessoas que estão ingressando nessa área de desenvolvimento de softwares.
+
+Se você estudar essas coisas já estará na frente de no mínimo 50% dos atuais programadores web.
+
+#FICADICA
+
+Curtiu? Compatilhe este post com seus amigos.
+
+Se tiver alguma dúvida, sugestão ou crítica, fique a vontade para postar nos comentários.
