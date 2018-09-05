@@ -94,3 +94,9 @@ body{
  background: #242a85;
  background: rgba(36,42,133 ,0.8)
 }
+
+
+.fix-bannner {
+    position: fixed;
+    top: 20px;
+  }
