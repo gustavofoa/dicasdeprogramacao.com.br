@@ -1,4 +1,4 @@
-title: O mínimo que você precisa saber sobre JSON para ser um programador!
+title: O mínimo que você precisa saber sobre JSON para ser um bom programador!
 date: 2018-08-21
 author: Gustavo Furtado de Oliveira Alves
 category: Dicionário de programador
@@ -13,10 +13,10 @@ Neste post você vai ver:
 -   O que é JSON
 -   Porque saber usar JSON é essencial para sua carreira
 -   A Sintaxe básica do JSON
--   Os Tipos de dados do JSON
+-   Os tipos de dados do JSON
 -   Como manipular objetos JSON
 -   Como trabalhar com JSON no Javascript
--   Como trabalhar com JSON no Python
+<!---   Como trabalhar com JSON no Python-->
 -   O que estudar depois de saber JSON
 
 ## O que é JSON
@@ -155,7 +155,9 @@ executando algumas tarefas básicas, como:
 Em algumas linguagens de programação é muito fácil manipular objetos JSON,
 em outras já é mais complicado um pouco, mas também, nada de outro mundo.
 
-Vamos ver como manipular JSON em três das linguagens mais utilizadas no mercado de trabalho hoje em dia: **Javascript**, **Python** e **Java**
+<!--Vamos ver como manipular JSON em três das linguagens mais utilizadas no mercado de trabalho hoje em dia: **Javascript**, **Python** e **Java**-->
+
+Vamos ver alguns exemplos de como manipular JSON em uma das linguagens mais utilizadas no mercado de trabalho hoje em dia: **Javascript**
 
 ## Como trabalhar com JSON no Javascript
 
@@ -210,7 +212,7 @@ A primeira é através do ponto (`.`), você escreve o nome do objeto ponto (`.`
 
 A segunda maneira é com colchetes e uma string com o nome do atributo.
 
-Vamos ver um exemplo
+Vamos ver um exemplo...
 
 Suponhamos que temos um objeto como o do exemplo anterior e queremos acessar o `atributo1`,
 podemos fazer isso desses dois jeitos:
@@ -240,14 +242,36 @@ Logo, você consegue adicionar novos atributos a um objeto dinamicamente, bem co
 
 Veja o exemplo abaixo:
 
+```javascript
+var objeto = {"atributo1": "valor 1", "atributo2": 23};
 
+objeto.atributo1 = 'outro valor'
+objeto['atributo3'] = 'atributo que não existia'
+
+console.log(objeto.atributo1);
+console.log(objeto.atributo3);
+```
+
+A saída deste script é essa:
+
+```
+outro valor
+atributo que não existia
+```
+
+Perceba que você pode alterar os valores dos atributos do objeto
+da mesma forma que você acessa um atributo, ou seja, com o ponto (.) ou com os colchetes.
+
+**[>> Javascript: Como alterar os dados dos atributos de um objeto JSON](https://dicasdejavascript.com.br/javascript-como-alterar-os-dados-dos-atributos-de-um-objeto-json/){:target=\_blank}**
+
+<!--
 ## Como trabalhar com JSON no Python
 
 Python tem se destacado bastante, por ser uma linguagem simples de se aprender.
 
 Esta linguagem tem sido a escolha de muitas pessoas que não trabalham diretamente com desenvolvimento de softwares, mas precisam aprender programação para suas profissões, tais como estatísticos, jornalistas, advogados, biólogos, geógrafos, etc.
 
-E não é por menos, um exemplo de facilidade do python é que, assim como em Javascript, a manipulação de JSON com Python é muito simples e nativo da linguagem.
+E não é por menos, um exemplo de facilidade do python é que, assim como em Javascript, a manipulação de JSON com Python é muito simples e nativo da linguagem, através de uma estrutura de dados conhecida como dicionário (_dict_).
 
 Vejamos então como executar as ações básicas sobre JSON com Python.
 
@@ -262,7 +286,7 @@ Vejamos então como executar as ações básicas sobre JSON com Python.
 
 ### 4. Inserir/Alterar dados nos atributos de um JSON;
 
-
+-->
 
 ## O que estudar depois de saber JSON
 
@@ -295,8 +319,7 @@ Enfim, essa é uma listinha básica que percebo que falta de conhecimento
 para muitas pessoas que estão ingressando nessa área de desenvolvimento de softwares.
 
 Se você estudar essas coisas já estará na frente de no mínimo 50% dos atuais programadores web.
-
-#FICADICA
+**\#FICADICA**
 
 Curtiu? Compatilhe este post com seus amigos.
 
