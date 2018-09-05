@@ -23,7 +23,7 @@ window.onscroll = function scrollFunction() {
             adsense_position = last_adsense_banner.offsetTop;
         last_adsense_banner.classList.add("fix-bannner");
     }
-    if (window.pageYOffset < adsense_position) {
+    if (window.pageYOffset+20 < adsense_position) {
         adsense_position = 0;
         last_adsense_banner.classList.remove("fix-bannner");
     }
