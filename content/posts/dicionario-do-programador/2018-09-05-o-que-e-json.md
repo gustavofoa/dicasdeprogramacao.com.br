@@ -1,5 +1,5 @@
 title: O mínimo que você precisa saber sobre JSON para ser um bom programador!
-date: 2018-08-21
+date: 2018-09-05
 author: Gustavo Furtado de Oliveira Alves
 category: Dicionário de programador
 slug: o-que-e-json
