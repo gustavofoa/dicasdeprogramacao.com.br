@@ -96,7 +96,10 @@ body{
 }
 
 
-.fix-bannner {
-    position: fixed;
-    top: 20px;
-  }
+@media (min-width: 900px){
+	.fix-bannner {
+		position: fixed;
+		top: 80px;
+	}
+ }
+ 
