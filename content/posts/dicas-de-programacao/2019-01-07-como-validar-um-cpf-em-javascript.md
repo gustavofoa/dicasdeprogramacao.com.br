@@ -1,5 +1,5 @@
-title: Como validar um CPJ em JavaScript
-date: 2018-12-28
+title: Como validar um CPF em JavaScript
+date: 2019-01-07
 author: Gustavo Furtado de Oliveira Alves
 category: { Dicas de Programação }
 tags: Blogs
