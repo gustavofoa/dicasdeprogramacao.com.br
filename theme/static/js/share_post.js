@@ -21,11 +21,11 @@ window.onscroll = function scrollFunction() {
     if (window.pageYOffset+20 > last_adsense_banner.offsetTop) {
         if(adsense_position == 0)
             adsense_position = last_adsense_banner.offsetTop;
-        last_adsense_banner.classList.add("fix-bannner");
+        last_adsense_banner.classList.add("fix-banner");
     }
     if (window.pageYOffset+20 < adsense_position) {
         adsense_position = 0;
-        last_adsense_banner.classList.remove("fix-bannner");
+        last_adsense_banner.classList.remove("fix-banner");
     }
 
 }

@@ -97,9 +97,9 @@ body{
 
 
 @media (min-width: 900px){
-	.fix-bannner {
+	.fix-banner {
 		position: fixed;
-		top: 80px;
+		top: 20px;
 	}
  }
  
