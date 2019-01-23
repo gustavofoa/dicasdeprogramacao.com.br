@@ -1,12 +1,29 @@
 title: Como instalar o git no Windows (Passo a passo!)
 date: 2019-01-22
 author: Gustavo Furtado de Oliveira Alves
-category: { Dicas de Programação }
-tags: Blogs
+category: Instalações
+tags: GIT
 slug: como-instalar-o-git-no-windows
 
+O GIT é um dos sistemas de controle de versão mais utilizado por desenvolvedores de softwares.
+Principalmente por causa do [Github](https://github.com){:target=\_blank}, recentemente comprado pela Microsoft.
 
-Acesse o [site oficial](https://git-scm.com/downloads){:target=\_blank} para baixar o instalador do git.
+[>> Inclusive, o código deste blog está todo armazenado no github](https://dicasdeprogramacao.com.br/migracao-do-blog-para-site-estatico/){:target=\blank}.
+
+Como a maioria dos iniciantes em programação utilizam o Windows e uma hora ou outra vão precisar instalar o GIT no Windows.
+Resolvir escrever este post para mostrar o passo-a-passo da instalação do GIT no Windows,
+visto que a instalação do GIT pode gerar algumas dúvidas em quem não está acostumado com algumas ferramentas do Linux.
+
+Enfim, explico abaixo todo o processo de instalação do GIT no Windows,
+mas caso você ainda fique com alguma dúvida não exite em perguntar nos comentários!
+
+Vamos lá?
+
+## Instalação do GIT no Windows
+
+![GIT e Windows](/images/como-instalar-o-git-no-windows/destaque.png){:style="padding:10px;width:100%;"}
+
+Primeiro, acesse o [site oficial](https://git-scm.com/downloads){:target=\_blank} para baixar o instalador do git.
 Escolha o sistema operacional que você pretende instalar (no meu caso é o Windows) e baixe o instalador apropriado.
 
 ![Página de download do instalador do GIT](/images/como-instalar-o-git-no-windows/site-download-git.png){:style="padding:10px;"}
@@ -50,7 +67,8 @@ Clique em **Next** para continuar a instalação.
 
 Na sequência o instalador pede para selecionarmos o editor de texto que deve ser utilizado para editar os conflitos que por ventura acontecerem.
 
-Eu gosto do Vim, mesmo, mas você pode alterar para Notepad++, Sublime, Atom, VS Code, ou outro editor de sua preferência.
+Eu gosto do Vim mesmo, mas você pode não tem muita afinidade com o Vim
+você pode alterar para Notepad++, Sublime, Atom, VS Code, ou outro editor de sua preferência.
 
 Após a escolha, clique em **Next** para continuar com a instalação.
 
@@ -63,7 +81,7 @@ Na próxima tela o instalador do GIT nos pergunta se queremos usar os comandos d
 - somente no prompt de comandos do próprio git (chamado de Git Bash), neste caso ele não vai alterar a variável de ambiente PATH.
 - no prompt do Windows (Windows Command Prompt), neste caso a variável de ambiente PATH será alterada para incluir o caminho de onde está o executável git.exe.
 - no prompt do Windows + comandos utilitários do línux.
-Eu sempre marco esta opção, pq o instalador traz para o Windows alguns comando que eu uso muito no Linux,
+Eu sempre marco esta opção, porque o instalador traz para o Windows alguns comando que eu uso muito no Linux,
 como `cat`, `ls`, `find`, etc.
 Neste caso a variável de ambiente PATH será alterada para incluir o caminho do executável git.exe e dos executáveis de cada comando utilitário do linux.
 
@@ -73,7 +91,7 @@ Escolha a opção que acha mais adequada para você e clique em **Next**.
 
 A tela seguinte do instalador oferece a opção de escolhar a biblioteca de validação de chaves de segurança SSL.
 
-Eu costumo utilizar a OpenSSL mesmo que é compatível com outras plataformas.
+Eu costumo utilizar a OpenSSL, que é compatível com outras plataformas.
 
 Escolha a que achar apropriada e clique em **Next**.
 
@@ -82,6 +100,10 @@ Escolha a que achar apropriada e clique em **Next**.
 Neste ponto da instalação, nos é perguntado como o git deve tratar o final dos arquivos de texto.
 
 Este é um assunto complicado de explicar em poucas palavras, mas vamos lá ...
+
+Vamos dar uma pequena pausa na instalação do GIT aqui para entender esse assunto.
+
+## Como é tratado o final de linha dos arquivos de textos
 
 O Windows e o Unix, tratam o final de linha dos arquivos texto de formas diferentes.
 
@@ -107,10 +129,12 @@ Eu marco a primeira opção, para evitar problemas de compatibilidade entre as p
 
 ![Tela de configuração de final de linha do instalador do GIT.](/images/como-instalar-o-git-no-windows/instalador-git-07-caracter-de-final-de-linha.png){:style="padding:10px;"}
 
-Na sequência, o instalador oferece a opção de escolher o emulador de terminal (prompt) que queremos usar para o GIT.
-Podemos usar  controle padrão do Windows (cmd.exe) ou o MinTTY que é um emulador que oferece algumas características melhores na minha opinião.
+## Continuando a instalação ...
 
-Em suma, o cmd é usado para compatibilidade com plataformas de 32 bits, ou seja, se o seu windows for 32 bits, é melhor escolher o cmd mesmo.
+Na sequência, o instalador oferece a opção de escolher o emulador de terminal (prompt) que queremos usar para o GIT.
+Podemos usar o console padrão do Windows (cmd.exe) ou o MinTTY que é um emulador que oferece algumas características melhores na minha opinião.
+
+Em suma, o cmd é usado para compatibilidade com plataformas de 32 bits, ou seja, se o seu windows for 32 bits, é melhor escolher o cmd mesmo,
 mas se o seu windows for de 64 bits, é melhor escolher o MinTTY, pq ele oferece alguns recursos melhores para terminal, como por exemplo **maximizar**.
 
 ![Tela de escolha de emulador de terminal do GIT.](/images/como-instalar-o-git-no-windows/instalador-git-08-emulador-de-terminal.png){:style="padding:10px;"}
@@ -120,7 +144,8 @@ A penúltima tela nos oferece algumas opções extras, são elas:
 - habilitar cache de arquivos na memória. Isso melhora o desempenho do git em alguns casos.
 - habilitar o gerenciador de credenciais do GIT.
 Isso permite autenticação em duas etapas no VSTS e no GitHub, e precisa do framework .NET 4.5 para funcionar.
-- habilitar links simbólicos: Sinceramente, não sei o que é isso no Windows. rs
+- habilitar links simbólicos: Sinceramente, não sei o que é isso no Windows e não me fez falta ainda,
+se você souber do que se trata, apreciarei muito uma explicação aí nos comentários. ;)
 
 Selecione os itens opcionais que você deseja e clique em **Next**.
 
@@ -139,7 +164,7 @@ Após decidir se instala os componentes experimentais ou não, clique em **Insta
 
 ![Tela de seleção de componentes experimentais do GIT.](/images/como-instalar-o-git-no-windows/instalador-git-10-componentes-experimentais.png){:style="padding:10px;"}
 
-Para finalizar o instalador oferece a opção de já rodar o prompt do GIT (Git Bash)
+Depois da instalação, o instalador oferece a opção de já rodar o prompt do GIT (Git Bash)
 e ver o arquivo de texto com as notas da versão lançada.
 
 Se quiser uma dessas duas opções, marque-a, eu desmarquei as duas.
@@ -149,3 +174,6 @@ Para finalizar, clique em **Finish**.
 ![Tela final do instalador do GIT](/images/como-instalar-o-git-no-windows/instalador-git-11-finalizar-instalacao.png){:style="padding:10px;"}
 
 Pronto, agora você tem o GIT instalado no seu Windows!
+
+Espero que este post tenha te ajudado na instalação do GIT,
+se você ficou com dúvida em alguma parte, comente logo aqui abaixo.
