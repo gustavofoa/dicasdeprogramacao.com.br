@@ -1,4 +1,4 @@
-title: Como instalar o git no Windows (Passo a passo!)
+title: Como instalar o GIT no Windows (Passo a passo!)
 date: 2019-01-22
 author: Gustavo Furtado de Oliveira Alves
 category: Instalações
