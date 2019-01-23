@@ -7,7 +7,7 @@ slug: como-instalar-o-git-no-windows
 
 
 Acesse o [site oficial](https://git-scm.com/downloads){:target=\_blank} para baixar o instalador do git.
-Escolha o sistema operacional que você pretende instalar, no meu caso é o Windows e baixe o instalador apropriado.
+Escolha o sistema operacional que você pretende instalar (no meu caso é o Windows) e baixe o instalador apropriado.
 
 ![Página de download do instalador do GIT](/images/como-instalar-o-git-no-windows/site-download-git.png){:style="padding:10px;"}
 
@@ -54,7 +54,7 @@ Eu gosto do Vim, mesmo, mas você pode alterar para Notepad++, Sublime, Atom, VS
 
 Após a escolha, clique em **Next** para continuar com a instalação.
 
-![Tela de seleção do editor de conflitos padrão do GIT](/images/como-instalar-o-git-no-windows/instalador-git-05-.png){:style="padding:10px;"}
+![Tela de seleção do editor de conflitos padrão do GIT](/images/como-instalar-o-git-no-windows/instalador-git-05-editor-de-conflitos.png){:style="padding:10px;"}
 
 Neste momento começa algumas partes confusas para quem não conhece muito o GIT.
 
