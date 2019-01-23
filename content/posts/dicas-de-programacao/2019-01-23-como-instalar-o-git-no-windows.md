@@ -54,7 +54,7 @@ Eu gosto do Vim, mesmo, mas você pode alterar para Notepad++, Sublime, Atom, VS
 
 Após a escolha, clique em **Next** para continuar com a instalação.
 
-![Tela de seleção do editor de conflitos padrão do GIT](/images/como-instalar-o-git-no-windows/instalador-git-05-termos.png){:style="padding:10px;"}
+![Tela de seleção do editor de conflitos padrão do GIT](/images/como-instalar-o-git-no-windows/instalador-git-05-.png){:style="padding:10px;"}
 
 Neste momento começa algumas partes confusas para quem não conhece muito o GIT.
 
@@ -69,7 +69,7 @@ Neste caso a variável de ambiente PATH será alterada para incluir o caminho do
 
 Escolha a opção que acha mais adequada para você e clique em **Next**.
 
-[Tela de ajuste da variável de ambiente PATH.]
+![Tela de ajuste da variável de ambiente PATH.](/images/como-instalar-o-git-no-windows/instalador-git-05-comandos-linux.png){:style="padding:10px;"}
 
 A tela seguinte do instalador oferece a opção de escolhar a biblioteca de validação de chaves de segurança SSL.
 
@@ -77,7 +77,7 @@ Eu costumo utilizar a OpenSSL mesmo que é compatível com outras plataformas.
 
 Escolha a que achar apropriada e clique em **Next**.
 
-[Tela de seleção de biblioteca de validação de certificados SSL]
+![Tela de seleção de biblioteca de validação de certificados SSL](/images/como-instalar-o-git-no-windows/instalador-git-06-biblioteca-ssl.png){:style="padding:10px;"}
 
 Neste ponto da instalação, nos é perguntado como o git deve tratar o final dos arquivos de texto.
 
@@ -105,7 +105,7 @@ Por agora entenda as opções que o instalador do GIT oferece:
 
 Eu marco a primeira opção, para evitar problemas de compatibilidade entre as plataformas.
 
-[Tela de configuração de final de linha do instalador do GIT.]
+![Tela de configuração de final de linha do instalador do GIT.](/images/como-instalar-o-git-no-windows/instalador-git-07-caracter-de-final-de-linha.png){:style="padding:10px;"}
 
 Na sequência, o instalador oferece a opção de escolher o emulador de terminal (prompt) que queremos usar para o GIT.
 Podemos usar  controle padrão do Windows (cmd.exe) ou o MinTTY que é um emulador que oferece algumas características melhores na minha opinião.
@@ -113,7 +113,7 @@ Podemos usar  controle padrão do Windows (cmd.exe) ou o MinTTY que é um emulad
 Em suma, o cmd é usado para compatibilidade com plataformas de 32 bits, ou seja, se o seu windows for 32 bits, é melhor escolher o cmd mesmo.
 mas se o seu windows for de 64 bits, é melhor escolher o MinTTY, pq ele oferece alguns recursos melhores para terminal, como por exemplo **maximizar**.
 
-[Tela de escolha de emulador de terminal do GIT.]
+![Tela de escolha de emulador de terminal do GIT.](/images/como-instalar-o-git-no-windows/instalador-git-08-emulador-de-terminal.png){:style="padding:10px;"}
 
 A penúltima tela nos oferece algumas opções extras, são elas:
 
@@ -124,7 +124,7 @@ Isso permite autenticação em duas etapas no VSTS e no GitHub, e precisa do fra
 
 Selecione os itens opcionais que você deseja e clique em **Next**.
 
-[Tela de escolha de ítens opcionais do GIT no Windows]
+![Tela de escolha de ítens opcionais do GIT no Windows](/images/como-instalar-o-git-no-windows/instalador-git-09-opcoes-extras.png){:style="padding:10px;"}
 
 Por fim, última tela do instalador do GIT no Windows (UFA!!!),
 o instalador nos oferece alguns componentes que estão em fase de experimentação.
@@ -137,7 +137,7 @@ Eu não marquei.
 
 Após decidir se instala os componentes experimentais ou não, clique em **Install** para começar a instalação.
 
-[Tela de seleção de componentes experimentais do GIT.]
+![Tela de seleção de componentes experimentais do GIT.](/images/como-instalar-o-git-no-windows/instalador-git-10-componentes-experimentais.png){:style="padding:10px;"}
 
 Para finalizar o instalador oferece a opção de já rodar o prompt do GIT (Git Bash)
 e ver o arquivo de texto com as notas da versão lançada.
@@ -146,6 +146,6 @@ Se quiser uma dessas duas opções, marque-a, eu desmarquei as duas.
 
 Para finalizar, clique em **Finish**.
 
-[Tela final do instalador do GIT]
+![Tela final do instalador do GIT](/images/como-instalar-o-git-no-windows/instalador-git-11-finalizar-instalacao.png){:style="padding:10px;"}
 
 Pronto, agora você tem o GIT instalado no seu Windows!
