@@ -1,8 +1,8 @@
 title: Como instalar o GIT no Windows (Passo a passo!)
 date: 2019-01-23
 author: Gustavo Furtado de Oliveira Alves
-category: Instalações
-tags: GIT
+category: { Dicas de Programação }
+tags: GIT, Instalação
 slug: como-instalar-o-git-no-windows
 
 O GIT é um dos sistemas de controle de versão mais utilizado por desenvolvedores de softwares.

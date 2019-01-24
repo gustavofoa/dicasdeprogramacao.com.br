@@ -1,16 +1,26 @@
 title: Como instalar o MySQL no Windows (Passo a passo!)
 date: 2019-01-25
 author: Gustavo Furtado de Oliveira Alves
-category: Instalações
-tags: MySQL
+category: Banco de Dados
+tags: MySQL, Instalação
 slug: como-instalar-o-mysql-no-windows
 
-Acesse a [página de download](https://dev.mysql.com/downloads/windows/){:target=\_blank} do instalador do MySQL.
+O MySQL é um dos [**SGBDs**](https://dicasdeprogramacao.com.br/o-que-e-um-sgbd/){:target=\_blank} mais conhecidos do mundo.
+Muito famoso por ser leve, opensource e principalmente por ser um dos softwares do conjunto LAMP
+(Linux + Apache + **MySQL** + PHP).
+
+Por ser um dos mais utilizados em produção, principalmente para sites, e pequenos sistemas,
+o MySQL também é um dos principais SGBDs para se aprender sobre banco de dados.
+Por isso, neste post eu vou mostrar um passo-a-passo de como **instalar o MySQL no Windows**.
+
+Vamos lá?
+
+Primeiramente, acesse a [página de download](https://dev.mysql.com/downloads/windows/){:target=\_blank} do instalador do MySQL.
 
 Nesta página você tem várias opções do MySQL para instalação,
-deste o servidor de banco de dados (SGBD) do Mysql, até conectores e ferramentas de trabalho.
+deste somente o servidor de banco de dados do Mysql, até conectores e ferramentas de trabalho.
 
-**Importante!** Observe que tem a versão _Enterprise_ e _Community_.
+**Importante!** Observe que tem a versão _Enterprise_ e _Community_ na página de download.
 Nós escolhemos a **Community**, pois é a versão gratuita. =P
 
 Como vamos instalar o SGBD do MySQL e também algumas ferramentas opcionalmente.
@@ -54,6 +64,7 @@ Em seguida o instalador nos oferece 5 opções de instalação:
 - Personalizado
 
 Eu sempre escolho personalizado pois nunca preciso de todos os conectores nem todas as ferramentas.
+E se precisar também, basta executar o instalador denovo e instalar o compoenente que eu precisar.
 
 Escolha o que preferir e clique em **Next >**.
 
@@ -64,13 +75,13 @@ Se você, assim como eu, escolhou a opção de personalizar a instalação, voc�
 Selecione o que quer instalar e clique na **setinha para direita**.
 Se quiser remover algum componete da instalação, selecione-o e clique na **setinha para esquerda**.
 
-Escolha o que quer que seja instalado e clique em **Next >**.
+Escolha o que quer que seja instalado (o que ficará na lista da direita) e clique em **Next >**.
 
 ![Tela de seleção de componentes do MySQL a serem instalado.](/images/como-instalar-o-mysql-no-windows/instalador-mysql-03-selecao-de-componentes.png){:style="padding:10px;"}
 
 Na sequência o instalador deve verificar se falta alguma dependência para algum dos componentes selecionados para instalação.
 
-No meu caso, o instalador identificou que eu não tinhao o Visualg C++ 2013 instalado.
+No meu caso, o instalador identificou que eu não tinha o Visual C++ 2013 instalado.
 
 Basta clicar em **Execute** que o instalador do Mysql baixa o instalador desta dependência e instala.
 
@@ -79,9 +90,7 @@ Basta clicar em **Execute** que o instalador do Mysql baixa o instalador desta d
 No meu caso o instalador do Visual C++ 2013 foi baixado e executado automaticamente.
 Bastou aceitar os termos e clicar em **Install**.
 
-![Instalador do Visual C++](/images/como-instalar-o-mysql-no-windows/){:style="padding:10px;"}
-
-Após finalizar a instalação do Visual C++ 2013, o instalador do MySQL identifica que as dependências já estavam resolvidas.
+Após finalizar a instalação do Visual C++ 2013, o instalador do MySQL identifica que as dependências já estão resolvidas.
 
 Se tiver mais de uma dependência para ser instalada no seu computador o instalador do MySQL não vai continuar
 enquando não atender os requisitos.
@@ -131,7 +140,7 @@ Se estiver instalando um servidor no seu computador para desenvolvimento, simple
 
 Na sequência, chega o momento de configurar a forma de acesso do usuário principal do SGBD MySQL.
 
-Você pode escolher se quer um método de autenticação com senha encriptada (recomendado) ou o método antido de autenticação.
+Você pode escolher se quer um método de autenticação com senha encriptada (recomendado) ou o método antigo de autenticação.
 
 Eu prefiro o mais seguro! =P
 
@@ -141,7 +150,7 @@ Clique em Next após se decidir entre as duas opções.
 
 ![Método de autenticação no MySQL](/images/como-instalar-o-mysql-no-windows/instalador-mysql-12-modo-de-autenticacao.png){:style="padding:10px;"}
 
-A tela seguinte pde para definirmos uma senha para o usuário root, ou seja, o usuário administrador.
+A tela seguinte pede para definirmos uma senha para o usuário **root**, ou seja, o usuário administrador.
 
 A sua senha pode ser considerada fraca, média ou forte ...
 É bom usar uma senha complicada, mas você precisa lembrar dela! rs
@@ -153,7 +162,7 @@ Clique em **Next >** para continuar.
 ![Definição de senha para o MySQL](/images/como-instalar-o-mysql-no-windows/instalador-mysql-13-definicao-de-senha-root.png){:style="padding:10px;"}
 
 Seguindo o processo de instalação, nós podemos configurar se queremos que o servidor do MySQL
-seja gerenciado como um processo do Windows, se deve ser iniciado que o sistema iniciar
+seja gerenciado como um processo do Windows, se deve ser iniciado quando o sistema iniciar
 e sob qual usuário o processo do servidor do MySQL deve ser executado.
 
 Eu prefiro que o servidor do MySQL seja executado como um serviço do Windows mesmo,
@@ -178,3 +187,8 @@ de utilização do MySQL como o **MySQL Workbench** e o **MysQL Shell**.
 ![Instalação do MySQL completa](/images/como-instalar-o-mysql-no-windows/instalador-mysql-17-instalacao-completa.png){:style="padding:10px;"}
 
 Pronto! Tudo certo pra você começar a usar o MySQL no seu computador.
+
+Espero que este post tenha te ajudado.
+
+Se ficou com alguma dúvida sobre essa instalação,
+fique à vontade para comentar aqui abaixo.
