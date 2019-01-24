@@ -13,6 +13,8 @@ Por ser um dos mais utilizados em produção, principalmente para sites, e peque
 o MySQL também é um dos principais SGBDs para se aprender sobre banco de dados.
 Por isso, neste post eu vou mostrar um passo-a-passo de como **instalar o MySQL no Windows**.
 
+[>> O que é um SGBD?](https://dicasdeprogramacao.com.br/o-que-e-um-sgbd/){:target=\_blank}
+
 Vamos lá?
 
 Primeiramente, acesse a [página de download](https://dev.mysql.com/downloads/windows/){:target=\_blank} do instalador do MySQL.
