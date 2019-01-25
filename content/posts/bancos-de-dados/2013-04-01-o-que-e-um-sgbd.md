@@ -1,7 +1,7 @@
 title: O que é um SGBD?
 date: 2013-04-01
 author: Gustavo Furtado de Oliveira Alves
-category: Banco de dados
+category: Dicionário de Programador
 slug: o-que-e-um-sgbd
 
 Em muitos sistemas informatizados é necessário armazenar informações em

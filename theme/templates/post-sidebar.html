@@ -63,7 +63,31 @@
   </aside>
 
   <!--Categories-->
-  <!-- FAZER CATEGORIAS PERSONALIZADAS -->
+  <aside class="widget widget_categories">
+    <h3>Categorias</h3>
+    <ul>
+      {% for category, articles in categories %}
+        <li><a class="cat-item" href="{{ SITEURL }}/{{ category.url }}">{{ category }} ({{articles | count}})</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+
+  <aside class="widget">
+    <h3>Tags</h3>
+    <ul class="tagcloud">
+      {% for tag in tag_cloud %}
+          <li class="tag-{{ tag.1 }}">
+              <a href="{{ SITEURL }}/{{ tag.0.url }}">
+              {{ tag.0 }}
+                  {% if TAG_CLOUD_BADGE %}
+                      <span class="badge">{{ tag.2 }}</span>
+                  {% endif %}
+              </a>
+          </li>
+      {% endfor %}
+  </ul>
+  </aside>
+
 
   <!--Adsense-->
   <aside id="text-14" class="widget widget_text">	
