@@ -1,7 +1,8 @@
 title: Como criar um ambiente para estudar Banco de Dados e SQL
 date: 2013-05-09
 author: Gustavo Furtado de Oliveira Alves
-category: Banco de dados, Instalação
+category: Banco de dados
+tags: Oracle, Instalação
 slug: como-criar-um-ambiente-para-estudar-banco-de-dados-e-sql
 
 Para aprender banco de
