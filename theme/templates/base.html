@@ -2,30 +2,48 @@
 <html lang="{{ DEFAULT_LANG }}">
 <head>
 
-      <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+  <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width" />
-      <meta name="msvalidate.01" content="7C57649AFFBD787D72C669CF569F858F" />
-      <meta name="alexaVerifyID" content="T9kEkK7cP5eAPkrWk5OuLEkXMpw" />
-      <meta name="google-site-verification" content="JilK5knly2-27fPetequ0la6CjRwjeEZUg1LwyYNoG0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <meta name="msvalidate.01" content="7C57649AFFBD787D72C669CF569F858F" />
+  <meta name="alexaVerifyID" content="T9kEkK7cP5eAPkrWk5OuLEkXMpw" />
+  <meta name="google-site-verification" content="JilK5knly2-27fPetequ0la6CjRwjeEZUg1LwyYNoG0" />
 
-      <link href="{{ SITEURL }}/images/favicon.ico" rel="icon"/>
+  <link href="{{ SITEURL }}/images/favicon.ico" rel="icon"/>
 
-      {% block head %}
+  {% block head %}
 
-      <meta property="og:site_name" content="{{ SITENAME }}">
-      {% block og_info %}
-      {% endblock og_info %}
+  <meta property="og:site_name" content="{{ SITENAME }}">
+  {% block og_info %}
+  {% endblock og_info %}
 
-      {% endblock head %}
+  {% endblock head %}
 
-      <link rel="stylesheet" href="/theme/css/styles.css">
-      <link rel="stylesheet" href="/theme/css/custom.css">
-      <link rel="stylesheet" href="/theme/css/youtube.css">
-      <link rel="stylesheet" href="/theme/css/tag_cloud.css">
-      {% block css %}
-      {% endblock css %}
+  <link rel="stylesheet" href="/theme/css/styles.css">
+  <link rel="stylesheet" href="/theme/css/custom.css">
+  <link rel="stylesheet" href="/theme/css/youtube.css">
+  <link rel="stylesheet" href="/theme/css/tag_cloud.css">
+  {% block css %}
+  {% endblock css %}
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '186633496057136');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=186633496057136&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
 
 </head>
 
