@@ -108,7 +108,7 @@ e um _array_ pode ser do tipo _objeto_ ou _array_. Confuso? Veja o exemplo abaix
     "a":1
 },{
     "b":1
-]
+}]
 ```
 
 Ah! Tanto array quando objeto podem ser vazios em JSON. Assim:
