@@ -265,6 +265,18 @@ a:hover{
   background: url("/theme/images/facebook.png") no-repeat left center;
 }
 
+#header .social ul li a.instagram {
+  background: url("/theme/images/instagram.png") no-repeat left center;
+}
+
+#header .social ul li a.telegram {
+  background: url("/theme/images/telegram.png") no-repeat left center;
+}
+
+#header .social ul li a.youtube {
+	background: url("/theme/images/youtube.png") no-repeat left center;
+  }
+  
 #header .social ul li a.gplus{
   background: url("/theme/images/gplus.png") no-repeat left center;
 }
