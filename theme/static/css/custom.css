@@ -3,6 +3,14 @@ body{
 	color: #353535;
 }
 
+.top-banner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #main-menu, #main-menu ul li ul li a,
  #main-menu ul li:hover ul li a,
  #main-menu ul li.over ul li a {
