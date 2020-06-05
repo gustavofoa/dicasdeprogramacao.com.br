@@ -1,4 +1,4 @@
-title: Melhore sua produtividade com a técnica Pomodoro!!
+title: Melhore sua produtividade com a técnica Pomodoro!
 date: 2014-12-06
 author: Gustavo Furtado de Oliveira Alves
 category: { Dicas de Programação }
