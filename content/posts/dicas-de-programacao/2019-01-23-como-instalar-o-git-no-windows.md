@@ -15,7 +15,7 @@ Resolvir escrever este post para mostrar o passo-a-passo da instalação do GIT 
 visto que a instalação do GIT pode gerar algumas dúvidas em quem não está acostumado com algumas ferramentas do Linux.
 
 Enfim, explico abaixo todo o processo de instalação do GIT no Windows,
-mas caso você ainda fique com alguma dúvida não exite em perguntar nos comentários!
+mas caso você ainda fique com alguma dúvida não hesite em perguntar nos comentários!
 
 Vamos lá?
 
