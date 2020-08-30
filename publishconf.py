@@ -32,7 +32,6 @@ PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['sitemap', 'minify', 'share_post']
 
 #DISQUS_SITENAME = ""
-GOOGLE_ANALYTICS = "UA-39997045-1"
 
 MINIFY = {
  'remove_comments': True,
