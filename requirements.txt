@@ -2,5 +2,5 @@ pelican==3.6
 ghp-import
 Markdown==2.6.11
 pelican-minify
-pillow==9.0.1
+pillow==9.3.0
 beautifulsoup4
