@@ -53,7 +53,6 @@ def share_post(content):
                    'diaspora': diaspora_link,
                    'twitter': twitter_link,
                    'facebook': facebook_link,
-                   'google-plus': gplus_link,
                    'linkedin': linkedin_link,
                    'email': mail_link
                    }
