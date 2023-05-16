@@ -1,6 +1,6 @@
-pelican==4.8.0
+pelican==3.6
 ghp-import
-Markdown==2.6.11
+Markdown==3.4.3
 pelican-minify
 pillow==9.0.1
 beautifulsoup4
