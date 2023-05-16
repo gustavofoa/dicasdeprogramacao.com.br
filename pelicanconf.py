@@ -65,7 +65,7 @@ TAG_SAVE_AS = 'tag/{slug}/index.html'
 ARCHIVES_URL = 'arquivo/'
 ARCHIVES_SAVE_AS = 'arquivo/index.html'
 
-PAGINATED_DIRECT_TEMPLATES = ['archives']
+PAGINATED_TEMPLATES = ['archives']
 PAGINATION_PATTERNS = (
     (1, '{base_name}/', '{base_name}/index.html'),
     (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
