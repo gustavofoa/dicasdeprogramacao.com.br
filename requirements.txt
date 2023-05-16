@@ -1,7 +1,6 @@
-pelican==3.6
+pelican==4.8.0
 ghp-import
 Markdown==2.6.11
 pelican-minify
 pillow==9.0.1
 beautifulsoup4
-Jinja2
