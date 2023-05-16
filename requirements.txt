@@ -4,3 +4,4 @@ Markdown==2.6.11
 pelican-minify
 pillow==9.0.1
 beautifulsoup4
+Jinja2==3.0.0
