@@ -4,7 +4,6 @@ date: 2018-08-10
 author: Gustavo Furtado de Oliveira Alves
 category: { Dicas de Javascript }
 tags: iniciante, request, http, javascript
-image: /images/logo-javascript.png
 slug: como-fazer-uma-requisicao-http-get-com-javascript-puro
 ---
 
