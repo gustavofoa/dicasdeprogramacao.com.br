@@ -1,7 +1,7 @@
 title: Como validar um CPF em JavaScript
 date: 2019-01-07
 author: Gustavo Furtado de Oliveira Alves
-category: { Dicas de Programação }
+category: { Dicas de Javascript }
 tags: Blogs
 slug: como-validar-um-cpf-em-javascript
 
