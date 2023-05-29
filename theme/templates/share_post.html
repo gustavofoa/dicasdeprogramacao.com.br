@@ -1,16 +1,11 @@
 {% if article.share_post and article.status != 'draft' %}
 
 <div id="share_post">
-  <div id="share_post-box" style="margin-left: -113px; top: 220px;">
+  <div id="share_post-box" style="margin-left: -113px; top: 391px;">
     <div id="share_post-twitter">
       <a href="{{article.share_post['twitter']}}" target="_blank">
         <img src="/theme/images/share_post/twitter.png" alt="Twitter" />
     </a>
-    </div>
-    <div id="share_post-googleplus">
-      <a href="{{article.share_post['google-plus']}}" target="_blank">
-          <img src="/theme/images/share_post/google.png" alt="Google" />
-      </a>
     </div>
     <div id="share_post-facebook">
       <a href="{{article.share_post['facebook']}}" target="_blank">

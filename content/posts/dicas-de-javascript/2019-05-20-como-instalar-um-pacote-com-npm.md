@@ -45,7 +45,7 @@ Por exemplo, o código de exemplo abaixo, faz uma requisição GET usando o _res
 var restifyClients = require('restify-clients');
 
 var cliente = restifyClients.createJsonClient({
-    url: 'https://dicasdejavascript.com.br'
+    url: 'https://dicasdeprogramacao.com.br'
 });
 
 cliente.get('/exemplo.txt', (error, req, res, retorno) => {

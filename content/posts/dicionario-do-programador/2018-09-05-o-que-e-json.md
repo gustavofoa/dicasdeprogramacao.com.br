@@ -23,7 +23,7 @@ Neste post você vai ver:
 
 ![O que é JSON](/images/o-que-e-json/destaque.png){:width=100%}
 
-JSON é um formado de representação de dados baseado na linguagem de programação [Javascript](https://dicasdejavascript.com.br/), daí o nome _JavaScript Object Notation_.
+JSON é um formado de representação de dados baseado na linguagem de programação [Javascript](https://dicasdeprogramacao.com.br/categoria/dicas-de-javascript/), daí o nome _JavaScript Object Notation_.
 Ou seja, _Notação de Objeto em Javascript_.
 
 Vamos pensar no exemplo de um objeto _pessoa_ com nome **Pedro** e altura **1,90**.
@@ -184,7 +184,7 @@ console.log(objeto);
 
 Você pode encontrar mais detalhes neste outro post aqui:
 
-**[>> Javascript: Como converter string em objeto JSON](https://dicasdejavascript.com.br/javascript-como-converter-string-em-objeto-json/){:target=\_blank}**
+**[>> Javascript: Como converter string em objeto JSON](https://dicasdeprogramacao.com.br/javascript-como-converter-string-em-objeto-json/){:target=\_blank}**
 
 ### 2. Converter um objeto JSON para String;
 
@@ -202,7 +202,7 @@ var texto = JSON.stringify(objeto);
 console.log(texto);
 ```
 
-**[>> Javascript: Como converter um objeto JSON em string](https://dicasdejavascript.com.br/javascript-como-converter-objeto-json-em-string/){:target=\_blank}**
+**[>> Javascript: Como converter um objeto JSON em string](https://dicasdeprogramacao.com.br/javascript-como-converter-objeto-json-em-string/){:target=\_blank}**
 
 ### 3. Ler os dados dos atributos de um JSON;
 
@@ -232,7 +232,7 @@ valor 1
 23
 ```
 
-**[>> Javascript: Como ler os dados dos atributos de um objeto JSON](https://dicasdejavascript.com.br/javascript-como-ler-os-dados-dos-atributos-de-um-objeto-json/){:target=\_blank}**
+**[>> Javascript: Como ler os dados dos atributos de um objeto JSON](https://dicasdeprogramacao.com.br/javascript-como-ler-os-dados-dos-atributos-de-um-objeto-json/){:target=\_blank}**
 
 ### 4. Inserir e alterar os dados dos atributos de um JSON;
 
@@ -262,7 +262,7 @@ atributo que não existia
 Perceba que você pode alterar os valores dos atributos do objeto
 da mesma forma que você acessa um atributo, ou seja, com o ponto (.) ou com os colchetes.
 
-**[>> Javascript: Como alterar os dados dos atributos de um objeto JSON](https://dicasdejavascript.com.br/javascript-como-alterar-os-dados-dos-atributos-de-um-objeto-json/){:target=\_blank}**
+**[>> Javascript: Como alterar os dados dos atributos de um objeto JSON](https://dicasdeprogramacao.com.br/javascript-como-alterar-os-dados-dos-atributos-de-um-objeto-json/){:target=\_blank}**
 
 <!--
 ## Como trabalhar com JSON no Python
