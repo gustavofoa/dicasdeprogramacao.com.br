@@ -91,3 +91,6 @@ THEME = 'theme'
 CATEGORY_1 = 'Iniciante em programação'
 CATEGORY_2 = 'Banco de dados'
 CATEGORY_3 = '{ Dicas de Programação }'
+CATEGORY_4 = '{ Dicas de Javascript }'
+
+READERS = {'html': None}

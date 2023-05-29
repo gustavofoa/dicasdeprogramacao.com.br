@@ -1,67 +1,67 @@
 
-{% for cat3, cat3_articles in categories if cat3 == CATEGORY_3 %}
+{% for cat4, cat4_articles in categories if cat4 == CATEGORY_4 %}
 
-<section id="feat-cat3" class="feat-cat">
+<section id="feat-cat4" class="feat-cat">
     <header class="cat-header">
-        <h3><a href="{{ SITEURL }}/categoria/banco-de-dados/" >{{ CATEGORY_3 }}</a></h3>
-        <div id="slide-cat3-nav" class="slide-cat-nav"></div>
+        <h3><a href="{{ SITEURL }}/categoria/dicas-de-javascript/" >{{ CATEGORY_4 }}</a></h3>
+        <div id="slide-cat4-nav" class="slide-cat-nav"></div>
     </header>
 
     <div class="one-half">
         <article class="main-post">
             <div class="thumb-wrap">
                 <div class="thumb">
-                    <a href="{{ SITEURL }}/{{ cat3_articles[0].url }}">
+                    <a href="{{ SITEURL }}/{{ cat4_articles[0].url }}">
                         <img width="305" height="175"
-                             src="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-305x175.png"
+                             src="{{ SITEURL }}/images/{{ cat4_articles[0].slug }}/destaque-305x175.png"
                              class="attachment-wt-cat-img size-wt-cat-img wp-post-image"
-                             alt="{{cat3_articles[0].title}}"
-                             srcset="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-305x175.png 305w,{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-305x175.png 610w,{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-305x175.png 915w"
+                             alt="{{cat4_articles[0].title}}"
+                             srcset="{{ SITEURL }}/images/{{ cat4_articles[0].slug }}/destaque-305x175.png 305w,{{ SITEURL }}/images/{{ cat4_articles[0].slug }}/destaque-305x175.png 610w,{{ SITEURL }}/images/{{ cat4_articles[0].slug }}/destaque-305x175.png 915w"
                              sizes="(max-width: 305px) 100vw, 305px"
                              data-attachment-id="2682"
-                             data-permalink="{{ SITEURL }}/{{ cat3_articles[0].url }}"
-                             data-orig-file="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque.png"
+                             data-permalink="{{ SITEURL }}/{{ cat4_articles[0].url }}"
+                             data-orig-file="{{ SITEURL }}/images/{{ cat4_articles[0].slug }}/destaque.png"
                              data-comments-opened="1"
                              data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
-                             data-image-title="{{ cat3_articles[0].title }}"
-                             data-medium-file="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-300x225.png"
-                             data-large-file="{{ SITEURL }}/images/{{ cat3_articles[0].slug }}/destaque-1024x768.png" />
+                             data-image-title="{{ cat4_articles[0].title }}"
+                             data-medium-file="{{ SITEURL }}/images/{{ cat4_articles[0].slug }}/destaque-300x225.png"
+                             data-large-file="{{ SITEURL }}/images/{{ cat4_articles[0].slug }}/destaque-1024x768.png" />
                     </a>
                 </div>
                 <div class="overlay">
-                    <a class="img-link" href="{{ cat3_articles[0].url }}">Leia o artigo</a>
+                    <a class="img-link" href="{{ cat4_articles[0].url }}">Leia o artigo</a>
                 </div>
             </div>
             <div class="post-wrap">
                 <header class="entry-header">
                     <h3>
-                        <a href="{{ cat3_articles[0].url }}" rel="bookmark">
-                            {{ cat3_articles[0].title }}
+                        <a href="{{ cat4_articles[0].url }}" rel="bookmark">
+                            {{ cat4_articles[0].title }}
                         </a>
                     </h3>
                 </header>
                 <div class="entry-meta">
             <span class="author">
-              <a href="{{ SITEURL }}/{{ cat3_articles[0].author.url }}" title="Posts de {{ cat3_articles[0].author }}" rel="author">
-                {{ cat3_articles[0].author }}
+              <a href="{{ SITEURL }}/{{ cat4_articles[0].author.url }}" title="Posts de {{ cat4_articles[0].author }}" rel="author">
+                {{ cat4_articles[0].author }}
               </a>
             </span>
                     <br/>
                     <span class="comments">
-              <a href="{{ SITEURL }}/{{ cat3_articles[0].url }}#disqus_thread"><i class="fa fa-comment-o"></i></a>
+              <a href="{{ SITEURL }}/{{ cat4_articles[0].url }}#disqus_thread"><i class="fa fa-comment-o"></i></a>
             </span>
                 </div>
                 <p>
-                    {{ cat3_articles[0].summary | replace ('"',"'") | striptags }}
+                    {{ cat4_articles[0].summary | replace ('"',"'") | striptags }}
                 </p>
             </div>
         </article>
     </div><!-- /one-half -->
 
-    <div class="slide-cat3 one-half last-col">
+    <div class="slide-cat4 one-half last-col">
         <ul class="slides">
             <li>
-                {% for a in cat3_articles %}{% if loop.index > 1 and loop.index <= 16 %}
+                {% for a in cat4_articles %}{% if loop.index > 1 and loop.index <= 16 %}
                 {% if loop.index != 2 and (loop.index-2) % 5 == 0 %}</li><li>{% endif %}
             <article class="item-post">
                 <div class="thumb-wrap">
