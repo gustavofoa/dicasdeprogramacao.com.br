@@ -4,7 +4,7 @@ date: 2018-08-27
 author: Gustavo Furtado de Oliveira Alves
 category: { Dicas de Javascript }
 tags: string, json, converter
-slug: javascript-como-converter-objeto-json-em-string
+slug: javascript-como-converter-string-em-objeto-json
 ---
 
 Suponha que você tenha uma String que representa um JSON válido e queira transformar esta String em um objeto JSON no javascript.
@@ -23,7 +23,7 @@ console.log(objeto);
 
 Abaixo um exemplo de execução deste código no console do Chrome.
 
-![Exemplo de conversão de uma string em um objeto json em Javascript](/images/javascript-como-converter-objeto-json-em-string/converte-string-para-json-em-javascript.gif){:style="width:100%;padding:10px;"}
+![Exemplo de conversão de uma string em um objeto json em Javascript](/images/javascript-como-converter-string-em-objeto-json/converte-string-para-json-em-javascript.gif){:style="width:100%;padding:10px;"}
 
 ## Referências
 
