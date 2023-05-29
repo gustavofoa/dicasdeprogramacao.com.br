@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exemplo de requisição HTTP GET com javascript puro</title>
+</head>
+<body>
+
+    <input type="text" id="url" style="width:300px;" value="https://dicasdejavascript.com.br/images/como-fazer-uma-requisicao-http-get-com-javascript-puro/exemplo.txt">
+    <button onclick="fazerRequisicao();">Fazer requisição</button>
+    <hr />
+    <div id="resposta"></div>
+    
+    <script>
+        function fazerRequisicao(){
+
+            var url = document.getElementById('url').value;
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.open("GET", url, false);
+            
+            xhttp.send();//A execução do script pára aqui até a requisição retornar do servidor
+
+            document.getElementById("resposta").innerHTML = xhttp.responseText;
+        }
+    </script>
+</body>
+</html>

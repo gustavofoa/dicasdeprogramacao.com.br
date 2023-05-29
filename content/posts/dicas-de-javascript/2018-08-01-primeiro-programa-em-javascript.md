@@ -1,10 +1,9 @@
 ---
 title: Primeiro programa em Javascript
-date: '2018-08-01'
+date: 2018-08-01
 author: Gustavo Furtado de Oliveira Alves
 category: { Dicas de Javascript }
-tags: iniciante
-image: /images/logo-javascript.png
+tags: iniciante, javascript
 slug: primeiro-programa-em-javascript
 ---
 
