@@ -70,5 +70,5 @@ Qualquer dúvida fique à vontade para escrever aqui em baixo nos comentários!
 
 ## Referências
 
-1. [[Documentação Mozilla] Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes){:target=\_blank}
+1. [Mozilla: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes){:target=\_blank}
 2. [Especificação EcmaScript 6.0: Class Definitions](https://www.ecma-international.org/ecma-262/6.0/#sec-class-definitions){:target=\_blank}

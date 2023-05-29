@@ -58,4 +58,4 @@ Ou seja, enquanto o operador `!==` verifica se os valores e os tipos são _difer
 
 ## Referências
 
-1. [[Documentação Mozilla] Operadores de Comparação](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){:target=\_blank}
+1. [Mozilla: Operadores de Comparação](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){:target=\_blank}

@@ -34,5 +34,5 @@ Espero que tenha gostado da dica. Em caso de dúvida, fique à vontade para post
 
 ## Referências
 
-1. [[Documentação Mozilla] Set](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Set){:target=_blank}
-2. [[Documentação Mozilla] Spread Operator](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_operator){:target=_blank}
+1. [Mozilla: Set](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Set){:target=_blank}
+2. [Mozilla: Spread Operator](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_operator){:target=_blank}

@@ -60,4 +60,4 @@ O _gif_ abaixo mostra a execução deste código de exemplo como o node.
 
 ## Referências
 
-1. [Documentação NPMJS: Downloading and installing packages locally](https://docs.npmjs.com/downloading-and-installing-packages-locally){:target=\_blank}
+1. [NPMJS: Downloading and installing packages locally](https://docs.npmjs.com/downloading-and-installing-packages-locally){:target=\_blank}
