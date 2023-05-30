@@ -1,10 +1,10 @@
 ---
-title: 'Java: Diferença entre i++, ++i e i = i + 1'
-date: '2017-07-03'
+title: Java: Diferença entre i++, ++i e i = i + 1
+date: 2017-07-03
 author: Gustavo Furtado de Oliveira Alves
-category: Fundamentos
+category: { Dicas de Java }
 tags: Operadores aritméticos
-image: /images/logo-java.png
+slug: java-diferenca-entre-i-i-e-i-i-1
 ---
 
 É comum programadores iniciantes se depararem com um `i++` ou `++i`
