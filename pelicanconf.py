@@ -102,3 +102,5 @@ CATEGORY_4 = '{ Dicas de Javascript }'
 CATEGORY_5 = ': Dicas de Python :'
 
 READERS = {'html': None}
+
+DEFAULT_PAGINATION = 10
