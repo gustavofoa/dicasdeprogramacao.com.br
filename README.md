@@ -9,7 +9,7 @@ Blog com dicas para quem quer aprender desenvolvimento de softwares
 ## Rodando o projeto
 
 Após ter feito com clone do projeto com para a maquina local
-com o comando `git clone git@github.com:gustavofoa/dicasdepython.com.br.git` 
+com o comando `git clone git@github.com:gustavofoa/dicasdeprogramacao.com.br.git` 
 será necessário instalar o gulp globalmente utilizando 
 o comando `npm install -g gulp`.
 
