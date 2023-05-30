@@ -81,6 +81,13 @@ AUTHORS = {
                   'Possui as certificações AWS Architect Associate, AWS Cloud Practitioner, SCJP-6, SCWCD-5 e Agile Scrum Foundation '+
                   'e trabalha com desenvolvimento de softwares desde 2007.',
         'image': '/images/author-gustavo.jpeg'
+    },
+    'Marcelo Santos de Oliveira': {
+        'summary': 'Desenvolvedor junior, sempre buscando conhecimento para compartilhar, ' +
+        'Engenheiro Eletricista formado pela Unisal Americana e  ' +
+        'Técnico em Automação pela Etec.  ' +
+        'Trabalha com desenvolvimento de softwares desde 2021.',
+        'image': '/images/author-marcelo.jpeg',
     }
 }
 

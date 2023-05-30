@@ -4,7 +4,7 @@ date: 2021-11-08
 author: Marcelo Santos de Oliveira
 category: : Dicas de Python :
 tags: pip, linha de comando, virtualenv , requirements.txt
-image: /images/logo-python.png
+slug: como-criar-uma-virtual-env-e-um-arquivo-de-requirementstxt-no-python
 ---
 
 Quando começamos a programar em Python, logo percebemos a grande quantidade de bibliotecas que a linguagem possui para resolver os mais variados problemas.
