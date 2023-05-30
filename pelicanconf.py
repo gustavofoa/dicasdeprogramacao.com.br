@@ -31,7 +31,7 @@ AUTHOR_FEED_RSS = None
 
 # Plugins
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['tag_cloud']
+PLUGINS = ['share_post', 'tag_cloud']
 
 # Extras
 STATIC_PATHS = ['images', 'download']

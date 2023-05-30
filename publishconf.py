@@ -29,7 +29,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Plugins
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap', 'minify', 'share_post']
+PLUGINS = ['sitemap', 'minify', 'share_post', 'tag_cloud']
 
 #DISQUS_SITENAME = ""
 
