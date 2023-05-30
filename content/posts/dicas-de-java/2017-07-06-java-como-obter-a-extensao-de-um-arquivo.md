@@ -2,7 +2,7 @@
 title: Java: Como obter a extensão de um arquivo
 date: 2017-07-06
 author: Gustavo Furtado de Oliveira Alves
-category: { Dicas de Programação }
+category: { Dicas de Java }
 tags: FilenameUtils, List, Apache Commons IO
 slug: java-como-obter-a-extensao-de-um-arquivo
 ---
