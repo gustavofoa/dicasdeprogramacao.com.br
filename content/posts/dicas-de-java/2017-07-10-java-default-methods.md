@@ -9,7 +9,7 @@ slug: java-implementando-metodos-na-interface-com-default-methods
 
 Aprendi desde o início da minha carreira que uma _interface_ em Orientação a Objetos
 apenas define os métodos que devem ser implementados pelas classes.
-Ou seja, não poderíamos implementar um método em uma classe.
+Ou seja, não poderíamos implementar um método em uma interface.
 
 Mas isso mudou e a partir do **Java 8** nós podemos ter implementação "padrão" de um método
 na interface Java! Para isso, basta utilizarmos a palavra-chave `default` na declaração do método.
@@ -77,6 +77,6 @@ default String metodo() {
 }
 ```
 
-Referências:
+# Referências
 
 1. [Doc: Default Methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html){:target=\_blank}
