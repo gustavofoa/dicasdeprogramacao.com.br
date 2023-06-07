@@ -31,8 +31,6 @@ DELETE_OUTPUT_DIRECTORY = True
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['sitemap', 'minify', 'share_post', 'tag_cloud']
 
-#DISQUS_SITENAME = ""
-
 MINIFY = {
  'remove_comments': True,
  'remove_all_empty_space': True,
