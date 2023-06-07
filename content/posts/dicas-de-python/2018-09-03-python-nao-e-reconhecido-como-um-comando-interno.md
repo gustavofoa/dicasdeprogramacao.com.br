@@ -3,7 +3,7 @@ title: [Resolvido] 'python' não é reconhecido como um comando interno
 date: 2018-09-03
 author: Gustavo Furtado de Oliveira Alves
 category: : Dicas de Python :
-tags: 'python, linha de comando, variável de ambiente, erro'
+tags: python, linha de comando, variável de ambiente, erro
 slug: resolvido-python-nao-e-reconhecido-como-um-comando-interno
 ---
 

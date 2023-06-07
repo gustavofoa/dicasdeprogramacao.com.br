@@ -10,7 +10,7 @@ slug: como-escrever-arquivos-csv-em-java
 Existem várias formas de escrever arquivos CSV em Java.
 Neste post vamos ver como criar arquivos CSV em java com o auxílio da biblioteca open-source **OpenCSV**.
 
-[>> Como ler arquivos CSV em java](https://dicasdejava.com.br/como-ler-arquivos-csv-em-java/){:target=\_blank}
+[>> Como ler arquivos CSV em java](https://dicasdeprogramacao.com.br/como-ler-arquivos-csv-em-java/){:target=\_blank}
 
 ## OpenCSV como dependência (maven)
 
