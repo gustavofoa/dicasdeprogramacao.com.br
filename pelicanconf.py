@@ -96,8 +96,8 @@ AUTHORS = {
 THEME = 'theme'
 
 CATEGORY_1 = 'Iniciante em programação'
-CATEGORY_2 = 'Banco de dados'
-CATEGORY_3 = '{ Dicas de Programação }'
+CATEGORY_2 = '{ Dicas de Programação }'
+CATEGORY_3 = '{ Dicas de Java }'
 CATEGORY_4 = '{ Dicas de Javascript }'
 CATEGORY_5 = ': Dicas de Python :'
 
