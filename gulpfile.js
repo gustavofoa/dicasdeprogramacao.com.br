@@ -37,4 +37,4 @@ gulp.task('watch', function(){
   watch('theme/*/*/*', gulp.series('run:pelican', 'reload:output'));
 })
 
-gulp.task('serve', gulp.parallel('connect','run:pelican', 'watch'));
+gulp.task('serve', gulp.parallel('connect','run:pelican'));
