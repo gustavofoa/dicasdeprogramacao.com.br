@@ -31,7 +31,7 @@ AUTHOR_FEED_RSS = None
 
 # Plugins
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['tag_cloud']
+PLUGINS = ['share_post', 'tag_cloud']
 
 # Extras
 STATIC_PATHS = ['images', 'download']
@@ -81,6 +81,13 @@ AUTHORS = {
                   'Possui as certificações AWS Architect Associate, AWS Cloud Practitioner, SCJP-6, SCWCD-5 e Agile Scrum Foundation '+
                   'e trabalha com desenvolvimento de softwares desde 2007.',
         'image': '/images/author-gustavo.jpeg'
+    },
+    'Marcelo Santos de Oliveira': {
+        'summary': 'Desenvolvedor junior, sempre buscando conhecimento para compartilhar, ' +
+        'Engenheiro Eletricista formado pela Unisal Americana e  ' +
+        'Técnico em Automação pela Etec.  ' +
+        'Trabalha com desenvolvimento de softwares desde 2021.',
+        'image': '/images/author-marcelo.jpeg',
     }
 }
 
@@ -89,5 +96,11 @@ AUTHORS = {
 THEME = 'theme'
 
 CATEGORY_1 = 'Iniciante em programação'
-CATEGORY_2 = 'Banco de dados'
-CATEGORY_3 = '{ Dicas de Programação }'
+CATEGORY_2 = '{ Dicas de Programação }'
+CATEGORY_3 = '{ Dicas de Java }'
+CATEGORY_4 = '{ Dicas de Javascript }'
+CATEGORY_5 = ': Dicas de Python :'
+
+READERS = {'html': None}
+
+DEFAULT_PAGINATION = 10

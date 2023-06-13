@@ -1,4 +1,4 @@
-var share_post_params = {"effect":"1","opacity":"0","top_distance":"220","opacity_intensity":"0.7"};
+var share_post_params = {"effect":"1","opacity":"0","top_distance":"391","opacity_intensity":"0.7"};
 var adsense_position = 0;
 
 window.onscroll = function scrollFunction() {
