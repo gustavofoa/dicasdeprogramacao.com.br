@@ -1,0 +1,1 @@
+este é um arquivo de texto de exemplo que está diponível em => https://dicasdeprogramacao.com.br/images/como-fazer-uma-requisicao-http-get-com-javascript-puro/exemplo.txt
