@@ -6,9 +6,9 @@ tags: Iniciante
 slug: qual-linguagem-de-programacao-aprender-em-2024
 
 Esse período de segunda quinzena de dezembro é sempre um momento de reflexão para muita gente.
-E realmente é um bom momento para isso, pois para muita gente o trabalho e os estudos dá uma desacelerada.
+E realmente é um bom momento para isso, pois para muita gente o trabalho e os estudos dão uma desacelerada.
+E muita gente aproveita para planejar o que pretende conquistar no ano seguinte.
 
-E neste muita gente planeja o que pretende conquistar no ano seguinte.
 Quem pretende entrar de cabeça na área de programação, pode estar se perguntando:
 **Qual linguagem de programação devo escolhe para estudar em 2024**?
 
@@ -49,7 +49,7 @@ Com o aumento do desenvolvimento de aplicações web e móveis,
 aprender um framework como React, Angular ou Vue.js pode ser benéfico.
 
 Especialmente se você está começando na área de desenvolvimento de software,
-Javascript é uma excelente porta de entrada, especialmente por ter uma barreira de entrada muito baixa.
+Javascript é uma excelente porta de entrada, principalmente por ter uma barreira de entrada muito baixa.
 Basicamente para começar a escrever script javascript, basta pressionar a tecla F12 do seu teclado no seu navegador,
 para abrir o Console das ferramentas do seu navegador, alí vc pode escrever scripts Javascript e executá-lo
 
@@ -78,8 +78,9 @@ E aprender Java continua sendo uma escolha sólida por diversas razões,
 especialmente para quem busca uma base sólida em programação, orientação a objetos, microserviços,
 desenvolvimento de software corporativo, aplicativos móveis para Android, etc.
 
-A demanda por desenvolvedores Java permanece alta em muitas regiões do mundo.
 Ter habilidades em Java pode abrir oportunidades de carreira em várias indústrias.
+A demanda por desenvolvedores Java permanece alta em muitas regiões do mundo.
+E muitas vezes você nem precisa se mudar pra lá.
 
 Se esta for a linguagem que você escolheu estudar em 2024. Sugiro também estudar o ecossistema
 de framerowks [Spring-Boot](https://spring.io/projects/spring-boot){:target=\_blank}.
@@ -113,7 +114,7 @@ para ajudar os desenvolvedores Swift.
 E em se tratando de mercado de trabalho.
 Basta observar o contínuo crescimento do uso de dispositivos Apple, 
 para concluir que há uma demanda crescente por desenvolvedores que possuam habilidades em Swift.
-Portanto, se vc decidiu aprender Swift em 2024, pode ficar tranquilo que fez uma excelente escolha!
+Portanto, se você decidiu aprender Swift em 2024, pode ficar tranquilo que fez uma excelente escolha!
 
 ## 7. Dart
 
@@ -121,9 +122,8 @@ Dart é uma linguagem de programação desenvolvida pela Google,
 e é especialmente conhecida por ser a linguagem principal para
 o desenvolvimento de aplicativos usando o framework Flutter.
 
-Embora você possa trabalhar com Swift para desenvolver aplicartivos especificamente para iOS
+Embora você possa trabalhar com Swift para desenvolver aplicativos especificamente para iOS
 e Java/Kotlin para desenvolver aplicativos especificamente para Android.
-
 Você pode decidir trabalhar com desenvolvimento aplicativos tanto para Android quanto para iOS.
 Aqui vem o grande dilema entre escolher utilizar React Native ou Flutter.
 
@@ -142,8 +142,8 @@ para a criação de aplicações web.
 A comunidade Flutter vem crescendo muito nos últimos anos e
 isso significa que há muitos recursos, tutoriais e suporte disponíveis.
 
-Por fim, é importante dizer que o Google leva o Flutter (e o Dart, consecutivamente) muito a sério.
-Sendo a maioria de seus aplicativos (Gmail, Google Maps, etc.) desenvolvidos utiliznado o Framework.
+Por fim, é importante dizer que o Google leva o Flutter (e consequentimente o Dart) muito a sério.
+Sendo a maioria de seus aplicativos (Gmail, Google Maps, etc.) desenvolvidos utilizando Dart e Flutter.
 
 ## 8. Go (Golang)
 
